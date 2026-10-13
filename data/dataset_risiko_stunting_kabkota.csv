@@ -1,0 +1,515 @@
+kabupaten_kota,provinsi,stunting_pct,wasting_pct,severe_wasting_pct,underweight_pct,overweight_pct,akses_air_minum_layak_prov_pct,akses_sanitasi_aman_prov_pct,pemantauan_pertumbuhan_sesuai_standar_prov_pct,kategori_prevalensi_stunting
+Simeulue,Aceh,25.5,10.0,2.7,24.5,0.9,90.8,9.2,67.9,Tinggi
+Aceh Singkil,Aceh,34.2,7.9,1.0,22.3,1.6,90.8,9.2,67.9,Sangat Tinggi
+Aceh Selatan,Aceh,34.2,6.9,1.2,23.9,1.9,90.8,9.2,67.9,Sangat Tinggi
+Aceh Tenggara,Aceh,30.9,8.4,0.9,21.6,1.7,90.8,9.2,67.9,Sangat Tinggi
+Aceh Timur,Aceh,36.7,11.3,3.2,33.0,2.0,90.8,9.2,67.9,Sangat Tinggi
+Aceh Tengah,Aceh,31.4,3.0,0.9,17.7,2.8,90.8,9.2,67.9,Sangat Tinggi
+Aceh Barat,Aceh,25.6,8.4,1.1,26.6,1.9,90.8,9.2,67.9,Tinggi
+Aceh Besar,Aceh,32.3,10.9,1.4,31.0,0.6,90.8,9.2,67.9,Sangat Tinggi
+Pidie,Aceh,32.6,7.2,2.1,29.1,0.4,90.8,9.2,67.9,Sangat Tinggi
+Bireuen,Aceh,27.1,12.7,2.0,25.5,1.2,90.8,9.2,67.9,Tinggi
+Aceh Utara,Aceh,19.2,4.4,1.2,15.6,2.8,90.8,9.2,67.9,Sedang
+Aceh Barat Daya,Aceh,36.2,7.1,1.6,24.2,1.7,90.8,9.2,67.9,Sangat Tinggi
+Gayo Lues,Aceh,20.6,5.1,2.7,18.2,0.5,90.8,9.2,67.9,Tinggi
+Aceh Tamiang,Aceh,27.4,4.2,1.7,21.5,1.5,90.8,9.2,67.9,Tinggi
+Nagan Raya,Aceh,35.5,6.0,0.6,24.1,6.5,90.8,9.2,67.9,Sangat Tinggi
+Aceh Jaya,Aceh,31.0,10.8,0.9,28.0,0.8,90.8,9.2,67.9,Sangat Tinggi
+Bener Meriah,Aceh,32.8,3.2,0.3,13.2,4.1,90.8,9.2,67.9,Sangat Tinggi
+Pidie Jaya,Aceh,31.6,11.4,0.9,25.9,2.3,90.8,9.2,67.9,Sangat Tinggi
+Kota Banda Aceh,Aceh,23.7,9.5,1.4,23.7,3.5,90.8,9.2,67.9,Tinggi
+Kota Sabang,Aceh,23.4,8.3,0.4,21.0,2.2,90.8,9.2,67.9,Tinggi
+Kota Langsa,Aceh,15.6,7.2,1.0,16.5,2.3,90.8,9.2,67.9,Sedang
+Kota Lhokseumawe,Aceh,20.8,10.1,3.5,22.3,3.3,90.8,9.2,67.9,Tinggi
+Kota Subulussalam,Aceh,27.5,7.6,0.8,21.8,1.2,90.8,9.2,67.9,Tinggi
+Nias,Sumatera Utara,26.1,6.9,1.5,20.5,2.4,90.6,5.8,54.5,Tinggi
+Mandailing Natal,Sumatera Utara,22.2,2.7,0.4,14.4,1.6,90.6,5.8,54.5,Tinggi
+Tapanuli Selatan,Sumatera Utara,6.6,2.0,0.3,3.7,1.7,90.6,5.8,54.5,Rendah
+Tapanuli Tengah,Sumatera Utara,32.3,8.8,3.1,27.8,2.4,90.6,5.8,54.5,Sangat Tinggi
+Tapanuli Utara,Sumatera Utara,32.5,2.9,0.8,13.8,3.9,90.6,5.8,54.5,Sangat Tinggi
+Toba,Sumatera Utara,27.1,1.9,1.0,11.2,3.1,90.6,5.8,54.5,Tinggi
+Labuhanbatu,Sumatera Utara,25.3,6.8,2.0,23.4,1.9,90.6,5.8,54.5,Tinggi
+Asahan,Sumatera Utara,13.9,6.1,2.6,14.9,2.0,90.6,5.8,54.5,Sedang
+Simalungun,Sumatera Utara,26.0,6.8,2.6,17.6,2.1,90.6,5.8,54.5,Tinggi
+Dairi,Sumatera Utara,29.0,0.9,0.5,11.5,2.2,90.6,5.8,54.5,Tinggi
+Karo,Sumatera Utara,17.6,6.2,1.2,14.3,2.8,90.6,5.8,54.5,Sedang
+Deli Serdang,Sumatera Utara,19.6,6.1,1.2,16.7,3.4,90.6,5.8,54.5,Sedang
+Langkat,Sumatera Utara,16.0,8.5,2.2,16.9,2.5,90.6,5.8,54.5,Sedang
+Nias Selatan,Sumatera Utara,37.6,10.5,3.8,30.3,3.2,90.6,5.8,54.5,Sangat Tinggi
+Humbang Hasundutan,Sumatera Utara,18.3,3.0,0.1,9.8,1.9,90.6,5.8,54.5,Sedang
+Pakpak Bharat,Sumatera Utara,27.5,2.2,0.3,11.6,1.3,90.6,5.8,54.5,Tinggi
+Samosir,Sumatera Utara,28.6,2.9,0.6,11.9,4.0,90.6,5.8,54.5,Tinggi
+Serdang Bedagai,Sumatera Utara,19.0,8.5,1.3,18.8,0.7,90.6,5.8,54.5,Sedang
+Batu Bara,Sumatera Utara,23.0,8.7,2.2,19.5,2.4,90.6,5.8,54.5,Tinggi
+Padang Lawas Utara,Sumatera Utara,30.0,6.4,1.3,20.8,2.9,90.6,5.8,54.5,Sangat Tinggi
+Padang Lawas,Sumatera Utara,25.2,8.7,2.2,20.2,2.9,90.6,5.8,54.5,Tinggi
+Labuhanbatu Selatan,Sumatera Utara,22.0,7.7,1.8,16.6,3.2,90.6,5.8,54.5,Tinggi
+Labuhanbatu Utara,Sumatera Utara,17.5,6.2,1.2,16.2,2.4,90.6,5.8,54.5,Sedang
+Nias Utara,Sumatera Utara,25.8,9.2,2.4,23.6,1.8,90.6,5.8,54.5,Tinggi
+Nias Barat,Sumatera Utara,34.4,6.4,2.7,26.8,2.3,90.6,5.8,54.5,Sangat Tinggi
+Sibolga,Sumatera Utara,18.1,7.2,1.6,15.0,3.0,90.6,5.8,54.5,Sedang
+Kota Tanjungbalai,Sumatera Utara,5.6,15.1,4.9,18.3,3.4,90.6,5.8,54.5,Rendah
+Kota Pematang Siantar,Sumatera Utara,12.2,4.1,1.1,11.1,5.3,90.6,5.8,54.5,Sedang
+Kota Tebing Tinggi,Sumatera Utara,17.6,8.8,2.3,15.3,3.1,90.6,5.8,54.5,Sedang
+Kota Medan,Sumatera Utara,15.4,6.0,1.1,13.8,3.5,90.6,5.8,54.5,Sedang
+Kota Binjai,Sumatera Utara,25.6,7.4,3.0,22.7,2.8,90.6,5.8,54.5,Tinggi
+Kota Padangsidimpuan,Sumatera Utara,30.3,5.2,1.8,17.6,1.9,90.6,5.8,54.5,Sangat Tinggi
+Kota Gunungsitoli,Sumatera Utara,17.4,5.1,0.7,17.2,2.8,90.6,5.8,54.5,Sedang
+Kepulauan Mentawai,Sumatera Barat,26.2,8.4,1.2,21.1,0.7,88.1,6.3,62.5,Tinggi
+Pesisir Selatan,Sumatera Barat,26.5,7.9,1.4,20.7,1.8,88.1,6.3,62.5,Tinggi
+Solok,Sumatera Barat,29.5,2.5,0.4,14.7,1.7,88.1,6.3,62.5,Tinggi
+Sijunjung,Sumatera Barat,28.2,5.9,0.4,22.2,1.9,88.1,6.3,62.5,Tinggi
+Tanah Datar,Sumatera Barat,26.9,4.9,1.5,19.6,1.8,88.1,6.3,62.5,Tinggi
+Padang Pariaman,Sumatera Barat,26.6,6.1,1.1,21.3,1.5,88.1,6.3,62.5,Tinggi
+Agam,Sumatera Barat,27.0,5.0,0.4,17.4,1.6,88.1,6.3,62.5,Tinggi
+Lima Puluh Kota,Sumatera Barat,26.6,3.4,0.0,16.8,1.4,88.1,6.3,62.5,Tinggi
+Pasaman,Sumatera Barat,29.1,5.5,0.2,20.1,1.8,88.1,6.3,62.5,Tinggi
+Solok Selatan,Sumatera Barat,21.5,6.4,1.3,17.0,2.0,88.1,6.3,62.5,Tinggi
+Dharmasraya,Sumatera Barat,20.5,6.3,2.1,18.5,2.6,88.1,6.3,62.5,Tinggi
+Pasaman Barat,Sumatera Barat,26.6,6.6,1.5,21.9,2.0,88.1,6.3,62.5,Tinggi
+Kota Padang,Sumatera Barat,20.6,8.9,1.1,18.6,1.5,88.1,6.3,62.5,Tinggi
+Kota Solok,Sumatera Barat,18.6,4.7,1.5,15.5,1.6,88.1,6.3,62.5,Sedang
+Kota Sawahlunto,Sumatera Barat,20.0,2.9,0.7,11.5,3.2,88.1,6.3,62.5,Tinggi
+Kota Padang Panjang,Sumatera Barat,19.0,2.5,0.4,10.3,2.0,88.1,6.3,62.5,Sedang
+Kota Bukittinggi,Sumatera Barat,16.8,6.0,0.7,13.7,3.0,88.1,6.3,62.5,Sedang
+Kota Payakumbuh,Sumatera Barat,16.4,4.3,0.9,15.2,1.7,88.1,6.3,62.5,Sedang
+Kota Pariaman,Sumatera Barat,15.7,7.2,0.1,16.4,1.5,88.1,6.3,62.5,Sedang
+Kuantan Singingi,Riau,23.1,9.2,0.9,21.4,2.0,92.4,9.5,45.5,Tinggi
+Indragiri Hulu,Riau,20.0,6.6,1.9,18.4,3.1,92.4,9.5,45.5,Tinggi
+Indragiri Hilir,Riau,25.0,7.6,1.8,21.4,3.1,92.4,9.5,45.5,Tinggi
+Pelalawan,Riau,16.8,6.7,1.4,15.5,3.3,92.4,9.5,45.5,Sedang
+Siak,Riau,16.2,8.0,0.7,17.1,2.6,92.4,9.5,45.5,Sedang
+Kampar,Riau,16.2,7.6,1.8,16.0,2.7,92.4,9.5,45.5,Sedang
+Rokan Hulu,Riau,21.4,9.2,4.0,22.9,3.4,92.4,9.5,45.5,Tinggi
+Bengkalis,Riau,12.5,6.4,0.9,15.3,1.8,92.4,9.5,45.5,Sedang
+Rokan Hilir,Riau,24.5,9.9,1.9,22.3,1.7,92.4,9.5,45.5,Tinggi
+Kepulauan Meranti,Riau,18.0,8.0,0.3,14.4,2.1,92.4,9.5,45.5,Sedang
+Kota Pekanbaru,Riau,14.5,9.8,1.4,18.0,3.9,92.4,9.5,45.5,Sedang
+Kota Dumai,Riau,16.9,3.9,1.0,13.6,2.7,92.4,9.5,45.5,Sedang
+Kerinci,Jambi,16.4,6.1,1.2,15.0,2.6,91.4,5.7,35.1,Sedang
+Merangin,Jambi,9.6,3.4,0.9,5.6,4.1,91.4,5.7,35.1,Rendah
+Sarolangun,Jambi,6.6,3.5,0.8,6.2,2.7,91.4,5.7,35.1,Rendah
+Batang Hari,Jambi,18.4,7.0,1.6,17.1,3.6,91.4,5.7,35.1,Sedang
+Muaro Jambi,Jambi,18.8,7.4,1.7,17.4,3.5,91.4,5.7,35.1,Sedang
+Tanjung Jabung Timur,Jambi,23.9,8.0,1.7,17.9,5.0,91.4,5.7,35.1,Tinggi
+Tanjung Jabung Barat,Jambi,7.0,5.8,2.1,8.8,2.3,91.4,5.7,35.1,Rendah
+Tebo,Jambi,24.2,6.3,3.2,19.4,1.7,91.4,5.7,35.1,Tinggi
+Bungo,Jambi,20.4,5.0,0.7,12.8,4.5,91.4,5.7,35.1,Tinggi
+Kota Jambi,Jambi,10.3,8.9,3.5,13.9,3.0,91.4,5.7,35.1,Sedang
+Kota Sungai Penuh,Jambi,8.0,2.9,1.2,6.4,2.0,91.4,5.7,35.1,Rendah
+Ogan Komering Ulu,Sumatera Selatan,22.0,5.5,1.8,17.0,2.8,91.2,5.1,47.3,Tinggi
+Ogan Komering Ilir,Sumatera Selatan,24.3,6.6,1.0,19.7,3.9,91.2,5.1,47.3,Tinggi
+Muara Enim,Sumatera Selatan,20.4,5.4,0.6,16.0,3.5,91.2,5.1,47.3,Tinggi
+Lahat,Sumatera Selatan,12.9,7.1,0.0,13.4,2.5,91.2,5.1,47.3,Sedang
+Musi Rawas,Sumatera Selatan,19.3,7.4,0.8,16.1,3.6,91.2,5.1,47.3,Sedang
+Musi Banyuasin,Sumatera Selatan,14.8,5.5,0.9,13.8,4.7,91.2,5.1,47.3,Sedang
+Banyu Asin,Sumatera Selatan,16.8,5.3,0.9,14.6,3.5,91.2,5.1,47.3,Sedang
+Ogan Komering Ulu Selatan,Sumatera Selatan,16.6,5.0,2.1,12.6,3.4,91.2,5.1,47.3,Sedang
+Ogan Komering Ulu Timur,Sumatera Selatan,17.4,6.2,1.2,16.1,3.7,91.2,5.1,47.3,Sedang
+Ogan Ilir,Sumatera Selatan,27.4,7.5,1.0,19.3,3.1,91.2,5.1,47.3,Tinggi
+Empat Lawang,Sumatera Selatan,31.9,6.8,1.9,21.7,2.4,91.2,5.1,47.3,Sangat Tinggi
+Penukal Abab Lematang Ilir,Sumatera Selatan,20.5,7.3,1.3,16.4,2.9,91.2,5.1,47.3,Tinggi
+Musi Rawas Utara,Sumatera Selatan,22.0,7.4,1.7,19.1,4.5,91.2,5.1,47.3,Tinggi
+Kota Palembang,Sumatera Selatan,10.6,4.5,0.9,8.3,6.9,91.2,5.1,47.3,Sedang
+Kota Prabumulih,Sumatera Selatan,11.6,5.8,0.5,10.3,3.1,91.2,5.1,47.3,Sedang
+Kota Pagar Alam,Sumatera Selatan,20.0,4.6,0.5,14.4,3.0,91.2,5.1,47.3,Tinggi
+Kota Lubuk linggau,Sumatera Selatan,20.9,8.3,1.4,16.0,4.7,91.2,5.1,47.3,Tinggi
+Bengkulu Selatan,Bengkulu,18.3,6.7,1.4,14.8,3.5,89.8,4.9,41.9,Sedang
+Rejang Lebong,Bengkulu,24.7,5.4,0.6,15.8,2.0,89.8,4.9,41.9,Tinggi
+Bengkulu Utara,Bengkulu,20.7,5.0,1.7,15.6,3.3,89.8,4.9,41.9,Tinggi
+Kaur,Bengkulu,15.9,4.5,1.3,11.9,3.1,89.8,4.9,41.9,Sedang
+Seluma,Bengkulu,22.6,4.8,0.7,17.7,2.2,89.8,4.9,41.9,Tinggi
+Mukomuko,Bengkulu,22.0,7.5,1.5,17.0,3.7,89.8,4.9,41.9,Tinggi
+Lebong,Bengkulu,22.7,2.9,0.8,9.5,4.7,89.8,4.9,41.9,Tinggi
+Kepahiang,Bengkulu,17.0,4.0,0.3,14.9,3.4,89.8,4.9,41.9,Sedang
+Bengkulu Tengah,Bengkulu,23.4,4.8,1.2,15.9,3.5,89.8,4.9,41.9,Tinggi
+Kota Bengkulu,Bengkulu,16.1,8.2,2.2,19.3,4.8,89.8,4.9,41.9,Sedang
+Lampung Barat,Lampung,20.5,3.2,1.2,9.4,2.9,90.9,3.4,55.7,Tinggi
+Tanggamus,Lampung,24.9,5.0,1.5,17.4,2.0,90.9,3.4,55.7,Tinggi
+Lampung Selatan,Lampung,10.4,6.9,0.3,13.4,1.7,90.9,3.4,55.7,Sedang
+Lampung Timur,Lampung,14.0,6.3,1.1,14.9,4.1,90.9,3.4,55.7,Sedang
+Lampung Tengah,Lampung,15.5,5.3,0.4,14.4,2.3,90.9,3.4,55.7,Sedang
+Lampung Utara,Lampung,20.0,6.6,1.1,18.4,3.8,90.9,3.4,55.7,Tinggi
+Way Kanan,Lampung,13.9,3.8,0.1,11.0,3.8,90.9,3.4,55.7,Sedang
+Tulangbawang,Lampung,18.3,4.1,0.5,17.1,3.8,90.9,3.4,55.7,Sedang
+Pesawaran,Lampung,15.5,7.4,1.8,13.7,2.9,90.9,3.4,55.7,Sedang
+Pringsewu,Lampung,19.5,9.5,1.6,19.7,2.3,90.9,3.4,55.7,Sedang
+Mesuji,Lampung,11.1,7.7,1.7,13.1,2.8,90.9,3.4,55.7,Sedang
+Tulang Bawang Barat,Lampung,13.4,4.6,1.3,13.7,2.2,90.9,3.4,55.7,Sedang
+Pesisir Barat,Lampung,19.8,2.5,0.7,14.8,1.9,90.9,3.4,55.7,Sedang
+Kota Bandar Lampung,Lampung,14.8,6.5,1.0,14.5,3.3,90.9,3.4,55.7,Sedang
+Kota Metro,Lampung,14.8,7.8,1.4,16.4,3.2,90.9,3.4,55.7,Sedang
+Bangka,Bangka Belitung,21.2,6.4,1.3,16.3,5.3,81.7,4.4,51.6,Tinggi
+Belitung,Bangka Belitung,18.1,5.4,0.9,14.1,7.2,81.7,4.4,51.6,Sedang
+Bangka Barat,Bangka Belitung,19.9,5.4,1.1,14.1,6.9,81.7,4.4,51.6,Sedang
+Bangka Tengah,Bangka Belitung,21.2,7.3,0.8,18.4,5.6,81.7,4.4,51.6,Tinggi
+Bangka Selatan,Bangka Belitung,24.6,7.4,2.2,20.2,5.8,81.7,4.4,51.6,Tinggi
+Belitung Timur,Bangka Belitung,17.1,3.7,1.3,12.9,8.0,81.7,4.4,51.6,Sedang
+Kota Pangkal Pinang,Bangka Belitung,17.3,8.5,1.0,16.7,6.1,81.7,4.4,51.6,Sedang
+Karimun,Kepulauan Riau,21.4,9.6,1.0,20.7,3.6,93.0,8.4,55.6,Tinggi
+Bintan,Kepulauan Riau,16.3,5.4,0.9,14.0,4.8,93.0,8.4,55.6,Sedang
+Natuna,Kepulauan Riau,18.5,5.4,1.2,15.1,4.6,93.0,8.4,55.6,Sedang
+Lingga,Kepulauan Riau,19.8,7.9,1.9,16.2,6.6,93.0,8.4,55.6,Sedang
+Kepulauan Anambas,Kepulauan Riau,15.8,7.7,0.7,13.6,5.8,93.0,8.4,55.6,Sedang
+Kota Batam,Kepulauan Riau,14.0,4.6,0.9,13.0,2.7,93.0,8.4,55.6,Sedang
+Kota Tanjung Pinang,Kepulauan Riau,12.9,5.8,0.7,12.1,5.1,93.0,8.4,55.6,Sedang
+Kepulauan Seribu,DKI Jakarta,16.9,5.5,0.3,18.8,2.7,99.4,19.0,57.3,Sedang
+Kota Jakarta Selatan,DKI Jakarta,14.9,4.1,1.6,11.1,5.0,99.4,19.0,57.3,Sedang
+Kota Jakarta Timur,DKI Jakarta,16.4,6.9,1.2,15.3,5.6,99.4,19.0,57.3,Sedang
+Kota Jakarta Pusat,DKI Jakarta,20.3,6.0,2.4,17.7,5.2,99.4,19.0,57.3,Tinggi
+Kota Jakarta Barat,DKI Jakarta,17.4,4.7,1.4,14.7,5.6,99.4,19.0,57.3,Sedang
+Kota Jakarta Utara,DKI Jakarta,19.7,7.4,2.2,17.0,4.8,99.4,19.0,57.3,Sedang
+Bogor,Jawa Barat,18.9,4.8,0.6,16.4,3.7,93.2,11.0,69.5,Sedang
+Sukabumi,Jawa Barat,20.5,3.1,0.4,13.8,3.9,93.2,11.0,69.5,Tinggi
+Cianjur,Jawa Barat,7.2,2.8,0.6,6.0,2.0,93.2,11.0,69.5,Rendah
+Bandung,Jawa Barat,24.1,2.2,0.0,12.4,2.1,93.2,11.0,69.5,Tinggi
+Garut,Jawa Barat,14.2,2.5,0.3,11.0,1.8,93.2,11.0,69.5,Sedang
+Tasikmalaya,Jawa Barat,17.0,1.1,0.6,9.7,1.7,93.2,11.0,69.5,Sedang
+Ciamis,Jawa Barat,20.3,4.1,0.4,16.8,2.5,93.2,11.0,69.5,Tinggi
+Kuningan,Jawa Barat,22.7,4.8,0.7,18.1,1.9,93.2,11.0,69.5,Tinggi
+Cirebon,Jawa Barat,18.0,6.3,1.3,17.6,2.7,93.2,11.0,69.5,Sedang
+Majalengka,Jawa Barat,18.0,6.5,0.5,15.3,3.2,93.2,11.0,69.5,Sedang
+Sumedang,Jawa Barat,17.0,2.6,0.0,9.7,2.9,93.2,11.0,69.5,Sedang
+Indramayu,Jawa Barat,9.8,6.3,0.4,12.6,3.5,93.2,11.0,69.5,Rendah
+Subang,Jawa Barat,12.4,4.2,1.1,10.4,6.0,93.2,11.0,69.5,Sedang
+Purwakarta,Jawa Barat,14.4,3.4,0.2,10.8,4.2,93.2,11.0,69.5,Sedang
+Karawang,Jawa Barat,17.6,7.3,0.7,14.7,2.4,93.2,11.0,69.5,Sedang
+Bekasi,Jawa Barat,18.2,4.8,0.7,14.9,3.7,93.2,11.0,69.5,Sedang
+Bandung Barat,Jawa Barat,30.8,4.3,0.2,18.1,1.4,93.2,11.0,69.5,Sangat Tinggi
+Pangandaran,Jawa Barat,17.3,5.9,0.5,13.6,2.2,93.2,11.0,69.5,Sedang
+Kota Bogor,Jawa Barat,21.1,4.0,0.5,12.1,2.9,93.2,11.0,69.5,Tinggi
+Kota Sukabumi,Jawa Barat,19.7,4.5,0.5,16.6,3.6,93.2,11.0,69.5,Sedang
+Kota Bandung,Jawa Barat,22.8,4.0,0.8,14.5,4.0,93.2,11.0,69.5,Tinggi
+Kota Cirebon,Jawa Barat,14.9,6.9,1.0,16.9,5.9,93.2,11.0,69.5,Sedang
+Kota Bekasi,Jawa Barat,11.7,2.9,0.4,6.6,3.9,93.2,11.0,69.5,Sedang
+Kota Depok,Jawa Barat,12.5,4.1,0.8,11.6,4.4,93.2,11.0,69.5,Sedang
+Kota Cimahi,Jawa Barat,22.3,3.7,0.3,15.3,3.9,93.2,11.0,69.5,Tinggi
+Kota Tasikmalaya,Jawa Barat,19.6,3.9,0.3,13.4,1.9,93.2,11.0,69.5,Sedang
+Kota Banjar,Jawa Barat,18.8,5.2,0.6,15.2,1.9,93.2,11.0,69.5,Sedang
+Cilacap,Jawa Tengah,15.6,4.7,0.6,14.9,2.0,93.9,15.3,78.5,Sedang
+Banyumas,Jawa Tengah,19.6,4.9,0.2,17.0,2.8,93.9,15.3,78.5,Sedang
+Purbalingga,Jawa Tengah,22.3,3.7,0.4,13.1,2.6,93.9,15.3,78.5,Tinggi
+Banjarnegara,Jawa Tengah,20.6,3.6,0.3,14.8,3.1,93.9,15.3,78.5,Tinggi
+Kebumen,Jawa Tengah,18.0,4.7,0.1,17.9,1.8,93.9,15.3,78.5,Sedang
+Purworejo,Jawa Tengah,14.9,4.6,0.4,10.9,3.7,93.9,15.3,78.5,Sedang
+Wonosobo,Jawa Tengah,23.9,4.1,0.4,18.1,2.8,93.9,15.3,78.5,Tinggi
+Magelang,Jawa Tengah,19.3,4.1,0.3,16.7,2.8,93.9,15.3,78.5,Sedang
+Boyolali,Jawa Tengah,24.5,3.1,0.0,14.3,4.1,93.9,15.3,78.5,Tinggi
+Klaten,Jawa Tengah,20.8,4.5,0.0,14.2,1.9,93.9,15.3,78.5,Tinggi
+Sukoharjo,Jawa Tengah,16.8,6.7,0.4,14.9,4.3,93.9,15.3,78.5,Sedang
+Wonogiri,Jawa Tengah,15.1,3.2,0.5,10.4,6.6,93.9,15.3,78.5,Sedang
+Karanganyar,Jawa Tengah,17.4,4.7,0.6,15.1,4.2,93.9,15.3,78.5,Sedang
+Sragen,Jawa Tengah,15.8,5.1,0.2,13.4,3.9,93.9,15.3,78.5,Sedang
+Grobogan,Jawa Tengah,25.6,7.1,0.9,21.4,2.2,93.9,15.3,78.5,Tinggi
+Blora,Jawa Tengah,21.7,7.8,0.4,20.4,3.2,93.9,15.3,78.5,Tinggi
+Rembang,Jawa Tengah,15.8,5.4,0.6,15.3,2.5,93.9,15.3,78.5,Sedang
+Pati,Jawa Tengah,16.5,8.8,0.6,17.4,3.1,93.9,15.3,78.5,Sedang
+Kudus,Jawa Tengah,13.2,4.7,0.6,15.1,8.5,93.9,15.3,78.5,Sedang
+Jepara,Jawa Tengah,15.6,5.6,1.0,15.1,2.7,93.9,15.3,78.5,Sedang
+Demak,Jawa Tengah,10.0,7.7,0.7,13.1,2.9,93.9,15.3,78.5,Sedang
+Semarang,Jawa Tengah,14.5,4.1,0.4,13.6,3.9,93.9,15.3,78.5,Sedang
+Temanggung,Jawa Tengah,27.3,2.6,0.0,13.6,3.1,93.9,15.3,78.5,Tinggi
+Kendal,Jawa Tengah,19.2,6.7,1.2,19.2,4.0,93.9,15.3,78.5,Sedang
+Batang,Jawa Tengah,20.7,5.4,0.7,15.5,2.9,93.9,15.3,78.5,Tinggi
+Pekalongan,Jawa Tengah,19.5,8.8,0.8,20.1,1.8,93.9,15.3,78.5,Sedang
+Pemalang,Jawa Tengah,19.1,5.9,1.0,20.5,2.6,93.9,15.3,78.5,Sedang
+Tegal,Jawa Tengah,15.9,9.6,1.2,19.9,2.1,93.9,15.3,78.5,Sedang
+Brebes,Jawa Tengah,23.1,7.1,0.9,20.9,2.4,93.9,15.3,78.5,Tinggi
+Kota Magelang,Jawa Tengah,15.3,3.1,0.6,13.3,3.8,93.9,15.3,78.5,Sedang
+Kota Surakarta,Jawa Tengah,16.2,6.5,0.4,14.6,4.0,93.9,15.3,78.5,Sedang
+Kota Salatiga,Jawa Tengah,14.0,4.3,0.3,10.5,3.7,93.9,15.3,78.5,Sedang
+Kota Semarang,Jawa Tengah,11.2,3.9,0.8,10.3,4.7,93.9,15.3,78.5,Sedang
+Kota Pekalongan,Jawa Tengah,19.3,9.4,1.4,21.6,2.4,93.9,15.3,78.5,Sedang
+Kota Tegal,Jawa Tengah,18.0,10.8,2.1,20.6,2.5,93.9,15.3,78.5,Sedang
+Kulon Progo,DI Yogyakarta,18.0,7.1,0.4,16.7,1.8,95.4,20.4,73.7,Sedang
+Bantul,DI Yogyakarta,16.5,6.5,0.6,14.8,3.0,95.4,20.4,73.7,Sedang
+Gunung Kidul,DI Yogyakarta,19.7,4.5,0.6,17.5,3.4,95.4,20.4,73.7,Sedang
+Sleman,DI Yogyakarta,17.3,5.4,1.4,14.2,3.9,95.4,20.4,73.7,Sedang
+Kota Yogyakarta,DI Yogyakarta,14.8,7.7,0.8,14.5,2.5,95.4,20.4,73.7,Sedang
+Pacitan,Jawa Timur,11.7,1.8,0.1,8.6,5.0,95.7,10.9,74.5,Sedang
+Ponorogo,Jawa Timur,13.4,,,14.1,5.6,95.7,10.9,74.5,Sedang
+Trenggalek,Jawa Timur,6.7,3.7,0.7,9.0,5.1,95.7,10.9,74.5,Rendah
+Tulungagung,Jawa Timur,13.6,6.5,0.6,11.8,6.4,95.7,10.9,74.5,Sedang
+Blitar,Jawa Timur,17.8,4.4,0.5,14.2,4.2,95.7,10.9,74.5,Sedang
+Kediri,Jawa Timur,7.9,3.6,0.5,7.3,4.5,95.7,10.9,74.5,Rendah
+Malang,Jawa Timur,23.3,4.2,0.5,16.4,3.1,95.7,10.9,74.5,Tinggi
+Lumajang,Jawa Timur,23.4,4.7,0.3,16.5,2.4,95.7,10.9,74.5,Tinggi
+Jember,Jawa Timur,30.4,5.1,1.6,27.5,2.9,95.7,10.9,74.5,Sangat Tinggi
+Banyuwangi,Jawa Timur,17.6,8.9,0.0,21.1,3.1,95.7,10.9,74.5,Sedang
+Bondowoso,Jawa Timur,11.2,4.3,0.4,13.0,1.7,95.7,10.9,74.5,Sedang
+Situbondo,Jawa Timur,10.6,12.1,0.7,21.1,3.1,95.7,10.9,74.5,Sedang
+Probolinggo,Jawa Timur,26.3,5.9,1.1,21.6,2.7,95.7,10.9,74.5,Tinggi
+Pasuruan,Jawa Timur,26.1,9.3,1.8,25.3,2.4,95.7,10.9,74.5,Tinggi
+Sidoarjo,Jawa Timur,10.6,4.0,0.3,9.6,8.3,95.7,10.9,74.5,Sedang
+Mojokerto,Jawa Timur,15.2,5.9,0.2,18.7,2.9,95.7,10.9,74.5,Sedang
+Jombang,Jawa Timur,17.2,7.3,0.9,17.5,5.5,95.7,10.9,74.5,Sedang
+Nganjuk,Jawa Timur,22.8,7.0,0.9,19.5,5.0,95.7,10.9,74.5,Tinggi
+Madiun,Jawa Timur,12.1,5.2,0.5,13.3,3.7,95.7,10.9,74.5,Sedang
+Magetan,Jawa Timur,10.3,6.2,0.2,10.6,4.4,95.7,10.9,74.5,Sedang
+Ngawi,Jawa Timur,11.4,7.7,1.1,19.4,5.3,95.7,10.9,74.5,Sedang
+Bojonegoro,Jawa Timur,12.0,6.5,0.6,14.3,3.2,95.7,10.9,74.5,Sedang
+Tuban,Jawa Timur,11.3,9.6,1.7,17.0,3.4,95.7,10.9,74.5,Sedang
+Lamongan,Jawa Timur,6.9,6.0,0.4,9.7,4.2,95.7,10.9,74.5,Rendah
+Gresik,Jawa Timur,15.2,3.9,0.9,14.1,4.6,95.7,10.9,74.5,Sedang
+Bangkalan,Jawa Timur,17.6,4.8,0.8,13.5,3.1,95.7,10.9,74.5,Sedang
+Sampang,Jawa Timur,18.9,4.4,0.5,13.9,2.3,95.7,10.9,74.5,Sedang
+Pamekasan,Jawa Timur,22.3,6.2,1.2,17.4,2.6,95.7,10.9,74.5,Tinggi
+Sumenep,Jawa Timur,11.2,3.2,1.0,7.7,2.2,95.7,10.9,74.5,Sedang
+Kota Kediri,Jawa Timur,17.6,5.0,0.6,13.7,6.4,95.7,10.9,74.5,Sedang
+Kota Blitar,Jawa Timur,11.4,4.9,0.4,10.8,5.2,95.7,10.9,74.5,Sedang
+Kota Malang,Jawa Timur,22.8,4.5,0.4,18.6,3.4,95.7,10.9,74.5,Tinggi
+Kota Probolinggo,Jawa Timur,23.1,6.5,1.3,21.2,5.2,95.7,10.9,74.5,Tinggi
+Kota Pasuruan,Jawa Timur,18.3,12.7,1.5,24.4,4.1,95.7,10.9,74.5,Sedang
+Kota Mojokerto,Jawa Timur,11.7,5.2,0.8,11.0,7.1,95.7,10.9,74.5,Sedang
+Kota Madiun,Jawa Timur,11.8,6.7,0.6,12.4,6.6,95.7,10.9,74.5,Sedang
+Kota Surabaya,Jawa Timur,8.5,3.8,0.2,8.3,7.9,95.7,10.9,74.5,Rendah
+Kota Batu,Jawa Timur,24.5,4.8,0.8,15.7,2.9,95.7,10.9,74.5,Tinggi
+Pandeglang,Banten,26.4,6.3,0.6,21.7,1.7,96.3,15.0,51.3,Tinggi
+Lebak,Banten,32.4,3.8,0.2,19.4,1.9,96.3,15.0,51.3,Sangat Tinggi
+Tangerang,Banten,23.4,7.9,1.2,20.5,2.9,96.3,15.0,51.3,Tinggi
+Serang,Banten,20.2,8.6,1.6,17.5,2.8,96.3,15.0,51.3,Tinggi
+Kota Tangerang,Banten,11.2,3.4,0.6,9.3,5.4,96.3,15.0,51.3,Sedang
+Kota Cilegon,Banten,19.0,7.3,2.2,18.3,2.6,96.3,15.0,51.3,Sedang
+Kota Serang,Banten,22.9,10.2,1.3,22.0,3.2,96.3,15.0,51.3,Tinggi
+Kota Tangerang Selatan,Banten,10.5,5.0,0.6,9.5,6.1,96.3,15.0,51.3,Sedang
+Jembrana,Bali,7.5,2.7,0.3,8.1,5.0,96.4,11.8,67.0,Rendah
+Tabanan,Bali,7.5,3.6,0.6,7.1,7.9,96.4,11.8,67.0,Rendah
+Badung,Bali,7.2,3.7,0.3,5.8,6.2,96.4,11.8,67.0,Rendah
+Gianyar,Bali,5.4,1.6,0.2,4.8,6.0,96.4,11.8,67.0,Rendah
+Klungkung,Bali,5.2,3.0,0.3,6.4,6.0,96.4,11.8,67.0,Rendah
+Bangli,Bali,8.3,1.8,0.0,6.7,3.8,96.4,11.8,67.0,Rendah
+Karangasem,Bali,13.0,2.6,0.1,10.5,2.7,96.4,11.8,67.0,Sedang
+Buleleng,Bali,14.8,3.4,0.5,8.9,6.4,96.4,11.8,67.0,Sedang
+Kota Denpasar,Bali,10.4,4.4,0.5,10.2,9.4,96.4,11.8,67.0,Sedang
+Lombok Barat,Nusa Tenggara Barat,27.3,7.3,1.7,23.0,1.8,94.3,3.8,75.3,Tinggi
+Lombok Tengah,Nusa Tenggara Barat,24.9,6.9,1.5,22.7,1.7,94.3,3.8,75.3,Tinggi
+Lombok Timur,Nusa Tenggara Barat,33.0,1.8,0.7,26.9,1.8,94.3,3.8,75.3,Sangat Tinggi
+Sumbawa,Nusa Tenggara Barat,29.8,0.6,0.9,25.8,0.6,94.3,3.8,75.3,Tinggi
+Dompu,Nusa Tenggara Barat,19.8,1.2,3.5,34.4,1.2,94.3,3.8,75.3,Sedang
+Bima,Nusa Tenggara Barat,23.8,12.9,3.9,28.6,1.6,94.3,3.8,75.3,Tinggi
+Sumbawa Barat,Nusa Tenggara Barat,18.2,8.1,2.0,17.7,2.2,94.3,3.8,75.3,Sedang
+Lombok Utara,Nusa Tenggara Barat,35.3,1.7,1.8,29.6,1.7,94.3,3.8,75.3,Sangat Tinggi
+Kota Mataram,Nusa Tenggara Barat,23.5,2.8,1.3,25.8,2.8,94.3,3.8,75.3,Tinggi
+Kota Bima,Nusa Tenggara Barat,28.4,0.9,1.9,32.7,0.9,94.3,3.8,75.3,Tinggi
+Sumba Barat,Nusa Tenggara Timur,35.2,9.0,4.5,24.9,4.1,72.6,1.1,81.3,Sangat Tinggi
+Sumba Timur,Nusa Tenggara Timur,30.9,13.0,3.8,31.2,1.6,72.6,1.1,81.3,Sangat Tinggi
+Kupang,Nusa Tenggara Timur,39.5,16.6,4.0,40.7,0.9,72.6,1.1,81.3,Sangat Tinggi
+Timor Tengah Selatan,Nusa Tenggara Timur,56.8,11.5,4.4,46.0,2.2,72.6,1.1,81.3,Sangat Tinggi
+Timor Tengah Utara,Nusa Tenggara Timur,47.3,13.0,3.0,40.3,1.3,72.6,1.1,81.3,Sangat Tinggi
+Belu,Nusa Tenggara Timur,44.3,14.7,3.1,44.8,0.8,72.6,1.1,81.3,Sangat Tinggi
+Alor,Nusa Tenggara Timur,37.4,13.3,3.3,36.8,0.4,72.6,1.1,81.3,Sangat Tinggi
+Lembata,Nusa Tenggara Timur,25.7,13.6,7.4,31.7,1.3,72.6,1.1,81.3,Tinggi
+Flores Timur,Nusa Tenggara Timur,31.3,14.6,6.6,34.6,0.7,72.6,1.1,81.3,Sangat Tinggi
+Sikka,Nusa Tenggara Timur,32.3,15.5,3.8,35.9,3.0,72.6,1.1,81.3,Sangat Tinggi
+Ende,Nusa Tenggara Timur,30.7,12.6,2.5,32.1,0.8,72.6,1.1,81.3,Sangat Tinggi
+Ngada,Nusa Tenggara Timur,28.9,11.1,1.7,23.2,2.7,72.6,1.1,81.3,Tinggi
+Manggarai,Nusa Tenggara Timur,41.0,6.2,1.6,25.0,1.9,72.6,1.1,81.3,Sangat Tinggi
+Rote Ndao,Nusa Tenggara Timur,32.4,17.5,7.1,40.0,1.1,72.6,1.1,81.3,Sangat Tinggi
+Manggarai Barat,Nusa Tenggara Timur,31.1,7.7,1.6,25.6,1.3,72.6,1.1,81.3,Sangat Tinggi
+Sumba Tengah,Nusa Tenggara Timur,37.4,7.8,3.9,30.1,0.7,72.6,1.1,81.3,Sangat Tinggi
+Sumba Barat Daya,Nusa Tenggara Timur,47.5,12.7,2.9,44.8,1.7,72.6,1.1,81.3,Sangat Tinggi
+Nagekeo,Nusa Tenggara Timur,25.0,8.7,3.1,23.3,1.8,72.6,1.1,81.3,Tinggi
+Manggarai Timur,Nusa Tenggara Timur,38.8,8.9,1.6,25.4,1.6,72.6,1.1,81.3,Sangat Tinggi
+Sabu Raijua,Nusa Tenggara Timur,32.2,10.6,4.8,36.1,0.9,72.6,1.1,81.3,Sangat Tinggi
+Malaka,Nusa Tenggara Timur,31.6,15.8,5.1,33.7,1.9,72.6,1.1,81.3,Sangat Tinggi
+Kota Kupang,Nusa Tenggara Timur,26.9,12.0,1.8,29.8,1.8,72.6,1.1,81.3,Tinggi
+Sambas,Kalimantan Barat,36.4,9.7,2.0,30.5,3.8,83.4,6.1,56.5,Sangat Tinggi
+Bengkayang,Kalimantan Barat,23.4,8.1,3.5,21.5,7.8,83.4,6.1,56.5,Tinggi
+Landak,Kalimantan Barat,28.6,9.1,2.2,23.4,4.2,83.4,6.1,56.5,Tinggi
+Mempawah,Kalimantan Barat,28.6,10.4,1.6,25.5,2.8,83.4,6.1,56.5,Tinggi
+Sanggau,Kalimantan Barat,21.3,7.7,4.3,21.7,5.8,83.4,6.1,56.5,Tinggi
+Ketapang,Kalimantan Barat,17.9,4.9,1.0,17.3,5.2,83.4,6.1,56.5,Sedang
+Sintang,Kalimantan Barat,31.0,8.8,3.2,26.2,3.9,83.4,6.1,56.5,Sangat Tinggi
+Kapuas Hulu,Kalimantan Barat,23.6,10.6,3.0,21.8,4.0,83.4,6.1,56.5,Tinggi
+Sekadau,Kalimantan Barat,14.4,12.6,2.7,21.4,2.6,83.4,6.1,56.5,Sedang
+Melawi,Kalimantan Barat,35.2,10.8,3.1,27.4,2.8,83.4,6.1,56.5,Sangat Tinggi
+Kayong Utara,Kalimantan Barat,23.8,9.9,2.9,24.8,5.1,83.4,6.1,56.5,Tinggi
+Kubu Raya,Kalimantan Barat,30.2,6.0,1.2,24.1,4.3,83.4,6.1,56.5,Sangat Tinggi
+Kota Pontianak,Kalimantan Barat,22.3,6.8,1.4,17.5,5.2,83.4,6.1,56.5,Tinggi
+Kota Singkawang,Kalimantan Barat,21.9,11.0,2.6,22.7,2.0,83.4,6.1,56.5,Tinggi
+Kotawaringin Barat,Kalimantan Tengah,16.5,5.5,0.5,11.3,8.2,80.5,4.0,52.6,Sedang
+Kotawaringin Timur,Kalimantan Tengah,21.6,6.0,1.1,20.9,5.9,80.5,4.0,52.6,Tinggi
+Kapuas,Kalimantan Tengah,22.5,7.8,1.9,20.2,3.6,80.5,4.0,52.6,Tinggi
+Barito Selatan,Kalimantan Tengah,33.3,7.5,1.1,25.8,4.3,80.5,4.0,52.6,Sangat Tinggi
+Barito Utara,Kalimantan Tengah,20.4,3.3,0.3,12.1,6.8,80.5,4.0,52.6,Tinggi
+Sukamara,Kalimantan Tengah,20.0,8.1,0.9,18.8,8.0,80.5,4.0,52.6,Tinggi
+Lamandau,Kalimantan Tengah,18.3,6.8,1.5,15.2,7.6,80.5,4.0,52.6,Sedang
+Seruyan,Kalimantan Tengah,32.2,7.2,1.1,25.4,6.9,80.5,4.0,52.6,Sangat Tinggi
+Katingan,Kalimantan Tengah,19.6,9.8,2.7,21.9,4.2,80.5,4.0,52.6,Sedang
+Pulang Pisau,Kalimantan Tengah,27.9,8.8,3.8,24.6,6.8,80.5,4.0,52.6,Tinggi
+Gunung Mas,Kalimantan Tengah,14.1,7.3,2.3,14.8,4.0,80.5,4.0,52.6,Sedang
+Barito Timur,Kalimantan Tengah,21.7,8.3,2.2,21.0,5.5,80.5,4.0,52.6,Tinggi
+Murung Raya,Kalimantan Tengah,15.8,4.2,0.7,13.0,5.1,80.5,4.0,52.6,Sedang
+Kota Palangka Raya,Kalimantan Tengah,19.1,6.9,0.8,20.8,4.4,80.5,4.0,52.6,Sedang
+Tanah Laut,Kalimantan Selatan,22.5,6.8,1.5,24.1,5.6,84.0,3.6,58.9,Tinggi
+Kotabaru,Kalimantan Selatan,23.2,6.9,2.2,20.8,6.3,84.0,3.6,58.9,Tinggi
+Banjar,Kalimantan Selatan,32.3,12.2,2.4,28.8,3.1,84.0,3.6,58.9,Sangat Tinggi
+Barito Kuala,Kalimantan Selatan,16.5,9.4,1.3,18.8,4.6,84.0,3.6,58.9,Sedang
+Tapin,Kalimantan Selatan,13.2,8.3,2.1,16.8,2.8,84.0,3.6,58.9,Sedang
+Hulu Sungai Selatan,Kalimantan Selatan,19.8,7.7,1.8,19.7,2.7,84.0,3.6,58.9,Sedang
+Hulu Sungai Tengah,Kalimantan Selatan,19.6,6.3,1.3,17.3,3.2,84.0,3.6,58.9,Sedang
+Hulu Sungai Utara,Kalimantan Selatan,27.6,10.6,0.4,30.3,2.5,84.0,3.6,58.9,Tinggi
+Tabalong,Kalimantan Selatan,23.1,7.6,1.8,19.4,3.7,84.0,3.6,58.9,Tinggi
+Tanah Bumbu,Kalimantan Selatan,21.6,5.6,1.7,17.9,6.1,84.0,3.6,58.9,Tinggi
+Balangan,Kalimantan Selatan,16.0,5.9,0.5,16.6,3.1,84.0,3.6,58.9,Sedang
+Kota Banjarmasin,Kalimantan Selatan,26.5,13.3,2.5,25.0,4.8,84.0,3.6,58.9,Tinggi
+Kota Banjarbaru,Kalimantan Selatan,15.4,7.1,0.8,17.9,4.3,84.0,3.6,58.9,Sedang
+Paser,Kalimantan Timur,23.4,10.9,1.5,22.1,5.5,88.9,8.0,67.2,Tinggi
+Kutai Barat,Kalimantan Timur,27.6,5.9,1.9,20.0,7.4,88.9,8.0,67.2,Tinggi
+Kutai Kartanegara,Kalimantan Timur,14.3,7.7,1.5,12.3,5.5,88.9,8.0,67.2,Sedang
+Kutai Timur,Kalimantan Timur,26.9,7.0,1.8,17.6,4.4,88.9,8.0,67.2,Tinggi
+Berau,Kalimantan Timur,23.4,7.5,3.4,20.1,3.9,88.9,8.0,67.2,Tinggi
+Penajam Paser Utara,Kalimantan Timur,32.0,8.8,2.0,25.7,5.4,88.9,8.0,67.2,Sangat Tinggi
+Mahakam Ulu,Kalimantan Timur,23.2,4.5,0.7,13.9,6.9,88.9,8.0,67.2,Tinggi
+Kota Balikpapan,Kalimantan Timur,24.8,7.8,1.6,21.3,4.4,88.9,8.0,67.2,Tinggi
+Kota Samarinda,Kalimantan Timur,20.3,9.6,3.2,17.0,4.9,88.9,8.0,67.2,Tinggi
+Kota Bontang,Kalimantan Timur,20.7,4.6,1.9,18.5,2.1,88.9,8.0,67.2,Tinggi
+Malinau,Kalimantan Utara,26.0,6.4,1.2,22.1,5.5,85.8,1.5,46.3,Tinggi
+Bulungan,Kalimantan Utara,15.9,5.5,0.9,13.9,4.7,85.8,1.5,46.3,Sedang
+Tana Tidung,Kalimantan Utara,7.4,5.1,0.7,12.3,5.5,85.8,1.5,46.3,Rendah
+Nunukan,Kalimantan Utara,21.7,1.1,1.1,17.6,4.4,85.8,1.5,46.3,Tinggi
+Kota Tarakan,Kalimantan Utara,12.6,6.5,2.0,20.1,3.9,85.8,1.5,46.3,Sedang
+Bolaang Mongondow,Sulawesi Utara,19.3,7.1,2.7,19.1,2.8,91.4,8.6,49.7,Sedang
+Minahasa,Sulawesi Utara,19.4,3.6,1.2,8.6,5.1,91.4,8.6,49.7,Sedang
+Kepulauan Sangihe,Sulawesi Utara,24.2,9.7,3.8,19.0,6.2,91.4,8.6,49.7,Tinggi
+Kepulauan Talaud,Sulawesi Utara,11.6,5.7,0.8,8.1,2.9,91.4,8.6,49.7,Sedang
+Minahasa Selatan,Sulawesi Utara,28.1,4.4,1.2,14.7,8.2,91.4,8.6,49.7,Tinggi
+Minahasa Utara,Sulawesi Utara,18.9,7.3,2.3,13.7,4.4,91.4,8.6,49.7,Sedang
+Bolaang Mongondow Utara,Sulawesi Utara,26.3,15.3,4.4,31.9,2.1,91.4,8.6,49.7,Tinggi
+Siau Tagulandang Biaro,Sulawesi Utara,19.9,5.8,1.8,16.1,3.1,91.4,8.6,49.7,Sedang
+Minahasa Tenggara,Sulawesi Utara,21.9,8.1,2.0,16.2,2.8,91.4,8.6,49.7,Tinggi
+Bolaang Mongondow Selatan,Sulawesi Utara,23.6,8.0,4.7,22.4,4.4,91.4,8.6,49.7,Tinggi
+Bolaang Mongondow Timur,Sulawesi Utara,18.8,8.7,2.2,18.3,3.7,91.4,8.6,49.7,Sedang
+Kota Manado,Sulawesi Utara,18.8,6.7,1.5,14.1,3.5,91.4,8.6,49.7,Sedang
+Kota Bitung,Sulawesi Utara,25.1,7.6,3.3,17.3,7.0,91.4,8.6,49.7,Tinggi
+Kota Tomohon,Sulawesi Utara,10.8,1.1,0.6,5.1,5.0,91.4,8.6,49.7,Sedang
+Kota Kotamobagu,Sulawesi Utara,23.1,5.4,2.2,16.1,3.8,91.4,8.6,49.7,Tinggi
+Banggai Kepulauan,Sulawesi Tengah,28.4,12.7,3.4,27.2,0.9,88.2,3.5,57.5,Tinggi
+Banggai,Sulawesi Tengah,28.7,8.3,1.5,21.7,2.0,88.2,3.5,57.5,Tinggi
+Morowali,Sulawesi Tengah,22.6,7.8,0.7,18.5,2.5,88.2,3.5,57.5,Tinggi
+Poso,Sulawesi Tengah,21.1,4.0,0.8,17.1,2.8,88.2,3.5,57.5,Tinggi
+Donggala,Sulawesi Tengah,29.6,10.5,1.9,28.4,2.9,88.2,3.5,57.5,Tinggi
+Toli-Toli,Sulawesi Tengah,26.9,9.0,2.1,24.0,2.6,88.2,3.5,57.5,Tinggi
+Buol,Sulawesi Tengah,36.9,11.6,2.5,30.1,2.7,88.2,3.5,57.5,Sangat Tinggi
+Parigi Moutong,Sulawesi Tengah,22.3,8.7,5.7,22.0,4.3,88.2,3.5,57.5,Tinggi
+Tojo Una-Una,Sulawesi Tengah,16.5,10.7,2.9,27.3,2.3,88.2,3.5,57.5,Sedang
+Sigi,Sulawesi Tengah,33.0,8.5,2.5,30.8,1.4,88.2,3.5,57.5,Sangat Tinggi
+Banggai Laut,Sulawesi Tengah,26.6,11.2,2.0,28.7,1.6,88.2,3.5,57.5,Tinggi
+Morowali Utara,Sulawesi Tengah,20.4,6.4,2.2,21.1,2.5,88.2,3.5,57.5,Tinggi
+Kota Palu,Sulawesi Tengah,25.6,7.8,2.4,23.6,2.7,88.2,3.5,57.5,Tinggi
+Kepulauan Selayar,Sulawesi Selatan,25.7,11.7,1.8,23.7,4.6,90.0,4.4,56.9,Tinggi
+Bulukumba,Sulawesi Selatan,25.2,8.4,1.6,22.2,2.1,90.0,4.4,56.9,Tinggi
+Bantaeng,Sulawesi Selatan,24.3,9.0,1.2,23.7,1.8,90.0,4.4,56.9,Tinggi
+Jeneponto,Sulawesi Selatan,37.0,6.4,1.0,26.1,2.5,90.0,4.4,56.9,Sangat Tinggi
+Takalar,Sulawesi Selatan,24.0,8.0,2.0,22.1,2.0,90.0,4.4,56.9,Tinggi
+Gowa,Sulawesi Selatan,17.0,5.9,0.2,14.2,3.9,90.0,4.4,56.9,Sedang
+Sinjai,Sulawesi Selatan,28.6,6.9,1.5,23.1,2.5,90.0,4.4,56.9,Tinggi
+Maros,Sulawesi Selatan,22.4,6.8,1.5,21.6,2.9,90.0,4.4,56.9,Tinggi
+Pangkajene Dan Kepulauan,Sulawesi Selatan,25.2,8.7,0.5,24.0,2.0,90.0,4.4,56.9,Tinggi
+Barru,Sulawesi Selatan,26.9,8.6,1.5,25.2,2.0,90.0,4.4,56.9,Tinggi
+Bone,Sulawesi Selatan,26.0,7.0,1.9,23.2,5.1,90.0,4.4,56.9,Tinggi
+Soppeng,Sulawesi Selatan,26.6,8.7,1.6,22.6,3.9,90.0,4.4,56.9,Tinggi
+Wajo,Sulawesi Selatan,20.5,10.8,2.4,25.1,3.0,90.0,4.4,56.9,Tinggi
+Sidenreng Rappang,Sulawesi Selatan,20.3,5.0,0.7,15.5,3.8,90.0,4.4,56.9,Tinggi
+Pinrang,Sulawesi Selatan,22.2,7.8,1.9,21.2,3.1,90.0,4.4,56.9,Tinggi
+Enrekang,Sulawesi Selatan,34.3,3.6,0.8,17.4,1.7,90.0,4.4,56.9,Sangat Tinggi
+Luwu,Sulawesi Selatan,23.6,6.9,1.5,20.3,2.8,90.0,4.4,56.9,Tinggi
+Tana Toraja,Sulawesi Selatan,27.5,2.5,0.1,11.4,2.4,90.0,4.4,56.9,Tinggi
+Luwu Utara,Sulawesi Selatan,23.6,8.2,2.8,21.3,3.9,90.0,4.4,56.9,Tinggi
+Luwu Timur,Sulawesi Selatan,21.8,6.4,0.6,19.4,3.1,90.0,4.4,56.9,Tinggi
+Toraja Utara,Sulawesi Selatan,27.6,2.0,1.0,14.5,2.8,90.0,4.4,56.9,Tinggi
+Kota Makassar,Sulawesi Selatan,22.9,7.2,0.3,18.8,3.1,90.0,4.4,56.9,Tinggi
+Kota Parepare,Sulawesi Selatan,26.1,9.5,1.3,26.1,2.3,90.0,4.4,56.9,Tinggi
+Kota Palopo,Sulawesi Selatan,22.7,8.1,1.0,22.3,2.1,90.0,4.4,56.9,Tinggi
+Buton,Sulawesi Tenggara,28.8,12.3,3.0,29.4,1.4,81.5,1.3,50.8,Tinggi
+Muna,Sulawesi Tenggara,25.0,6.8,2.0,22.1,0.4,81.5,1.3,50.8,Tinggi
+Konawe,Sulawesi Tenggara,25.0,9.6,2.7,21.9,3.9,81.5,1.3,50.8,Tinggi
+Kolaka,Sulawesi Tenggara,29.7,9.3,5.2,23.7,4.8,81.5,1.3,50.8,Tinggi
+Konawe Selatan,Sulawesi Tenggara,21.3,8.8,2.3,21.3,2.8,81.5,1.3,50.8,Tinggi
+Bombana,Sulawesi Tenggara,24.7,10.7,2.3,25.2,1.5,81.5,1.3,50.8,Tinggi
+Wakatobi,Sulawesi Tenggara,24.1,10.9,2.4,26.8,1.5,81.5,1.3,50.8,Tinggi
+Kolaka Utara,Sulawesi Tenggara,23.6,10.2,2.8,20.6,3.2,81.5,1.3,50.8,Tinggi
+Buton Utara,Sulawesi Tenggara,30.5,10.0,3.4,29.9,1.9,81.5,1.3,50.8,Sangat Tinggi
+Konawe Utara,Sulawesi Tenggara,27.0,8.0,3.0,19.7,4.2,81.5,1.3,50.8,Tinggi
+Kolaka Timur,Sulawesi Tenggara,22.0,5.8,3.1,19.8,4.1,81.5,1.3,50.8,Tinggi
+Konawe Kepulauan,Sulawesi Tenggara,26.5,8.0,2.7,20.2,3.4,81.5,1.3,50.8,Tinggi
+Muna Barat,Sulawesi Tenggara,28.4,9.7,1.5,24.1,1.2,81.5,1.3,50.8,Tinggi
+Buton Tengah,Sulawesi Tenggara,31.8,10.8,2.0,32.2,0.3,81.5,1.3,50.8,Sangat Tinggi
+Buton Selatan,Sulawesi Tenggara,38.9,8.7,1.9,32.8,1.1,81.5,1.3,50.8,Sangat Tinggi
+Kota Kendari,Sulawesi Tenggara,24.4,7.4,1.7,20.1,3.4,81.5,1.3,50.8,Tinggi
+Kota Baubau,Sulawesi Tenggara,29.8,10.0,2.5,28.8,2.9,81.5,1.3,50.8,Tinggi
+Boalemo,Gorontalo,8.0,8.7,1.1,17.8,1.8,85.6,1.4,48.3,Rendah
+Gorontalo,Gorontalo,28.3,9.4,1.5,25.2,3.2,85.6,1.4,48.3,Tinggi
+Pohuwato,Gorontalo,18.0,7.0,1.3,18.2,2.2,85.6,1.4,48.3,Sedang
+Bone Bolango,Gorontalo,23.0,9.6,1.7,22.6,2.2,85.6,1.4,48.3,Tinggi
+Gorontalo Utara,Gorontalo,25.6,11.4,3.2,27.1,4.8,85.6,1.4,48.3,Tinggi
+Kota Gorontalo,Gorontalo,31.2,8.8,3.0,27.6,1.8,85.6,1.4,48.3,Sangat Tinggi
+Majene,Sulawesi Barat,37.5,8.7,2.2,26.4,2.4,79.4,1.3,70.8,Sangat Tinggi
+Polewali Mandar,Sulawesi Barat,31.5,8.5,0.6,26.5,0.8,79.4,1.3,70.8,Sangat Tinggi
+Mamasa,Sulawesi Barat,35.7,2.0,0.3,13.2,5.5,79.4,1.3,70.8,Sangat Tinggi
+Mamuju,Sulawesi Barat,38.7,7.4,1.6,27.1,1.1,79.4,1.3,70.8,Sangat Tinggi
+Pasangkayu,Sulawesi Barat,36.7,10.0,1.2,31.7,1.3,79.4,1.3,70.8,Sangat Tinggi
+Mamuju Tengah,Sulawesi Barat,31.5,8.1,2.5,22.3,4.8,79.4,1.3,70.8,Sangat Tinggi
+Kep.Tanimbar,Maluku,29.5,18.2,8.5,39.4,1.4,89.2,1.7,62.4,Tinggi
+Maluku Tenggara,Maluku,28.1,7.9,2.0,24.6,1.6,89.2,1.7,62.4,Tinggi
+Maluku Tengah,Maluku,27.0,13.1,2.9,24.0,2.4,89.2,1.7,62.4,Tinggi
+Buru,Maluku,25.4,10.6,2.5,26.5,3.0,89.2,1.7,62.4,Tinggi
+Kepulauan Aru,Maluku,37.6,14.3,4.5,40.5,1.6,89.2,1.7,62.4,Sangat Tinggi
+Seram Bagian Barat,Maluku,33.8,13.5,6.8,28.9,4.0,89.2,1.7,62.4,Sangat Tinggi
+Seram Bagian Timur,Maluku,35.0,7.6,2.1,29.6,2.4,89.2,1.7,62.4,Sangat Tinggi
+Maluku Barat Daya,Maluku,23.8,14.7,3.2,30.7,0.9,89.2,1.7,62.4,Tinggi
+Buru Selatan,Maluku,39.7,7.8,2.6,31.8,3.2,89.2,1.7,62.4,Sangat Tinggi
+Kota Ambon,Maluku,19.7,8.8,2.3,23.6,1.3,89.2,1.7,62.4,Sedang
+Kota Tual,Maluku,25.2,11.2,2.8,22.7,2.0,89.2,1.7,62.4,Tinggi
+Halmahera Barat,Maluku Utara,22.1,9.4,4.2,24.8,2.6,76.5,0.8,58.2,Tinggi
+Halmahera Tengah,Maluku Utara,19.7,7.0,1.5,17.9,2.3,76.5,0.8,58.2,Sedang
+Kepulauan Sula,Maluku Utara,22.5,12.3,3.7,23.1,2.3,76.5,0.8,58.2,Tinggi
+Halmahera Selatan,Maluku Utara,32.3,13.5,2.8,32.2,1.2,76.5,0.8,58.2,Sangat Tinggi
+Halmahera Utara,Maluku Utara,21.8,13.5,4.6,24.5,1.5,76.5,0.8,58.2,Tinggi
+Halmahera Timur,Maluku Utara,24.3,11.4,2.3,24.3,2.4,76.5,0.8,58.2,Tinggi
+Pulau Morotai,Maluku Utara,17.7,8.8,2.3,18.4,1.8,76.5,0.8,58.2,Sedang
+Pulau Taliabu,Maluku Utara,24.9,11.6,3.0,25.5,1.4,76.5,0.8,58.2,Tinggi
+Kota Ternate,Maluku Utara,16.6,7.6,1.8,18.8,1.1,76.5,0.8,58.2,Sedang
+Tidore Kepulauan,Maluku Utara,16.6,9.9,2.5,17.7,2.2,76.5,0.8,58.2,Sedang
+Fakfak,Papua Barat,21.0,7.8,1.7,21.2,2.3,84.6,4.4,44.7,Tinggi
+Kaimana,Papua Barat,20.2,10.8,6.5,18.8,3.2,84.6,4.4,44.7,Tinggi
+Teluk Wondama,Papua Barat,29.2,12.4,2.7,29.7,0.5,84.6,4.4,44.7,Tinggi
+Teluk Bintuni,Papua Barat,22.3,8.9,2.3,21.9,2.7,84.6,4.4,44.7,Tinggi
+Manokwari,Papua Barat,23.5,8.1,2.8,21.4,3.3,84.6,4.4,44.7,Tinggi
+Manokwari Selatan,Papua Barat,26.4,9.7,2.5,26.7,1.3,84.6,4.4,44.7,Tinggi
+Pegunungan Arfak,Papua Barat,39.3,9.5,2.0,28.0,2.1,84.6,4.4,44.7,Sangat Tinggi
+Raja Ampat,Papua Barat Daya,37.4,10.5,4.4,33.7,0.9,67.4,2.1,44.7,Sangat Tinggi
+Sorong,Papua Barat Daya,25.1,10.3,0.7,23.5,4.1,67.4,2.1,44.7,Tinggi
+Sorong Selatan,Papua Barat Daya,31.3,16.1,4.2,30.3,2.6,67.4,2.1,44.7,Sangat Tinggi
+Maybrat,Papua Barat Daya,30.7,6.4,1.3,24.0,1.3,67.4,2.1,44.7,Sangat Tinggi
+Tambrauw,Papua Barat Daya,37.9,8.7,2.2,26.5,1.1,67.4,2.1,44.7,Sangat Tinggi
+Kota Sorong,Papua Barat Daya,29.3,8.1,5.4,30.3,1.6,67.4,2.1,44.7,Tinggi
+Jayapura,Papua,22.5,6.7,2.4,18.3,4.4,88.4,5.7,49.8,Tinggi
+Kepulauan Yapen,Papua,33.5,9.7,3.5,29.4,1.1,88.4,5.7,49.8,Sangat Tinggi
+Biak Numfor,Papua,20.6,7.7,1.8,19.5,2.2,88.4,5.7,49.8,Tinggi
+Sarmi,Papua,31.6,10.7,4.6,20.0,5.8,88.4,5.7,49.8,Sangat Tinggi
+Keerom,Papua,24.4,7.9,1.9,18.7,4.8,88.4,5.7,49.8,Tinggi
+Waropen,Papua,22.3,10.3,5.2,24.5,3.1,88.4,5.7,49.8,Tinggi
+Supiori,Papua,37.5,8.5,2.1,27.0,3.1,88.4,5.7,49.8,Sangat Tinggi
+Mamberamo Raya,Papua,33.8,12.7,14.7,25.2,5.7,88.4,5.7,49.8,Sangat Tinggi
+Kota Jayapura,Papua,24.1,7.3,1.1,17.8,3.9,88.4,5.7,49.8,Tinggi
+Merauke,Papua Selatan,18.5,6.1,3.4,16.1,4.9,67.2,1.0,49.0,Sedang
+Boven Digoel,Papua Selatan,30.2,8.9,2.3,22.1,2.6,67.2,1.0,49.0,Sangat Tinggi
+Mappi,Papua Selatan,29.9,8.6,2.2,22.3,3.2,67.2,1.0,49.0,Tinggi
+Asmat,Papua Selatan,28.3,10.0,2.8,24.5,3.4,67.2,1.0,49.0,Tinggi
+Mimika,Papua Tengah,28.4,8.4,2.1,19.2,5.0,,,,Tinggi
+Dogiyai,Papua Tengah,55.8,11.1,3.2,35.0,4.4,,,,Sangat Tinggi
+Deiyai,Papua Tengah,30.6,5.4,0.9,26.6,6.3,,,,Sangat Tinggi
+Nabire,Papua Tengah,21.7,8.5,2.1,19.3,4.0,,,,Tinggi
+Paniai,Papua Tengah,29.6,7.2,1.6,25.8,4.1,,,,Tinggi
+Intan Jaya,Papua Tengah,48.4,10.4,2.9,42.4,4.7,,,,Sangat Tinggi
+Puncak,Papua Tengah,42.5,13.8,4.3,27.0,5.7,,,,Sangat Tinggi
+Puncak Jaya,Papua Tengah,36.3,12.9,4.0,27.1,11.0,,,,Sangat Tinggi
+Nduga,Papua Pegunungan,36.0,11.6,3.4,28.4,5.1,,,,Sangat Tinggi
+Jayawijaya,Papua Pegunungan,41.3,6.2,1.2,20.4,8.5,,,,Sangat Tinggi
+Lanny jaya,Papua Pegunungan,35.4,6.1,1.2,21.6,2.5,,,,Sangat Tinggi
+Tolikara,Papua Pegunungan,46.4,7.9,1.9,26.5,11.7,,,,Sangat Tinggi
+Mamberamo Tengah,Papua Pegunungan,42.0,5.2,0.8,18.4,14.8,,,,Sangat Tinggi
+Yalimo,Papua Pegunungan,35.1,12.9,3.9,24.6,5.8,,,,Sangat Tinggi
+Yahukimo,Papua Pegunungan,37.7,5.1,0.8,20.2,18.9,,,,Sangat Tinggi
+Pegunungan Bintang,Papua Pegunungan,41.4,4.5,0.5,20.0,5.2,,,,Sangat Tinggi

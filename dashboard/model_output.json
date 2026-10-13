@@ -1,0 +1,337 @@
+{
+  "tahun_data": 2024,
+  "algoritma": "XGBoost Classifier",
+  "revisi_model": 2,
+  "unit_analisis": "target kategori prevalensi stunting pada kabupaten/kota; underweight berasal dari kabupaten/kota dan tiga fitur kontekstual berasal dari provinsi",
+  "unit_target": "kabupaten/kota",
+  "unit_fitur": {
+    "kabupaten_kota": [
+      "underweight_pct"
+    ],
+    "provinsi": [
+      "akses_air_minum_layak_prov_pct",
+      "akses_sanitasi_aman_prov_pct",
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct"
+    ]
+  },
+  "jumlah_data": 514,
+  "jumlah_provinsi": 38,
+  "fitur": [
+    "underweight_pct",
+    "akses_air_minum_layak_prov_pct",
+    "akses_sanitasi_aman_prov_pct",
+    "pemantauan_pertumbuhan_sesuai_standar_prov_pct"
+  ],
+  "kelas_model": [
+    "Rendah",
+    "Sedang",
+    "Tinggi",
+    "Sangat Tinggi"
+  ],
+  "kategori_standar": [
+    "Sangat Rendah",
+    "Rendah",
+    "Sedang",
+    "Tinggi",
+    "Sangat Tinggi"
+  ],
+  "kategori_operasional": [
+    "Rendah",
+    "Sedang",
+    "Tinggi",
+    "Sangat Tinggi"
+  ],
+  "evaluation_method": "Nested StratifiedGroupKFold 5 outer folds dengan tuning 4 inner folds",
+  "jumlah_evaluasi_oof": 514,
+  "preprocessing": {
+    "missing_value": "SimpleImputer median di dalam pipeline; fit hanya pada data training setiap fold",
+    "normalisasi": "Tidak digunakan karena XGBoost berbasis pohon",
+    "outer_evaluation": "StratifiedGroupKFold 5 fold berbasis provinsi",
+    "inner_tuning": "StratifiedGroupKFold 4 fold berbasis provinsi",
+    "class_imbalance": "sample_weight balanced dihitung pada data training",
+    "scoring_tuning": "F1 Macro"
+  },
+  "metrics": {
+    "accuracy": 0.636187,
+    "precision_macro": 0.593075,
+    "recall_macro": 0.658601,
+    "f1_macro": 0.617585,
+    "f1_weighted": 0.636088
+  },
+  "baseline_metrics": {
+    "accuracy": 0.428016,
+    "precision_macro": 0.107004,
+    "recall_macro": 0.25,
+    "f1_macro": 0.149864,
+    "f1_weighted": 0.256576
+  },
+  "fold_f1_macro": [
+    0.649213,
+    0.596342,
+    0.564274,
+    0.677056,
+    0.544928
+  ],
+  "fold_accuracy": [
+    0.6,
+    0.626263,
+    0.666667,
+    0.673267,
+    0.615385
+  ],
+  "fold_f1_macro_mean": 0.606363,
+  "fold_f1_macro_std": 0.04996,
+  "fold_results": [
+    {
+      "fold": 1,
+      "jumlah_data_uji": 105,
+      "jumlah_provinsi_uji": 7,
+      "provinsi_uji": [
+        "Aceh",
+        "Bengkulu",
+        "Jambi",
+        "Jawa Tengah",
+        "Maluku Utara",
+        "Papua",
+        "Papua Barat"
+      ],
+      "f1_macro": 0.649213470498611,
+      "accuracy": 0.6,
+      "inner_cv_best_f1_macro": 0.6262535795391947,
+      "best_params": {
+        "model__subsample": 0.8,
+        "model__reg_lambda": 1,
+        "model__reg_alpha": 0.01,
+        "model__n_estimators": 150,
+        "model__min_child_weight": 5,
+        "model__max_depth": 2,
+        "model__learning_rate": 0.03,
+        "model__gamma": 0.1,
+        "model__colsample_bytree": 0.8
+      }
+    },
+    {
+      "fold": 2,
+      "jumlah_data_uji": 99,
+      "jumlah_provinsi_uji": 7,
+      "provinsi_uji": [
+        "DI Yogyakarta",
+        "Jawa Timur",
+        "Kalimantan Barat",
+        "Maluku",
+        "Nusa Tenggara Barat",
+        "Papua Pegunungan",
+        "Sulawesi Tengah"
+      ],
+      "f1_macro": 0.5963419913419914,
+      "accuracy": 0.6262626262626263,
+      "inner_cv_best_f1_macro": 0.6616878448718944,
+      "best_params": {
+        "model__subsample": 0.8,
+        "model__reg_lambda": 10,
+        "model__reg_alpha": 0.5,
+        "model__n_estimators": 150,
+        "model__min_child_weight": 3,
+        "model__max_depth": 3,
+        "model__learning_rate": 0.015,
+        "model__gamma": 0,
+        "model__colsample_bytree": 0.9
+      }
+    },
+    {
+      "fold": 3,
+      "jumlah_data_uji": 105,
+      "jumlah_provinsi_uji": 7,
+      "provinsi_uji": [
+        "Banten",
+        "Kalimantan Tengah",
+        "Kalimantan Utara",
+        "Lampung",
+        "Papua Barat Daya",
+        "Sulawesi Selatan",
+        "Sumatera Utara"
+      ],
+      "f1_macro": 0.5642738126475991,
+      "accuracy": 0.6666666666666666,
+      "inner_cv_best_f1_macro": 0.6502235415388307,
+      "best_params": {
+        "model__subsample": 0.8,
+        "model__reg_lambda": 2,
+        "model__reg_alpha": 0.05,
+        "model__n_estimators": 100,
+        "model__min_child_weight": 8,
+        "model__max_depth": 2,
+        "model__learning_rate": 0.015,
+        "model__gamma": 0.1,
+        "model__colsample_bytree": 0.8
+      }
+    },
+    {
+      "fold": 4,
+      "jumlah_data_uji": 101,
+      "jumlah_provinsi_uji": 7,
+      "provinsi_uji": [
+        "Bali",
+        "DKI Jakarta",
+        "Kalimantan Selatan",
+        "Nusa Tenggara Timur",
+        "Sulawesi Utara",
+        "Sumatera Barat",
+        "Sumatera Selatan"
+      ],
+      "f1_macro": 0.6770560835513316,
+      "accuracy": 0.6732673267326733,
+      "inner_cv_best_f1_macro": 0.6148593913521487,
+      "best_params": {
+        "model__subsample": 1.0,
+        "model__reg_lambda": 1,
+        "model__reg_alpha": 0.5,
+        "model__n_estimators": 100,
+        "model__min_child_weight": 5,
+        "model__max_depth": 3,
+        "model__learning_rate": 0.1,
+        "model__gamma": 0.05,
+        "model__colsample_bytree": 0.8
+      }
+    },
+    {
+      "fold": 5,
+      "jumlah_data_uji": 104,
+      "jumlah_provinsi_uji": 10,
+      "provinsi_uji": [
+        "Bangka Belitung",
+        "Gorontalo",
+        "Jawa Barat",
+        "Kalimantan Timur",
+        "Kepulauan Riau",
+        "Papua Selatan",
+        "Papua Tengah",
+        "Riau",
+        "Sulawesi Barat",
+        "Sulawesi Tenggara"
+      ],
+      "f1_macro": 0.5449278316272609,
+      "accuracy": 0.6153846153846154,
+      "inner_cv_best_f1_macro": 0.63695128378167,
+      "best_params": {
+        "model__subsample": 1.0,
+        "model__reg_lambda": 1,
+        "model__reg_alpha": 0.05,
+        "model__n_estimators": 400,
+        "model__min_child_weight": 8,
+        "model__max_depth": 4,
+        "model__learning_rate": 0.05,
+        "model__gamma": 0.1,
+        "model__colsample_bytree": 1.0
+      }
+    }
+  ],
+  "final_tuning_best_params": {
+    "model__subsample": 0.8,
+    "model__reg_lambda": 1,
+    "model__reg_alpha": 0.1,
+    "model__n_estimators": 500,
+    "model__min_child_weight": 8,
+    "model__max_depth": 3,
+    "model__learning_rate": 0.03,
+    "model__gamma": 0,
+    "model__colsample_bytree": 0.9
+  },
+  "final_tuning_cv_f1_macro": 0.638547,
+  "best_params": {
+    "model__subsample": 0.8,
+    "model__reg_lambda": 1,
+    "model__reg_alpha": 0.1,
+    "model__n_estimators": 500,
+    "model__min_child_weight": 8,
+    "model__max_depth": 3,
+    "model__learning_rate": 0.03,
+    "model__gamma": 0,
+    "model__colsample_bytree": 0.9
+  },
+  "cv_f1_macro": 0.606363,
+  "confusion_matrix": [
+    [
+      14,
+      4,
+      2,
+      0
+    ],
+    [
+      15,
+      126,
+      37,
+      4
+    ],
+    [
+      2,
+      55,
+      125,
+      38
+    ],
+    [
+      0,
+      5,
+      25,
+      62
+    ]
+  ],
+  "classification_report": {
+    "Rendah": {
+      "precision": 0.45161290322580644,
+      "recall": 0.7,
+      "f1-score": 0.5490196078431373,
+      "support": 20.0
+    },
+    "Sedang": {
+      "precision": 0.6631578947368421,
+      "recall": 0.6923076923076923,
+      "f1-score": 0.6774193548387096,
+      "support": 182.0
+    },
+    "Tinggi": {
+      "precision": 0.6613756613756614,
+      "recall": 0.5681818181818182,
+      "f1-score": 0.6112469437652812,
+      "support": 220.0
+    },
+    "Sangat Tinggi": {
+      "precision": 0.5961538461538461,
+      "recall": 0.6739130434782609,
+      "f1-score": 0.6326530612244898,
+      "support": 92.0
+    },
+    "accuracy": 0.6361867704280155,
+    "macro avg": {
+      "precision": 0.593075076373039,
+      "recall": 0.6586006384919428,
+      "f1-score": 0.6175847419179046,
+      "support": 514.0
+    },
+    "weighted avg": {
+      "precision": 0.6421708059443983,
+      "recall": 0.6361867704280155,
+      "f1-score": 0.6360877898803945,
+      "support": 514.0
+    }
+  },
+  "feature_importance": {
+    "underweight_pct": 0.472049,
+    "akses_air_minum_layak_prov_pct": 0.245423,
+    "akses_sanitasi_aman_prov_pct": 0.138237,
+    "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 0.144291
+  },
+  "prediction_display": "out-of-fold",
+  "underweight_role": "indikator status gizi pendamping tingkat kabupaten/kota yang digunakan sebagai fitur prediktif; bukan determinan dan bukan bukti hubungan sebab-akibat terhadap stunting",
+  "feature_importance_source": "model final full-data yang dilatih setelah evaluasi out-of-fold selesai",
+  "evaluation_source": "metrik, classification report, dan confusion matrix berasal dari prediksi out-of-fold berbasis provinsi",
+  "catatan": [
+    "Seluruh metrik evaluasi berasal dari prediksi out-of-fold; setiap kabupaten/kota diprediksi oleh model yang tidak dilatih pada provinsinya sendiri.",
+    "Hyperparameter dipilih pada inner cross-validation, sedangkan outer cross-validation digunakan untuk evaluasi.",
+    "Underweight merupakan indikator status gizi pendamping tingkat kabupaten/kota yang digunakan sebagai fitur prediktif; variabel ini tidak diposisikan sebagai determinan atau faktor penyebab stunting.",
+    "Tiga indikator kontekstual tetap berasal dari tingkat provinsi sehingga interpretasinya tetap bersifat kontekstual.",
+    "Feature importance berasal dari model final full-data setelah evaluasi out-of-fold selesai; nilainya menunjukkan kontribusi fitur pada model dan tidak membuktikan hubungan sebab-akibat.",
+    "Kategori Sangat Rendah (<2,5%) tetap merupakan ambang standar WHO-UNICEF, tetapi tidak menjadi kategori operasional karena tidak terdapat observasi pada dataset 2024.",
+    "Analisis operasional dan model menggunakan empat kelas teramati: Rendah, Sedang, Tinggi, dan Sangat Tinggi."
+  ]
+}

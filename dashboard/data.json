@@ -1,0 +1,5619 @@
+{
+  "tahun_data": 2024,
+  "tahun_publikasi": 2025,
+  "sumber_data": "Survei Status Gizi Indonesia (SSGI) 2024 Dalam Angka, Kementerian Kesehatan RI",
+  "kabkota": [
+    {
+      "kabupaten_kota": "Simeulue",
+      "provinsi": "Aceh",
+      "stunting_pct": 25.5,
+      "underweight_pct": 24.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5147
+    },
+    {
+      "kabupaten_kota": "Aceh Singkil",
+      "provinsi": "Aceh",
+      "stunting_pct": 34.2,
+      "underweight_pct": 22.3,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6473
+    },
+    {
+      "kabupaten_kota": "Aceh Selatan",
+      "provinsi": "Aceh",
+      "stunting_pct": 34.2,
+      "underweight_pct": 23.9,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6434
+    },
+    {
+      "kabupaten_kota": "Aceh Tenggara",
+      "provinsi": "Aceh",
+      "stunting_pct": 30.9,
+      "underweight_pct": 21.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6299
+    },
+    {
+      "kabupaten_kota": "Aceh Timur",
+      "provinsi": "Aceh",
+      "stunting_pct": 36.7,
+      "underweight_pct": 33.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7792
+    },
+    {
+      "kabupaten_kota": "Aceh Tengah",
+      "provinsi": "Aceh",
+      "stunting_pct": 31.4,
+      "underweight_pct": 17.7,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.404
+    },
+    {
+      "kabupaten_kota": "Aceh Barat",
+      "provinsi": "Aceh",
+      "stunting_pct": 25.6,
+      "underweight_pct": 26.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7523
+    },
+    {
+      "kabupaten_kota": "Aceh Besar",
+      "provinsi": "Aceh",
+      "stunting_pct": 32.3,
+      "underweight_pct": 31.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7706
+    },
+    {
+      "kabupaten_kota": "Pidie",
+      "provinsi": "Aceh",
+      "stunting_pct": 32.6,
+      "underweight_pct": 29.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7581
+    },
+    {
+      "kabupaten_kota": "Bireuen",
+      "provinsi": "Aceh",
+      "stunting_pct": 27.1,
+      "underweight_pct": 25.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6634
+    },
+    {
+      "kabupaten_kota": "Aceh Utara",
+      "provinsi": "Aceh",
+      "stunting_pct": 19.2,
+      "underweight_pct": 15.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5829
+    },
+    {
+      "kabupaten_kota": "Aceh Barat Daya",
+      "provinsi": "Aceh",
+      "stunting_pct": 36.2,
+      "underweight_pct": 24.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.528
+    },
+    {
+      "kabupaten_kota": "Gayo Lues",
+      "provinsi": "Aceh",
+      "stunting_pct": 20.6,
+      "underweight_pct": 18.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.327
+    },
+    {
+      "kabupaten_kota": "Aceh Tamiang",
+      "provinsi": "Aceh",
+      "stunting_pct": 27.4,
+      "underweight_pct": 21.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6314
+    },
+    {
+      "kabupaten_kota": "Nagan Raya",
+      "provinsi": "Aceh",
+      "stunting_pct": 35.5,
+      "underweight_pct": 24.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.528
+    },
+    {
+      "kabupaten_kota": "Aceh Jaya",
+      "provinsi": "Aceh",
+      "stunting_pct": 31.0,
+      "underweight_pct": 28.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7523
+    },
+    {
+      "kabupaten_kota": "Bener Meriah",
+      "provinsi": "Aceh",
+      "stunting_pct": 32.8,
+      "underweight_pct": 13.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6422
+    },
+    {
+      "kabupaten_kota": "Pidie Jaya",
+      "provinsi": "Aceh",
+      "stunting_pct": 31.6,
+      "underweight_pct": 25.9,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6839
+    },
+    {
+      "kabupaten_kota": "Kota Banda Aceh",
+      "provinsi": "Aceh",
+      "stunting_pct": 23.7,
+      "underweight_pct": 23.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6434
+    },
+    {
+      "kabupaten_kota": "Kota Sabang",
+      "provinsi": "Aceh",
+      "stunting_pct": 23.4,
+      "underweight_pct": 21.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6126
+    },
+    {
+      "kabupaten_kota": "Kota Langsa",
+      "provinsi": "Aceh",
+      "stunting_pct": 15.6,
+      "underweight_pct": 16.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5741
+    },
+    {
+      "kabupaten_kota": "Kota Lhokseumawe",
+      "provinsi": "Aceh",
+      "stunting_pct": 20.8,
+      "underweight_pct": 22.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6473
+    },
+    {
+      "kabupaten_kota": "Kota Subulussalam",
+      "provinsi": "Aceh",
+      "stunting_pct": 27.5,
+      "underweight_pct": 21.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6299
+    },
+    {
+      "kabupaten_kota": "Nias",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 26.1,
+      "underweight_pct": 20.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4548
+    },
+    {
+      "kabupaten_kota": "Mandailing Natal",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 22.2,
+      "underweight_pct": 14.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4067
+    },
+    {
+      "kabupaten_kota": "Tapanuli Selatan",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 6.6,
+      "underweight_pct": 3.7,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.5412
+    },
+    {
+      "kabupaten_kota": "Tapanuli Tengah",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 32.3,
+      "underweight_pct": 27.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5097
+    },
+    {
+      "kabupaten_kota": "Tapanuli Utara",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 32.5,
+      "underweight_pct": 13.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4421
+    },
+    {
+      "kabupaten_kota": "Toba",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 27.1,
+      "underweight_pct": 11.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4317
+    },
+    {
+      "kabupaten_kota": "Labuhanbatu",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 25.3,
+      "underweight_pct": 23.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4756
+    },
+    {
+      "kabupaten_kota": "Asahan",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 13.9,
+      "underweight_pct": 14.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4067
+    },
+    {
+      "kabupaten_kota": "Simalungun",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 26.0,
+      "underweight_pct": 17.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3991
+    },
+    {
+      "kabupaten_kota": "Dairi",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 29.0,
+      "underweight_pct": 11.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4126
+    },
+    {
+      "kabupaten_kota": "Karo",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 17.6,
+      "underweight_pct": 14.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4074
+    },
+    {
+      "kabupaten_kota": "Deli Serdang",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 19.6,
+      "underweight_pct": 16.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3975
+    },
+    {
+      "kabupaten_kota": "Langkat",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 16.0,
+      "underweight_pct": 16.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3975
+    },
+    {
+      "kabupaten_kota": "Nias Selatan",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 37.6,
+      "underweight_pct": 30.3,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5143
+    },
+    {
+      "kabupaten_kota": "Humbang Hasundutan",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 18.3,
+      "underweight_pct": 9.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.404
+    },
+    {
+      "kabupaten_kota": "Pakpak Bharat",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 27.5,
+      "underweight_pct": 11.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4126
+    },
+    {
+      "kabupaten_kota": "Samosir",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 28.6,
+      "underweight_pct": 11.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4118
+    },
+    {
+      "kabupaten_kota": "Serdang Bedagai",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 19.0,
+      "underweight_pct": 18.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4182
+    },
+    {
+      "kabupaten_kota": "Batu Bara",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 23.0,
+      "underweight_pct": 19.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.437
+    },
+    {
+      "kabupaten_kota": "Padang Lawas Utara",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 30.0,
+      "underweight_pct": 20.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4577
+    },
+    {
+      "kabupaten_kota": "Padang Lawas",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 25.2,
+      "underweight_pct": 20.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4548
+    },
+    {
+      "kabupaten_kota": "Labuhanbatu Selatan",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 22.0,
+      "underweight_pct": 16.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3975
+    },
+    {
+      "kabupaten_kota": "Labuhanbatu Utara",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 17.5,
+      "underweight_pct": 16.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3975
+    },
+    {
+      "kabupaten_kota": "Nias Utara",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 25.8,
+      "underweight_pct": 23.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4749
+    },
+    {
+      "kabupaten_kota": "Nias Barat",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 34.4,
+      "underweight_pct": 26.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.479
+    },
+    {
+      "kabupaten_kota": "Sibolga",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 18.1,
+      "underweight_pct": 15.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4067
+    },
+    {
+      "kabupaten_kota": "Kota Tanjungbalai",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 5.6,
+      "underweight_pct": 18.3,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4158
+    },
+    {
+      "kabupaten_kota": "Kota Pematang Siantar",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 12.2,
+      "underweight_pct": 11.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4317
+    },
+    {
+      "kabupaten_kota": "Kota Tebing Tinggi",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 17.6,
+      "underweight_pct": 15.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3974
+    },
+    {
+      "kabupaten_kota": "Kota Medan",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 15.4,
+      "underweight_pct": 13.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4421
+    },
+    {
+      "kabupaten_kota": "Kota Binjai",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 25.6,
+      "underweight_pct": 22.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4756
+    },
+    {
+      "kabupaten_kota": "Kota Padangsidimpuan",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 30.3,
+      "underweight_pct": 17.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3991
+    },
+    {
+      "kabupaten_kota": "Kota Gunungsitoli",
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 17.4,
+      "underweight_pct": 17.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3975
+    },
+    {
+      "kabupaten_kota": "Kepulauan Mentawai",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 26.2,
+      "underweight_pct": 21.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7918
+    },
+    {
+      "kabupaten_kota": "Pesisir Selatan",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 26.5,
+      "underweight_pct": 20.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7332
+    },
+    {
+      "kabupaten_kota": "Solok",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 29.5,
+      "underweight_pct": 14.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4919
+    },
+    {
+      "kabupaten_kota": "Sijunjung",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 28.2,
+      "underweight_pct": 22.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8207
+    },
+    {
+      "kabupaten_kota": "Tanah Datar",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 26.9,
+      "underweight_pct": 19.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7068
+    },
+    {
+      "kabupaten_kota": "Padang Pariaman",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 26.6,
+      "underweight_pct": 21.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.806
+    },
+    {
+      "kabupaten_kota": "Agam",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 27.0,
+      "underweight_pct": 17.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.575
+    },
+    {
+      "kabupaten_kota": "Lima Puluh Kota",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 26.6,
+      "underweight_pct": 16.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5386
+    },
+    {
+      "kabupaten_kota": "Pasaman",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 29.1,
+      "underweight_pct": 20.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7068
+    },
+    {
+      "kabupaten_kota": "Solok Selatan",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 21.5,
+      "underweight_pct": 17.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5386
+    },
+    {
+      "kabupaten_kota": "Dharmasraya",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 20.5,
+      "underweight_pct": 18.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7398
+    },
+    {
+      "kabupaten_kota": "Pasaman Barat",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 26.6,
+      "underweight_pct": 21.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.806
+    },
+    {
+      "kabupaten_kota": "Kota Padang",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 20.6,
+      "underweight_pct": 18.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7398
+    },
+    {
+      "kabupaten_kota": "Kota Solok",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 18.6,
+      "underweight_pct": 15.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5735
+    },
+    {
+      "kabupaten_kota": "Kota Sawahlunto",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 20.0,
+      "underweight_pct": 11.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4813
+    },
+    {
+      "kabupaten_kota": "Kota Padang Panjang",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 19.0,
+      "underweight_pct": 10.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5502
+    },
+    {
+      "kabupaten_kota": "Kota Bukittinggi",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 16.8,
+      "underweight_pct": 13.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4399
+    },
+    {
+      "kabupaten_kota": "Kota Payakumbuh",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 16.4,
+      "underweight_pct": 15.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.511
+    },
+    {
+      "kabupaten_kota": "Kota Pariaman",
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 15.7,
+      "underweight_pct": 16.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5735
+    },
+    {
+      "kabupaten_kota": "Kuantan Singingi",
+      "provinsi": "Riau",
+      "stunting_pct": 23.1,
+      "underweight_pct": 21.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6994
+    },
+    {
+      "kabupaten_kota": "Indragiri Hulu",
+      "provinsi": "Riau",
+      "stunting_pct": 20.0,
+      "underweight_pct": 18.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5021
+    },
+    {
+      "kabupaten_kota": "Indragiri Hilir",
+      "provinsi": "Riau",
+      "stunting_pct": 25.0,
+      "underweight_pct": 21.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6994
+    },
+    {
+      "kabupaten_kota": "Pelalawan",
+      "provinsi": "Riau",
+      "stunting_pct": 16.8,
+      "underweight_pct": 15.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5584
+    },
+    {
+      "kabupaten_kota": "Siak",
+      "provinsi": "Riau",
+      "stunting_pct": 16.2,
+      "underweight_pct": 17.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5074
+    },
+    {
+      "kabupaten_kota": "Kampar",
+      "provinsi": "Riau",
+      "stunting_pct": 16.2,
+      "underweight_pct": 16.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5729
+    },
+    {
+      "kabupaten_kota": "Rokan Hulu",
+      "provinsi": "Riau",
+      "stunting_pct": 21.4,
+      "underweight_pct": 22.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8669
+    },
+    {
+      "kabupaten_kota": "Bengkalis",
+      "provinsi": "Riau",
+      "stunting_pct": 12.5,
+      "underweight_pct": 15.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7289
+    },
+    {
+      "kabupaten_kota": "Rokan Hilir",
+      "provinsi": "Riau",
+      "stunting_pct": 24.5,
+      "underweight_pct": 22.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8669
+    },
+    {
+      "kabupaten_kota": "Kepulauan Meranti",
+      "provinsi": "Riau",
+      "stunting_pct": 18.0,
+      "underweight_pct": 14.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6453
+    },
+    {
+      "kabupaten_kota": "Kota Pekanbaru",
+      "provinsi": "Riau",
+      "stunting_pct": 14.5,
+      "underweight_pct": 18.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6282
+    },
+    {
+      "kabupaten_kota": "Kota Dumai",
+      "provinsi": "Riau",
+      "stunting_pct": 16.9,
+      "underweight_pct": 13.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8434
+    },
+    {
+      "kabupaten_kota": "Kerinci",
+      "provinsi": "Jambi",
+      "stunting_pct": 16.4,
+      "underweight_pct": 15.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6782
+    },
+    {
+      "kabupaten_kota": "Merangin",
+      "provinsi": "Jambi",
+      "stunting_pct": 9.6,
+      "underweight_pct": 5.6,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.7453
+    },
+    {
+      "kabupaten_kota": "Sarolangun",
+      "provinsi": "Jambi",
+      "stunting_pct": 6.6,
+      "underweight_pct": 6.2,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.7453
+    },
+    {
+      "kabupaten_kota": "Batang Hari",
+      "provinsi": "Jambi",
+      "stunting_pct": 18.4,
+      "underweight_pct": 17.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6111
+    },
+    {
+      "kabupaten_kota": "Muaro Jambi",
+      "provinsi": "Jambi",
+      "stunting_pct": 18.8,
+      "underweight_pct": 17.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4062
+    },
+    {
+      "kabupaten_kota": "Tanjung Jabung Timur",
+      "provinsi": "Jambi",
+      "stunting_pct": 23.9,
+      "underweight_pct": 17.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3191
+    },
+    {
+      "kabupaten_kota": "Tanjung Jabung Barat",
+      "provinsi": "Jambi",
+      "stunting_pct": 7.0,
+      "underweight_pct": 8.8,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.5525
+    },
+    {
+      "kabupaten_kota": "Tebo",
+      "provinsi": "Jambi",
+      "stunting_pct": 24.2,
+      "underweight_pct": 19.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5537
+    },
+    {
+      "kabupaten_kota": "Bungo",
+      "provinsi": "Jambi",
+      "stunting_pct": 20.4,
+      "underweight_pct": 12.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4775
+    },
+    {
+      "kabupaten_kota": "Kota Jambi",
+      "provinsi": "Jambi",
+      "stunting_pct": 10.3,
+      "underweight_pct": 13.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7312
+    },
+    {
+      "kabupaten_kota": "Kota Sungai Penuh",
+      "provinsi": "Jambi",
+      "stunting_pct": 8.0,
+      "underweight_pct": 6.4,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.7453
+    },
+    {
+      "kabupaten_kota": "Ogan Komering Ulu",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 22.0,
+      "underweight_pct": 17.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7776
+    },
+    {
+      "kabupaten_kota": "Ogan Komering Ilir",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 24.3,
+      "underweight_pct": 19.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5175
+    },
+    {
+      "kabupaten_kota": "Muara Enim",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 20.4,
+      "underweight_pct": 16.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7581
+    },
+    {
+      "kabupaten_kota": "Lahat",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 12.9,
+      "underweight_pct": 13.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8272
+    },
+    {
+      "kabupaten_kota": "Musi Rawas",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 19.3,
+      "underweight_pct": 16.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7581
+    },
+    {
+      "kabupaten_kota": "Musi Banyuasin",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 14.8,
+      "underweight_pct": 13.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8272
+    },
+    {
+      "kabupaten_kota": "Banyu Asin",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 16.8,
+      "underweight_pct": 14.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8541
+    },
+    {
+      "kabupaten_kota": "Ogan Komering Ulu Selatan",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 16.6,
+      "underweight_pct": 12.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.6843
+    },
+    {
+      "kabupaten_kota": "Ogan Komering Ulu Timur",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 17.4,
+      "underweight_pct": 16.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7581
+    },
+    {
+      "kabupaten_kota": "Ogan Ilir",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 27.4,
+      "underweight_pct": 19.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5522
+    },
+    {
+      "kabupaten_kota": "Empat Lawang",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 31.9,
+      "underweight_pct": 21.7,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8037
+    },
+    {
+      "kabupaten_kota": "Penukal Abab Lematang Ilir",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 20.5,
+      "underweight_pct": 16.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7581
+    },
+    {
+      "kabupaten_kota": "Musi Rawas Utara",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 22.0,
+      "underweight_pct": 19.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5522
+    },
+    {
+      "kabupaten_kota": "Kota Palembang",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 10.6,
+      "underweight_pct": 8.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9194
+    },
+    {
+      "kabupaten_kota": "Kota Prabumulih",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 11.6,
+      "underweight_pct": 10.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8085
+    },
+    {
+      "kabupaten_kota": "Kota Pagar Alam",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 20.0,
+      "underweight_pct": 14.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8406
+    },
+    {
+      "kabupaten_kota": "Kota Lubuk linggau",
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 20.9,
+      "underweight_pct": 16.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7581
+    },
+    {
+      "kabupaten_kota": "Bengkulu Selatan",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 18.3,
+      "underweight_pct": 14.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5091
+    },
+    {
+      "kabupaten_kota": "Rejang Lebong",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 24.7,
+      "underweight_pct": 15.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4631
+    },
+    {
+      "kabupaten_kota": "Bengkulu Utara",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 20.7,
+      "underweight_pct": 15.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4771
+    },
+    {
+      "kabupaten_kota": "Kaur",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 15.9,
+      "underweight_pct": 11.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.392
+    },
+    {
+      "kabupaten_kota": "Seluma",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 22.6,
+      "underweight_pct": 17.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4834
+    },
+    {
+      "kabupaten_kota": "Mukomuko",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 22.0,
+      "underweight_pct": 17.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4341
+    },
+    {
+      "kabupaten_kota": "Lebong",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 22.7,
+      "underweight_pct": 9.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.5099
+    },
+    {
+      "kabupaten_kota": "Kepahiang",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 17.0,
+      "underweight_pct": 14.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5091
+    },
+    {
+      "kabupaten_kota": "Bengkulu Tengah",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 23.4,
+      "underweight_pct": 15.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4631
+    },
+    {
+      "kabupaten_kota": "Kota Bengkulu",
+      "provinsi": "Bengkulu",
+      "stunting_pct": 16.1,
+      "underweight_pct": 19.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6982
+    },
+    {
+      "kabupaten_kota": "Lampung Barat",
+      "provinsi": "Lampung",
+      "stunting_pct": 20.5,
+      "underweight_pct": 9.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.5079
+    },
+    {
+      "kabupaten_kota": "Tanggamus",
+      "provinsi": "Lampung",
+      "stunting_pct": 24.9,
+      "underweight_pct": 17.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3848
+    },
+    {
+      "kabupaten_kota": "Lampung Selatan",
+      "provinsi": "Lampung",
+      "stunting_pct": 10.4,
+      "underweight_pct": 13.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4701
+    },
+    {
+      "kabupaten_kota": "Lampung Timur",
+      "provinsi": "Lampung",
+      "stunting_pct": 14.0,
+      "underweight_pct": 14.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4291
+    },
+    {
+      "kabupaten_kota": "Lampung Tengah",
+      "provinsi": "Lampung",
+      "stunting_pct": 15.5,
+      "underweight_pct": 14.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4291
+    },
+    {
+      "kabupaten_kota": "Lampung Utara",
+      "provinsi": "Lampung",
+      "stunting_pct": 20.0,
+      "underweight_pct": 18.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3755
+    },
+    {
+      "kabupaten_kota": "Way Kanan",
+      "provinsi": "Lampung",
+      "stunting_pct": 13.9,
+      "underweight_pct": 11.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4482
+    },
+    {
+      "kabupaten_kota": "Tulangbawang",
+      "provinsi": "Lampung",
+      "stunting_pct": 18.3,
+      "underweight_pct": 17.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3848
+    },
+    {
+      "kabupaten_kota": "Pesawaran",
+      "provinsi": "Lampung",
+      "stunting_pct": 15.5,
+      "underweight_pct": 13.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4701
+    },
+    {
+      "kabupaten_kota": "Pringsewu",
+      "provinsi": "Lampung",
+      "stunting_pct": 19.5,
+      "underweight_pct": 19.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.393
+    },
+    {
+      "kabupaten_kota": "Mesuji",
+      "provinsi": "Lampung",
+      "stunting_pct": 11.1,
+      "underweight_pct": 13.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4668
+    },
+    {
+      "kabupaten_kota": "Tulang Bawang Barat",
+      "provinsi": "Lampung",
+      "stunting_pct": 13.4,
+      "underweight_pct": 13.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4701
+    },
+    {
+      "kabupaten_kota": "Pesisir Barat",
+      "provinsi": "Lampung",
+      "stunting_pct": 19.8,
+      "underweight_pct": 14.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4291
+    },
+    {
+      "kabupaten_kota": "Kota Bandar Lampung",
+      "provinsi": "Lampung",
+      "stunting_pct": 14.8,
+      "underweight_pct": 14.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4291
+    },
+    {
+      "kabupaten_kota": "Kota Metro",
+      "provinsi": "Lampung",
+      "stunting_pct": 14.8,
+      "underweight_pct": 16.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3848
+    },
+    {
+      "kabupaten_kota": "Bangka",
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 21.2,
+      "underweight_pct": 16.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.819
+    },
+    {
+      "kabupaten_kota": "Belitung",
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 18.1,
+      "underweight_pct": 14.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8526
+    },
+    {
+      "kabupaten_kota": "Bangka Barat",
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 19.9,
+      "underweight_pct": 14.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8526
+    },
+    {
+      "kabupaten_kota": "Bangka Tengah",
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 21.2,
+      "underweight_pct": 18.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4836
+    },
+    {
+      "kabupaten_kota": "Bangka Selatan",
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 24.6,
+      "underweight_pct": 20.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5948
+    },
+    {
+      "kabupaten_kota": "Belitung Timur",
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 17.1,
+      "underweight_pct": 12.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6161
+    },
+    {
+      "kabupaten_kota": "Kota Pangkal Pinang",
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 17.3,
+      "underweight_pct": 16.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.819
+    },
+    {
+      "kabupaten_kota": "Karimun",
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 21.4,
+      "underweight_pct": 20.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.54
+    },
+    {
+      "kabupaten_kota": "Bintan",
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 16.3,
+      "underweight_pct": 14.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.9189
+    },
+    {
+      "kabupaten_kota": "Natuna",
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 18.5,
+      "underweight_pct": 15.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.868
+    },
+    {
+      "kabupaten_kota": "Lingga",
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 19.8,
+      "underweight_pct": 16.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6526
+    },
+    {
+      "kabupaten_kota": "Kepulauan Anambas",
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 15.8,
+      "underweight_pct": 13.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8732
+    },
+    {
+      "kabupaten_kota": "Kota Batam",
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 14.0,
+      "underweight_pct": 13.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7858
+    },
+    {
+      "kabupaten_kota": "Kota Tanjung Pinang",
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 12.9,
+      "underweight_pct": 12.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7744
+    },
+    {
+      "kabupaten_kota": "Kepulauan Seribu",
+      "provinsi": "DKI Jakarta",
+      "stunting_pct": 16.9,
+      "underweight_pct": 18.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4892
+    },
+    {
+      "kabupaten_kota": "Kota Jakarta Selatan",
+      "provinsi": "DKI Jakarta",
+      "stunting_pct": 14.9,
+      "underweight_pct": 11.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8852
+    },
+    {
+      "kabupaten_kota": "Kota Jakarta Timur",
+      "provinsi": "DKI Jakarta",
+      "stunting_pct": 16.4,
+      "underweight_pct": 15.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8793
+    },
+    {
+      "kabupaten_kota": "Kota Jakarta Pusat",
+      "provinsi": "DKI Jakarta",
+      "stunting_pct": 20.3,
+      "underweight_pct": 17.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6067
+    },
+    {
+      "kabupaten_kota": "Kota Jakarta Barat",
+      "provinsi": "DKI Jakarta",
+      "stunting_pct": 17.4,
+      "underweight_pct": 14.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8818
+    },
+    {
+      "kabupaten_kota": "Kota Jakarta Utara",
+      "provinsi": "DKI Jakarta",
+      "stunting_pct": 19.7,
+      "underweight_pct": 17.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8514
+    },
+    {
+      "kabupaten_kota": "Bogor",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 18.9,
+      "underweight_pct": 16.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7439
+    },
+    {
+      "kabupaten_kota": "Sukabumi",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 20.5,
+      "underweight_pct": 13.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.9321
+    },
+    {
+      "kabupaten_kota": "Cianjur",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 7.2,
+      "underweight_pct": 6.0,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9579
+    },
+    {
+      "kabupaten_kota": "Bandung",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 24.1,
+      "underweight_pct": 12.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8207
+    },
+    {
+      "kabupaten_kota": "Garut",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 14.2,
+      "underweight_pct": 11.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.933
+    },
+    {
+      "kabupaten_kota": "Tasikmalaya",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 17.0,
+      "underweight_pct": 9.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.588
+    },
+    {
+      "kabupaten_kota": "Ciamis",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 20.3,
+      "underweight_pct": 16.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7719
+    },
+    {
+      "kabupaten_kota": "Kuningan",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 22.7,
+      "underweight_pct": 18.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6893
+    },
+    {
+      "kabupaten_kota": "Cirebon",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 18.0,
+      "underweight_pct": 17.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6792
+    },
+    {
+      "kabupaten_kota": "Majalengka",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 18.0,
+      "underweight_pct": 15.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8934
+    },
+    {
+      "kabupaten_kota": "Sumedang",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 17.0,
+      "underweight_pct": 9.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.588
+    },
+    {
+      "kabupaten_kota": "Indramayu",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 9.8,
+      "underweight_pct": 12.6,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8207
+    },
+    {
+      "kabupaten_kota": "Subang",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 12.4,
+      "underweight_pct": 10.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.933
+    },
+    {
+      "kabupaten_kota": "Purwakarta",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 14.4,
+      "underweight_pct": 10.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.933
+    },
+    {
+      "kabupaten_kota": "Karawang",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 17.6,
+      "underweight_pct": 14.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8158
+    },
+    {
+      "kabupaten_kota": "Bekasi",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 18.2,
+      "underweight_pct": 14.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8937
+    },
+    {
+      "kabupaten_kota": "Bandung Barat",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 30.8,
+      "underweight_pct": 18.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6893
+    },
+    {
+      "kabupaten_kota": "Pangandaran",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 17.3,
+      "underweight_pct": 13.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8956
+    },
+    {
+      "kabupaten_kota": "Kota Bogor",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 21.1,
+      "underweight_pct": 12.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7688
+    },
+    {
+      "kabupaten_kota": "Kota Sukabumi",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 19.7,
+      "underweight_pct": 16.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7628
+    },
+    {
+      "kabupaten_kota": "Kota Bandung",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 22.8,
+      "underweight_pct": 14.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8158
+    },
+    {
+      "kabupaten_kota": "Kota Cirebon",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 14.9,
+      "underweight_pct": 16.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7718
+    },
+    {
+      "kabupaten_kota": "Kota Bekasi",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 11.7,
+      "underweight_pct": 6.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9579
+    },
+    {
+      "kabupaten_kota": "Kota Depok",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 12.5,
+      "underweight_pct": 11.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7688
+    },
+    {
+      "kabupaten_kota": "Kota Cimahi",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 22.3,
+      "underweight_pct": 15.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8934
+    },
+    {
+      "kabupaten_kota": "Kota Tasikmalaya",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 19.6,
+      "underweight_pct": 13.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8956
+    },
+    {
+      "kabupaten_kota": "Kota Banjar",
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 18.8,
+      "underweight_pct": 15.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8934
+    },
+    {
+      "kabupaten_kota": "Cilacap",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 15.6,
+      "underweight_pct": 14.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.696
+    },
+    {
+      "kabupaten_kota": "Banyumas",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 19.6,
+      "underweight_pct": 17.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6479
+    },
+    {
+      "kabupaten_kota": "Purbalingga",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 22.3,
+      "underweight_pct": 13.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7333
+    },
+    {
+      "kabupaten_kota": "Banjarnegara",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 20.6,
+      "underweight_pct": 14.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.696
+    },
+    {
+      "kabupaten_kota": "Kebumen",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 18.0,
+      "underweight_pct": 17.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4426
+    },
+    {
+      "kabupaten_kota": "Purworejo",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 14.9,
+      "underweight_pct": 10.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6004
+    },
+    {
+      "kabupaten_kota": "Wonosobo",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 23.9,
+      "underweight_pct": 18.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.427
+    },
+    {
+      "kabupaten_kota": "Magelang",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 19.3,
+      "underweight_pct": 16.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6541
+    },
+    {
+      "kabupaten_kota": "Boyolali",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 24.5,
+      "underweight_pct": 14.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7512
+    },
+    {
+      "kabupaten_kota": "Klaten",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 20.8,
+      "underweight_pct": 14.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7512
+    },
+    {
+      "kabupaten_kota": "Sukoharjo",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 16.8,
+      "underweight_pct": 14.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.696
+    },
+    {
+      "kabupaten_kota": "Wonogiri",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 15.1,
+      "underweight_pct": 10.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6004
+    },
+    {
+      "kabupaten_kota": "Karanganyar",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 17.4,
+      "underweight_pct": 15.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.696
+    },
+    {
+      "kabupaten_kota": "Sragen",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 15.8,
+      "underweight_pct": 13.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7512
+    },
+    {
+      "kabupaten_kota": "Grobogan",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 25.6,
+      "underweight_pct": 21.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5488
+    },
+    {
+      "kabupaten_kota": "Blora",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 21.7,
+      "underweight_pct": 20.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5284
+    },
+    {
+      "kabupaten_kota": "Rembang",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 15.8,
+      "underweight_pct": 15.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6902
+    },
+    {
+      "kabupaten_kota": "Pati",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 16.5,
+      "underweight_pct": 17.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5143
+    },
+    {
+      "kabupaten_kota": "Kudus",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 13.2,
+      "underweight_pct": 15.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.696
+    },
+    {
+      "kabupaten_kota": "Jepara",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 15.6,
+      "underweight_pct": 15.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.696
+    },
+    {
+      "kabupaten_kota": "Demak",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 10.0,
+      "underweight_pct": 13.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7333
+    },
+    {
+      "kabupaten_kota": "Semarang",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 14.5,
+      "underweight_pct": 13.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7512
+    },
+    {
+      "kabupaten_kota": "Temanggung",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 27.3,
+      "underweight_pct": 13.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7512
+    },
+    {
+      "kabupaten_kota": "Kendal",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 19.2,
+      "underweight_pct": 19.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4942
+    },
+    {
+      "kabupaten_kota": "Batang",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 20.7,
+      "underweight_pct": 15.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6635
+    },
+    {
+      "kabupaten_kota": "Pekalongan",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 19.5,
+      "underweight_pct": 20.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4953
+    },
+    {
+      "kabupaten_kota": "Pemalang",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 19.1,
+      "underweight_pct": 20.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5386
+    },
+    {
+      "kabupaten_kota": "Tegal",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 15.9,
+      "underweight_pct": 19.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5064
+    },
+    {
+      "kabupaten_kota": "Brebes",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 23.1,
+      "underweight_pct": 20.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5386
+    },
+    {
+      "kabupaten_kota": "Kota Magelang",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 15.3,
+      "underweight_pct": 13.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7512
+    },
+    {
+      "kabupaten_kota": "Kota Surakarta",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 16.2,
+      "underweight_pct": 14.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.696
+    },
+    {
+      "kabupaten_kota": "Kota Salatiga",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 14.0,
+      "underweight_pct": 10.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6004
+    },
+    {
+      "kabupaten_kota": "Kota Semarang",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 11.2,
+      "underweight_pct": 10.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6004
+    },
+    {
+      "kabupaten_kota": "Kota Pekalongan",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 19.3,
+      "underweight_pct": 21.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5667
+    },
+    {
+      "kabupaten_kota": "Kota Tegal",
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 18.0,
+      "underweight_pct": 20.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5386
+    },
+    {
+      "kabupaten_kota": "Kulon Progo",
+      "provinsi": "DI Yogyakarta",
+      "stunting_pct": 18.0,
+      "underweight_pct": 16.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5869
+    },
+    {
+      "kabupaten_kota": "Bantul",
+      "provinsi": "DI Yogyakarta",
+      "stunting_pct": 16.5,
+      "underweight_pct": 14.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6011
+    },
+    {
+      "kabupaten_kota": "Gunung Kidul",
+      "provinsi": "DI Yogyakarta",
+      "stunting_pct": 19.7,
+      "underweight_pct": 17.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4282
+    },
+    {
+      "kabupaten_kota": "Sleman",
+      "provinsi": "DI Yogyakarta",
+      "stunting_pct": 17.3,
+      "underweight_pct": 14.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6063
+    },
+    {
+      "kabupaten_kota": "Kota Yogyakarta",
+      "provinsi": "DI Yogyakarta",
+      "stunting_pct": 14.8,
+      "underweight_pct": 14.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6009
+    },
+    {
+      "kabupaten_kota": "Pacitan",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.7,
+      "underweight_pct": 8.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.5904
+    },
+    {
+      "kabupaten_kota": "Ponorogo",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 13.4,
+      "underweight_pct": 14.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5931
+    },
+    {
+      "kabupaten_kota": "Trenggalek",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 6.7,
+      "underweight_pct": 9.0,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5217
+    },
+    {
+      "kabupaten_kota": "Tulungagung",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 13.6,
+      "underweight_pct": 11.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5002
+    },
+    {
+      "kabupaten_kota": "Blitar",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 17.8,
+      "underweight_pct": 14.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5839
+    },
+    {
+      "kabupaten_kota": "Kediri",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 7.9,
+      "underweight_pct": 7.3,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.6762
+    },
+    {
+      "kabupaten_kota": "Malang",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 23.3,
+      "underweight_pct": 16.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5634
+    },
+    {
+      "kabupaten_kota": "Lumajang",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 23.4,
+      "underweight_pct": 16.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5634
+    },
+    {
+      "kabupaten_kota": "Jember",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 30.4,
+      "underweight_pct": 27.5,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5074
+    },
+    {
+      "kabupaten_kota": "Banyuwangi",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 17.6,
+      "underweight_pct": 21.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4435
+    },
+    {
+      "kabupaten_kota": "Bondowoso",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.2,
+      "underweight_pct": 13.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5776
+    },
+    {
+      "kabupaten_kota": "Situbondo",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 10.6,
+      "underweight_pct": 21.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4435
+    },
+    {
+      "kabupaten_kota": "Probolinggo",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 26.3,
+      "underweight_pct": 21.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4224
+    },
+    {
+      "kabupaten_kota": "Pasuruan",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 26.1,
+      "underweight_pct": 25.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4019
+    },
+    {
+      "kabupaten_kota": "Sidoarjo",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 10.6,
+      "underweight_pct": 9.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5307
+    },
+    {
+      "kabupaten_kota": "Mojokerto",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 15.2,
+      "underweight_pct": 18.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3633
+    },
+    {
+      "kabupaten_kota": "Jombang",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 17.2,
+      "underweight_pct": 17.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4039
+    },
+    {
+      "kabupaten_kota": "Nganjuk",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 22.8,
+      "underweight_pct": 19.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.369
+    },
+    {
+      "kabupaten_kota": "Madiun",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 12.1,
+      "underweight_pct": 13.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5964
+    },
+    {
+      "kabupaten_kota": "Magetan",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 10.3,
+      "underweight_pct": 10.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5325
+    },
+    {
+      "kabupaten_kota": "Ngawi",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.4,
+      "underweight_pct": 19.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.366
+    },
+    {
+      "kabupaten_kota": "Bojonegoro",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 12.0,
+      "underweight_pct": 14.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5812
+    },
+    {
+      "kabupaten_kota": "Tuban",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.3,
+      "underweight_pct": 17.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5588
+    },
+    {
+      "kabupaten_kota": "Lamongan",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 6.9,
+      "underweight_pct": 9.7,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5325
+    },
+    {
+      "kabupaten_kota": "Gresik",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 15.2,
+      "underweight_pct": 14.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5931
+    },
+    {
+      "kabupaten_kota": "Bangkalan",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 17.6,
+      "underweight_pct": 13.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5964
+    },
+    {
+      "kabupaten_kota": "Sampang",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 18.9,
+      "underweight_pct": 13.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5931
+    },
+    {
+      "kabupaten_kota": "Pamekasan",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 22.3,
+      "underweight_pct": 17.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4409
+    },
+    {
+      "kabupaten_kota": "Sumenep",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.2,
+      "underweight_pct": 7.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.6762
+    },
+    {
+      "kabupaten_kota": "Kota Kediri",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 17.6,
+      "underweight_pct": 13.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5954
+    },
+    {
+      "kabupaten_kota": "Kota Blitar",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.4,
+      "underweight_pct": 10.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5325
+    },
+    {
+      "kabupaten_kota": "Kota Malang",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 22.8,
+      "underweight_pct": 18.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3633
+    },
+    {
+      "kabupaten_kota": "Kota Probolinggo",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 23.1,
+      "underweight_pct": 21.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4435
+    },
+    {
+      "kabupaten_kota": "Kota Pasuruan",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 18.3,
+      "underweight_pct": 24.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3634
+    },
+    {
+      "kabupaten_kota": "Kota Mojokerto",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.7,
+      "underweight_pct": 11.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5325
+    },
+    {
+      "kabupaten_kota": "Kota Madiun",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 11.8,
+      "underweight_pct": 12.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4271
+    },
+    {
+      "kabupaten_kota": "Kota Surabaya",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 8.5,
+      "underweight_pct": 8.3,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.5904
+    },
+    {
+      "kabupaten_kota": "Kota Batu",
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 24.5,
+      "underweight_pct": 15.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5638
+    },
+    {
+      "kabupaten_kota": "Pandeglang",
+      "provinsi": "Banten",
+      "stunting_pct": 26.4,
+      "underweight_pct": 21.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3958
+    },
+    {
+      "kabupaten_kota": "Lebak",
+      "provinsi": "Banten",
+      "stunting_pct": 32.4,
+      "underweight_pct": 19.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3764
+    },
+    {
+      "kabupaten_kota": "Tangerang",
+      "provinsi": "Banten",
+      "stunting_pct": 23.4,
+      "underweight_pct": 20.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3656
+    },
+    {
+      "kabupaten_kota": "Serang",
+      "provinsi": "Banten",
+      "stunting_pct": 20.2,
+      "underweight_pct": 17.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4332
+    },
+    {
+      "kabupaten_kota": "Kota Tangerang",
+      "provinsi": "Banten",
+      "stunting_pct": 11.2,
+      "underweight_pct": 9.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.6193
+    },
+    {
+      "kabupaten_kota": "Kota Cilegon",
+      "provinsi": "Banten",
+      "stunting_pct": 19.0,
+      "underweight_pct": 18.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3987
+    },
+    {
+      "kabupaten_kota": "Kota Serang",
+      "provinsi": "Banten",
+      "stunting_pct": 22.9,
+      "underweight_pct": 22.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3958
+    },
+    {
+      "kabupaten_kota": "Kota Tangerang Selatan",
+      "provinsi": "Banten",
+      "stunting_pct": 10.5,
+      "underweight_pct": 9.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.5444
+    },
+    {
+      "kabupaten_kota": "Jembrana",
+      "provinsi": "Bali",
+      "stunting_pct": 7.5,
+      "underweight_pct": 8.1,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.889
+    },
+    {
+      "kabupaten_kota": "Tabanan",
+      "provinsi": "Bali",
+      "stunting_pct": 7.5,
+      "underweight_pct": 7.1,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.8955
+    },
+    {
+      "kabupaten_kota": "Badung",
+      "provinsi": "Bali",
+      "stunting_pct": 7.2,
+      "underweight_pct": 5.8,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9139
+    },
+    {
+      "kabupaten_kota": "Gianyar",
+      "provinsi": "Bali",
+      "stunting_pct": 5.4,
+      "underweight_pct": 4.8,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9139
+    },
+    {
+      "kabupaten_kota": "Klungkung",
+      "provinsi": "Bali",
+      "stunting_pct": 5.2,
+      "underweight_pct": 6.4,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9139
+    },
+    {
+      "kabupaten_kota": "Bangli",
+      "provinsi": "Bali",
+      "stunting_pct": 8.3,
+      "underweight_pct": 6.7,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.8955
+    },
+    {
+      "kabupaten_kota": "Karangasem",
+      "provinsi": "Bali",
+      "stunting_pct": 13.0,
+      "underweight_pct": 10.5,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8436
+    },
+    {
+      "kabupaten_kota": "Buleleng",
+      "provinsi": "Bali",
+      "stunting_pct": 14.8,
+      "underweight_pct": 8.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.889
+    },
+    {
+      "kabupaten_kota": "Kota Denpasar",
+      "provinsi": "Bali",
+      "stunting_pct": 10.4,
+      "underweight_pct": 10.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8436
+    },
+    {
+      "kabupaten_kota": "Lombok Barat",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 27.3,
+      "underweight_pct": 23.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4356
+    },
+    {
+      "kabupaten_kota": "Lombok Tengah",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 24.9,
+      "underweight_pct": 22.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4356
+    },
+    {
+      "kabupaten_kota": "Lombok Timur",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 33.0,
+      "underweight_pct": 26.9,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5024
+    },
+    {
+      "kabupaten_kota": "Sumbawa",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 29.8,
+      "underweight_pct": 25.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4974
+    },
+    {
+      "kabupaten_kota": "Dompu",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 19.8,
+      "underweight_pct": 34.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5119
+    },
+    {
+      "kabupaten_kota": "Bima",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 23.8,
+      "underweight_pct": 28.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5089
+    },
+    {
+      "kabupaten_kota": "Sumbawa Barat",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 18.2,
+      "underweight_pct": 17.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4019
+    },
+    {
+      "kabupaten_kota": "Lombok Utara",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 35.3,
+      "underweight_pct": 29.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5089
+    },
+    {
+      "kabupaten_kota": "Kota Mataram",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 23.5,
+      "underweight_pct": 25.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4974
+    },
+    {
+      "kabupaten_kota": "Kota Bima",
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 28.4,
+      "underweight_pct": 32.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5119
+    },
+    {
+      "kabupaten_kota": "Sumba Barat",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 35.2,
+      "underweight_pct": 24.9,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4651
+    },
+    {
+      "kabupaten_kota": "Sumba Timur",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 30.9,
+      "underweight_pct": 31.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Kupang",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 39.5,
+      "underweight_pct": 40.7,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Timor Tengah Selatan",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 56.8,
+      "underweight_pct": 46.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Timor Tengah Utara",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 47.3,
+      "underweight_pct": 40.3,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Belu",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 44.3,
+      "underweight_pct": 44.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Alor",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 37.4,
+      "underweight_pct": 36.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Lembata",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 25.7,
+      "underweight_pct": 31.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Flores Timur",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 31.3,
+      "underweight_pct": 34.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Sikka",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 32.3,
+      "underweight_pct": 35.9,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Ende",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 30.7,
+      "underweight_pct": 32.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Ngada",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 28.9,
+      "underweight_pct": 23.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4181
+    },
+    {
+      "kabupaten_kota": "Manggarai",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 41.0,
+      "underweight_pct": 25.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4651
+    },
+    {
+      "kabupaten_kota": "Rote Ndao",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 32.4,
+      "underweight_pct": 40.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Manggarai Barat",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 31.1,
+      "underweight_pct": 25.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4668
+    },
+    {
+      "kabupaten_kota": "Sumba Tengah",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 37.4,
+      "underweight_pct": 30.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Sumba Barat Daya",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 47.5,
+      "underweight_pct": 44.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Nagekeo",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 25.0,
+      "underweight_pct": 23.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4181
+    },
+    {
+      "kabupaten_kota": "Manggarai Timur",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 38.8,
+      "underweight_pct": 25.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4668
+    },
+    {
+      "kabupaten_kota": "Sabu Raijua",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 32.2,
+      "underweight_pct": 36.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Malaka",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 31.6,
+      "underweight_pct": 33.7,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Kota Kupang",
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 26.9,
+      "underweight_pct": 29.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9323
+    },
+    {
+      "kabupaten_kota": "Sambas",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 36.4,
+      "underweight_pct": 30.5,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5797
+    },
+    {
+      "kabupaten_kota": "Bengkayang",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 23.4,
+      "underweight_pct": 21.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6106
+    },
+    {
+      "kabupaten_kota": "Landak",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 28.6,
+      "underweight_pct": 23.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6003
+    },
+    {
+      "kabupaten_kota": "Mempawah",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 28.6,
+      "underweight_pct": 25.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4895
+    },
+    {
+      "kabupaten_kota": "Sanggau",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 21.3,
+      "underweight_pct": 21.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5923
+    },
+    {
+      "kabupaten_kota": "Ketapang",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 17.9,
+      "underweight_pct": 17.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4249
+    },
+    {
+      "kabupaten_kota": "Sintang",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 31.0,
+      "underweight_pct": 26.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5645
+    },
+    {
+      "kabupaten_kota": "Kapuas Hulu",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 23.6,
+      "underweight_pct": 21.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5923
+    },
+    {
+      "kabupaten_kota": "Sekadau",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 14.4,
+      "underweight_pct": 21.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6131
+    },
+    {
+      "kabupaten_kota": "Melawi",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 35.2,
+      "underweight_pct": 27.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5797
+    },
+    {
+      "kabupaten_kota": "Kayong Utara",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 23.8,
+      "underweight_pct": 24.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5051
+    },
+    {
+      "kabupaten_kota": "Kubu Raya",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 30.2,
+      "underweight_pct": 24.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5148
+    },
+    {
+      "kabupaten_kota": "Kota Pontianak",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 22.3,
+      "underweight_pct": 17.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4175
+    },
+    {
+      "kabupaten_kota": "Kota Singkawang",
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 21.9,
+      "underweight_pct": 22.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6003
+    },
+    {
+      "kabupaten_kota": "Kotawaringin Barat",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 16.5,
+      "underweight_pct": 11.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4421
+    },
+    {
+      "kabupaten_kota": "Kotawaringin Timur",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 21.6,
+      "underweight_pct": 20.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.428
+    },
+    {
+      "kabupaten_kota": "Kapuas",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 22.5,
+      "underweight_pct": 20.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4251
+    },
+    {
+      "kabupaten_kota": "Barito Selatan",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 33.3,
+      "underweight_pct": 25.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.3991
+    },
+    {
+      "kabupaten_kota": "Barito Utara",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 20.4,
+      "underweight_pct": 12.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4231
+    },
+    {
+      "kabupaten_kota": "Sukamara",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 20.0,
+      "underweight_pct": 18.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3889
+    },
+    {
+      "kabupaten_kota": "Lamandau",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 18.3,
+      "underweight_pct": 15.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4225
+    },
+    {
+      "kabupaten_kota": "Seruyan",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 32.2,
+      "underweight_pct": 25.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3914
+    },
+    {
+      "kabupaten_kota": "Katingan",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 19.6,
+      "underweight_pct": 21.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4459
+    },
+    {
+      "kabupaten_kota": "Pulang Pisau",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 27.9,
+      "underweight_pct": 24.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4056
+    },
+    {
+      "kabupaten_kota": "Gunung Mas",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 14.1,
+      "underweight_pct": 14.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4236
+    },
+    {
+      "kabupaten_kota": "Barito Timur",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 21.7,
+      "underweight_pct": 21.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.428
+    },
+    {
+      "kabupaten_kota": "Murung Raya",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 15.8,
+      "underweight_pct": 13.0,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4592
+    },
+    {
+      "kabupaten_kota": "Kota Palangka Raya",
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 19.1,
+      "underweight_pct": 20.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.428
+    },
+    {
+      "kabupaten_kota": "Tanah Laut",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 22.5,
+      "underweight_pct": 24.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8695
+    },
+    {
+      "kabupaten_kota": "Kotabaru",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 23.2,
+      "underweight_pct": 20.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7985
+    },
+    {
+      "kabupaten_kota": "Banjar",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 32.3,
+      "underweight_pct": 28.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5603
+    },
+    {
+      "kabupaten_kota": "Barito Kuala",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 16.5,
+      "underweight_pct": 18.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7321
+    },
+    {
+      "kabupaten_kota": "Tapin",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 13.2,
+      "underweight_pct": 16.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5435
+    },
+    {
+      "kabupaten_kota": "Hulu Sungai Selatan",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 19.8,
+      "underweight_pct": 19.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7282
+    },
+    {
+      "kabupaten_kota": "Hulu Sungai Tengah",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 19.6,
+      "underweight_pct": 17.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5435
+    },
+    {
+      "kabupaten_kota": "Hulu Sungai Utara",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 27.6,
+      "underweight_pct": 30.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7506
+    },
+    {
+      "kabupaten_kota": "Tabalong",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 23.1,
+      "underweight_pct": 19.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7282
+    },
+    {
+      "kabupaten_kota": "Tanah Bumbu",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 21.6,
+      "underweight_pct": 17.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5764
+    },
+    {
+      "kabupaten_kota": "Balangan",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 16.0,
+      "underweight_pct": 16.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.5112
+    },
+    {
+      "kabupaten_kota": "Kota Banjarmasin",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 26.5,
+      "underweight_pct": 25.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.9087
+    },
+    {
+      "kabupaten_kota": "Kota Banjarbaru",
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 15.4,
+      "underweight_pct": 17.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5764
+    },
+    {
+      "kabupaten_kota": "Paser",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 23.4,
+      "underweight_pct": 22.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8255
+    },
+    {
+      "kabupaten_kota": "Kutai Barat",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 27.6,
+      "underweight_pct": 20.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5985
+    },
+    {
+      "kabupaten_kota": "Kutai Kartanegara",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 14.3,
+      "underweight_pct": 12.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4048
+    },
+    {
+      "kabupaten_kota": "Kutai Timur",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 26.9,
+      "underweight_pct": 17.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6356
+    },
+    {
+      "kabupaten_kota": "Berau",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 23.4,
+      "underweight_pct": 20.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6008
+    },
+    {
+      "kabupaten_kota": "Penajam Paser Utara",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 32.0,
+      "underweight_pct": 25.7,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6085
+    },
+    {
+      "kabupaten_kota": "Mahakam Ulu",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 23.2,
+      "underweight_pct": 13.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6219
+    },
+    {
+      "kabupaten_kota": "Kota Balikpapan",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 24.8,
+      "underweight_pct": 21.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7828
+    },
+    {
+      "kabupaten_kota": "Kota Samarinda",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 20.3,
+      "underweight_pct": 17.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4816
+    },
+    {
+      "kabupaten_kota": "Kota Bontang",
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 20.7,
+      "underweight_pct": 18.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6977
+    },
+    {
+      "kabupaten_kota": "Malinau",
+      "provinsi": "Kalimantan Utara",
+      "stunting_pct": 26.0,
+      "underweight_pct": 22.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4533
+    },
+    {
+      "kabupaten_kota": "Bulungan",
+      "provinsi": "Kalimantan Utara",
+      "stunting_pct": 15.9,
+      "underweight_pct": 13.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4209
+    },
+    {
+      "kabupaten_kota": "Tana Tidung",
+      "provinsi": "Kalimantan Utara",
+      "stunting_pct": 7.4,
+      "underweight_pct": 12.3,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.3921
+    },
+    {
+      "kabupaten_kota": "Nunukan",
+      "provinsi": "Kalimantan Utara",
+      "stunting_pct": 21.7,
+      "underweight_pct": 17.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3829
+    },
+    {
+      "kabupaten_kota": "Kota Tarakan",
+      "provinsi": "Kalimantan Utara",
+      "stunting_pct": 12.6,
+      "underweight_pct": 20.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4313
+    },
+    {
+      "kabupaten_kota": "Bolaang Mongondow",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 19.3,
+      "underweight_pct": 19.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4677
+    },
+    {
+      "kabupaten_kota": "Minahasa",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 19.4,
+      "underweight_pct": 8.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9007
+    },
+    {
+      "kabupaten_kota": "Kepulauan Sangihe",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 24.2,
+      "underweight_pct": 19.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4677
+    },
+    {
+      "kabupaten_kota": "Kepulauan Talaud",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 11.6,
+      "underweight_pct": 8.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9007
+    },
+    {
+      "kabupaten_kota": "Minahasa Selatan",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 28.1,
+      "underweight_pct": 14.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8612
+    },
+    {
+      "kabupaten_kota": "Minahasa Utara",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 18.9,
+      "underweight_pct": 13.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8421
+    },
+    {
+      "kabupaten_kota": "Bolaang Mongondow Utara",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 26.3,
+      "underweight_pct": 31.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8786
+    },
+    {
+      "kabupaten_kota": "Siau Tagulandang Biaro",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 19.9,
+      "underweight_pct": 16.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7979
+    },
+    {
+      "kabupaten_kota": "Minahasa Tenggara",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 21.9,
+      "underweight_pct": 16.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7979
+    },
+    {
+      "kabupaten_kota": "Bolaang Mongondow Selatan",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 23.6,
+      "underweight_pct": 22.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7857
+    },
+    {
+      "kabupaten_kota": "Bolaang Mongondow Timur",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 18.8,
+      "underweight_pct": 18.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.3993
+    },
+    {
+      "kabupaten_kota": "Kota Manado",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 18.8,
+      "underweight_pct": 14.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8616
+    },
+    {
+      "kabupaten_kota": "Kota Bitung",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 25.1,
+      "underweight_pct": 17.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.814
+    },
+    {
+      "kabupaten_kota": "Kota Tomohon",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 10.8,
+      "underweight_pct": 5.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Rendah",
+      "probabilitas_model": 0.9233
+    },
+    {
+      "kabupaten_kota": "Kota Kotamobagu",
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 23.1,
+      "underweight_pct": 16.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7979
+    },
+    {
+      "kabupaten_kota": "Banggai Kepulauan",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 28.4,
+      "underweight_pct": 27.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5808
+    },
+    {
+      "kabupaten_kota": "Banggai",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 28.7,
+      "underweight_pct": 21.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5769
+    },
+    {
+      "kabupaten_kota": "Morowali",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 22.6,
+      "underweight_pct": 18.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.527
+    },
+    {
+      "kabupaten_kota": "Poso",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 21.1,
+      "underweight_pct": 17.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.455
+    },
+    {
+      "kabupaten_kota": "Donggala",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 29.6,
+      "underweight_pct": 28.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5808
+    },
+    {
+      "kabupaten_kota": "Toli-Toli",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 26.9,
+      "underweight_pct": 24.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5002
+    },
+    {
+      "kabupaten_kota": "Buol",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 36.9,
+      "underweight_pct": 30.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5808
+    },
+    {
+      "kabupaten_kota": "Parigi Moutong",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 22.3,
+      "underweight_pct": 22.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5803
+    },
+    {
+      "kabupaten_kota": "Tojo Una-Una",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 16.5,
+      "underweight_pct": 27.3,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5808
+    },
+    {
+      "kabupaten_kota": "Sigi",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 33.0,
+      "underweight_pct": 30.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5808
+    },
+    {
+      "kabupaten_kota": "Banggai Laut",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 26.6,
+      "underweight_pct": 28.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5808
+    },
+    {
+      "kabupaten_kota": "Morowali Utara",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 20.4,
+      "underweight_pct": 21.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5979
+    },
+    {
+      "kabupaten_kota": "Kota Palu",
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 25.6,
+      "underweight_pct": 23.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5848
+    },
+    {
+      "kabupaten_kota": "Kepulauan Selayar",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 25.7,
+      "underweight_pct": 23.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4746
+    },
+    {
+      "kabupaten_kota": "Bulukumba",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 25.2,
+      "underweight_pct": 22.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.477
+    },
+    {
+      "kabupaten_kota": "Bantaeng",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 24.3,
+      "underweight_pct": 23.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4746
+    },
+    {
+      "kabupaten_kota": "Jeneponto",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 37.0,
+      "underweight_pct": 26.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4753
+    },
+    {
+      "kabupaten_kota": "Takalar",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 24.0,
+      "underweight_pct": 22.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.477
+    },
+    {
+      "kabupaten_kota": "Gowa",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 17.0,
+      "underweight_pct": 14.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4153
+    },
+    {
+      "kabupaten_kota": "Sinjai",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 28.6,
+      "underweight_pct": 23.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.477
+    },
+    {
+      "kabupaten_kota": "Maros",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 22.4,
+      "underweight_pct": 21.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.471
+    },
+    {
+      "kabupaten_kota": "Pangkajene Dan Kepulauan",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 25.2,
+      "underweight_pct": 24.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.455
+    },
+    {
+      "kabupaten_kota": "Barru",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 26.9,
+      "underweight_pct": 25.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4226
+    },
+    {
+      "kabupaten_kota": "Bone",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 26.0,
+      "underweight_pct": 23.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.477
+    },
+    {
+      "kabupaten_kota": "Soppeng",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 26.6,
+      "underweight_pct": 22.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.477
+    },
+    {
+      "kabupaten_kota": "Wajo",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 20.5,
+      "underweight_pct": 25.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4226
+    },
+    {
+      "kabupaten_kota": "Sidenreng Rappang",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 20.3,
+      "underweight_pct": 15.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.376
+    },
+    {
+      "kabupaten_kota": "Pinrang",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 22.2,
+      "underweight_pct": 21.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4818
+    },
+    {
+      "kabupaten_kota": "Enrekang",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 34.3,
+      "underweight_pct": 17.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.3989
+    },
+    {
+      "kabupaten_kota": "Luwu",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 23.6,
+      "underweight_pct": 20.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4561
+    },
+    {
+      "kabupaten_kota": "Tana Toraja",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 27.5,
+      "underweight_pct": 11.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4313
+    },
+    {
+      "kabupaten_kota": "Luwu Utara",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 23.6,
+      "underweight_pct": 21.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4818
+    },
+    {
+      "kabupaten_kota": "Luwu Timur",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 21.8,
+      "underweight_pct": 19.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4338
+    },
+    {
+      "kabupaten_kota": "Toraja Utara",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 27.6,
+      "underweight_pct": 14.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4059
+    },
+    {
+      "kabupaten_kota": "Kota Makassar",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 22.9,
+      "underweight_pct": 18.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4195
+    },
+    {
+      "kabupaten_kota": "Kota Parepare",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 26.1,
+      "underweight_pct": 26.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.4753
+    },
+    {
+      "kabupaten_kota": "Kota Palopo",
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 22.7,
+      "underweight_pct": 22.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.477
+    },
+    {
+      "kabupaten_kota": "Buton",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 28.8,
+      "underweight_pct": 29.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8909
+    },
+    {
+      "kabupaten_kota": "Muna",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 25.0,
+      "underweight_pct": 22.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8003
+    },
+    {
+      "kabupaten_kota": "Konawe",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 25.0,
+      "underweight_pct": 21.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6112
+    },
+    {
+      "kabupaten_kota": "Kolaka",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 29.7,
+      "underweight_pct": 23.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8003
+    },
+    {
+      "kabupaten_kota": "Konawe Selatan",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 21.3,
+      "underweight_pct": 21.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5228
+    },
+    {
+      "kabupaten_kota": "Bombana",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 24.7,
+      "underweight_pct": 25.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6752
+    },
+    {
+      "kabupaten_kota": "Wakatobi",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 24.1,
+      "underweight_pct": 26.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.895
+    },
+    {
+      "kabupaten_kota": "Kolaka Utara",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 23.6,
+      "underweight_pct": 20.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.451
+    },
+    {
+      "kabupaten_kota": "Buton Utara",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 30.5,
+      "underweight_pct": 29.9,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8752
+    },
+    {
+      "kabupaten_kota": "Konawe Utara",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 27.0,
+      "underweight_pct": 19.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6416
+    },
+    {
+      "kabupaten_kota": "Kolaka Timur",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 22.0,
+      "underweight_pct": 19.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6416
+    },
+    {
+      "kabupaten_kota": "Konawe Kepulauan",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 26.5,
+      "underweight_pct": 20.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.4634
+    },
+    {
+      "kabupaten_kota": "Muna Barat",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 28.4,
+      "underweight_pct": 24.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5586
+    },
+    {
+      "kabupaten_kota": "Buton Tengah",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 31.8,
+      "underweight_pct": 32.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8813
+    },
+    {
+      "kabupaten_kota": "Buton Selatan",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 38.9,
+      "underweight_pct": 32.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8813
+    },
+    {
+      "kabupaten_kota": "Kota Kendari",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 24.4,
+      "underweight_pct": 20.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.6142
+    },
+    {
+      "kabupaten_kota": "Kota Baubau",
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 29.8,
+      "underweight_pct": 28.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8909
+    },
+    {
+      "kabupaten_kota": "Boalemo",
+      "provinsi": "Gorontalo",
+      "stunting_pct": 8.0,
+      "underweight_pct": 17.8,
+      "kategori_prevalensi_stunting": "Rendah",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.738
+    },
+    {
+      "kabupaten_kota": "Gorontalo",
+      "provinsi": "Gorontalo",
+      "stunting_pct": 28.3,
+      "underweight_pct": 25.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6701
+    },
+    {
+      "kabupaten_kota": "Pohuwato",
+      "provinsi": "Gorontalo",
+      "stunting_pct": 18.0,
+      "underweight_pct": 18.2,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7356
+    },
+    {
+      "kabupaten_kota": "Bone Bolango",
+      "provinsi": "Gorontalo",
+      "stunting_pct": 23.0,
+      "underweight_pct": 22.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.8984
+    },
+    {
+      "kabupaten_kota": "Gorontalo Utara",
+      "provinsi": "Gorontalo",
+      "stunting_pct": 25.6,
+      "underweight_pct": 27.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7209
+    },
+    {
+      "kabupaten_kota": "Kota Gorontalo",
+      "provinsi": "Gorontalo",
+      "stunting_pct": 31.2,
+      "underweight_pct": 27.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7308
+    },
+    {
+      "kabupaten_kota": "Majene",
+      "provinsi": "Sulawesi Barat",
+      "stunting_pct": 37.5,
+      "underweight_pct": 26.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7843
+    },
+    {
+      "kabupaten_kota": "Polewali Mandar",
+      "provinsi": "Sulawesi Barat",
+      "stunting_pct": 31.5,
+      "underweight_pct": 26.5,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7835
+    },
+    {
+      "kabupaten_kota": "Mamasa",
+      "provinsi": "Sulawesi Barat",
+      "stunting_pct": 35.7,
+      "underweight_pct": 13.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.7241
+    },
+    {
+      "kabupaten_kota": "Mamuju",
+      "provinsi": "Sulawesi Barat",
+      "stunting_pct": 38.7,
+      "underweight_pct": 27.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8852
+    },
+    {
+      "kabupaten_kota": "Pasangkayu",
+      "provinsi": "Sulawesi Barat",
+      "stunting_pct": 36.7,
+      "underweight_pct": 31.7,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9132
+    },
+    {
+      "kabupaten_kota": "Mamuju Tengah",
+      "provinsi": "Sulawesi Barat",
+      "stunting_pct": 31.5,
+      "underweight_pct": 22.3,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7787
+    },
+    {
+      "kabupaten_kota": "Kep.Tanimbar",
+      "provinsi": "Maluku",
+      "stunting_pct": 29.5,
+      "underweight_pct": 39.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5982
+    },
+    {
+      "kabupaten_kota": "Maluku Tenggara",
+      "provinsi": "Maluku",
+      "stunting_pct": 28.1,
+      "underweight_pct": 24.6,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4844
+    },
+    {
+      "kabupaten_kota": "Maluku Tengah",
+      "provinsi": "Maluku",
+      "stunting_pct": 27.0,
+      "underweight_pct": 24.0,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4877
+    },
+    {
+      "kabupaten_kota": "Buru",
+      "provinsi": "Maluku",
+      "stunting_pct": 25.4,
+      "underweight_pct": 26.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5817
+    },
+    {
+      "kabupaten_kota": "Kepulauan Aru",
+      "provinsi": "Maluku",
+      "stunting_pct": 37.6,
+      "underweight_pct": 40.5,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5982
+    },
+    {
+      "kabupaten_kota": "Seram Bagian Barat",
+      "provinsi": "Maluku",
+      "stunting_pct": 33.8,
+      "underweight_pct": 28.9,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5944
+    },
+    {
+      "kabupaten_kota": "Seram Bagian Timur",
+      "provinsi": "Maluku",
+      "stunting_pct": 35.0,
+      "underweight_pct": 29.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5944
+    },
+    {
+      "kabupaten_kota": "Maluku Barat Daya",
+      "provinsi": "Maluku",
+      "stunting_pct": 23.8,
+      "underweight_pct": 30.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5944
+    },
+    {
+      "kabupaten_kota": "Buru Selatan",
+      "provinsi": "Maluku",
+      "stunting_pct": 39.7,
+      "underweight_pct": 31.8,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.5944
+    },
+    {
+      "kabupaten_kota": "Kota Ambon",
+      "provinsi": "Maluku",
+      "stunting_pct": 19.7,
+      "underweight_pct": 23.6,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5749
+    },
+    {
+      "kabupaten_kota": "Kota Tual",
+      "provinsi": "Maluku",
+      "stunting_pct": 25.2,
+      "underweight_pct": 22.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5749
+    },
+    {
+      "kabupaten_kota": "Halmahera Barat",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 22.1,
+      "underweight_pct": 24.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6495
+    },
+    {
+      "kabupaten_kota": "Halmahera Tengah",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 19.7,
+      "underweight_pct": 17.9,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.3674
+    },
+    {
+      "kabupaten_kota": "Kepulauan Sula",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 22.5,
+      "underweight_pct": 23.1,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4765
+    },
+    {
+      "kabupaten_kota": "Halmahera Selatan",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 32.3,
+      "underweight_pct": 32.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8892
+    },
+    {
+      "kabupaten_kota": "Halmahera Utara",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 21.8,
+      "underweight_pct": 24.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6248
+    },
+    {
+      "kabupaten_kota": "Halmahera Timur",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 24.3,
+      "underweight_pct": 24.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6069
+    },
+    {
+      "kabupaten_kota": "Pulau Morotai",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 17.7,
+      "underweight_pct": 18.4,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4258
+    },
+    {
+      "kabupaten_kota": "Pulau Taliabu",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 24.9,
+      "underweight_pct": 25.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8278
+    },
+    {
+      "kabupaten_kota": "Kota Ternate",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 16.6,
+      "underweight_pct": 18.8,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4497
+    },
+    {
+      "kabupaten_kota": "Tidore Kepulauan",
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 16.6,
+      "underweight_pct": 17.7,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.3824
+    },
+    {
+      "kabupaten_kota": "Fakfak",
+      "provinsi": "Papua Barat",
+      "stunting_pct": 21.0,
+      "underweight_pct": 21.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.667
+    },
+    {
+      "kabupaten_kota": "Kaimana",
+      "provinsi": "Papua Barat",
+      "stunting_pct": 20.2,
+      "underweight_pct": 18.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6022
+    },
+    {
+      "kabupaten_kota": "Teluk Wondama",
+      "provinsi": "Papua Barat",
+      "stunting_pct": 29.2,
+      "underweight_pct": 29.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6671
+    },
+    {
+      "kabupaten_kota": "Teluk Bintuni",
+      "provinsi": "Papua Barat",
+      "stunting_pct": 22.3,
+      "underweight_pct": 21.9,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6765
+    },
+    {
+      "kabupaten_kota": "Manokwari",
+      "provinsi": "Papua Barat",
+      "stunting_pct": 23.5,
+      "underweight_pct": 21.4,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.667
+    },
+    {
+      "kabupaten_kota": "Manokwari Selatan",
+      "provinsi": "Papua Barat",
+      "stunting_pct": 26.4,
+      "underweight_pct": 26.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6559
+    },
+    {
+      "kabupaten_kota": "Pegunungan Arfak",
+      "provinsi": "Papua Barat",
+      "stunting_pct": 39.3,
+      "underweight_pct": 28.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6559
+    },
+    {
+      "kabupaten_kota": "Raja Ampat",
+      "provinsi": "Papua Barat Daya",
+      "stunting_pct": 37.4,
+      "underweight_pct": 33.7,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.507
+    },
+    {
+      "kabupaten_kota": "Sorong",
+      "provinsi": "Papua Barat Daya",
+      "stunting_pct": 25.1,
+      "underweight_pct": 23.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4269
+    },
+    {
+      "kabupaten_kota": "Sorong Selatan",
+      "provinsi": "Papua Barat Daya",
+      "stunting_pct": 31.3,
+      "underweight_pct": 30.3,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.507
+    },
+    {
+      "kabupaten_kota": "Maybrat",
+      "provinsi": "Papua Barat Daya",
+      "stunting_pct": 30.7,
+      "underweight_pct": 24.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.407
+    },
+    {
+      "kabupaten_kota": "Tambrauw",
+      "provinsi": "Papua Barat Daya",
+      "stunting_pct": 37.9,
+      "underweight_pct": 26.5,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.475
+    },
+    {
+      "kabupaten_kota": "Kota Sorong",
+      "provinsi": "Papua Barat Daya",
+      "stunting_pct": 29.3,
+      "underweight_pct": 30.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.507
+    },
+    {
+      "kabupaten_kota": "Jayapura",
+      "provinsi": "Papua",
+      "stunting_pct": 22.5,
+      "underweight_pct": 18.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4371
+    },
+    {
+      "kabupaten_kota": "Kepulauan Yapen",
+      "provinsi": "Papua",
+      "stunting_pct": 33.5,
+      "underweight_pct": 29.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.7027
+    },
+    {
+      "kabupaten_kota": "Biak Numfor",
+      "provinsi": "Papua",
+      "stunting_pct": 20.6,
+      "underweight_pct": 19.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7099
+    },
+    {
+      "kabupaten_kota": "Sarmi",
+      "provinsi": "Papua",
+      "stunting_pct": 31.6,
+      "underweight_pct": 20.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7044
+    },
+    {
+      "kabupaten_kota": "Keerom",
+      "provinsi": "Papua",
+      "stunting_pct": 24.4,
+      "underweight_pct": 18.7,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7053
+    },
+    {
+      "kabupaten_kota": "Waropen",
+      "provinsi": "Papua",
+      "stunting_pct": 22.3,
+      "underweight_pct": 24.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.6344
+    },
+    {
+      "kabupaten_kota": "Supiori",
+      "provinsi": "Papua",
+      "stunting_pct": 37.5,
+      "underweight_pct": 27.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6952
+    },
+    {
+      "kabupaten_kota": "Mamberamo Raya",
+      "provinsi": "Papua",
+      "stunting_pct": 33.8,
+      "underweight_pct": 25.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5801
+    },
+    {
+      "kabupaten_kota": "Kota Jayapura",
+      "provinsi": "Papua",
+      "stunting_pct": 24.1,
+      "underweight_pct": 17.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4415
+    },
+    {
+      "kabupaten_kota": "Merauke",
+      "provinsi": "Papua Selatan",
+      "stunting_pct": 18.5,
+      "underweight_pct": 16.1,
+      "kategori_prevalensi_stunting": "Sedang",
+      "prediksi_model": "Sedang",
+      "probabilitas_model": 0.8571
+    },
+    {
+      "kabupaten_kota": "Boven Digoel",
+      "provinsi": "Papua Selatan",
+      "stunting_pct": 30.2,
+      "underweight_pct": 22.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7756
+    },
+    {
+      "kabupaten_kota": "Mappi",
+      "provinsi": "Papua Selatan",
+      "stunting_pct": 29.9,
+      "underweight_pct": 22.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.7756
+    },
+    {
+      "kabupaten_kota": "Asmat",
+      "provinsi": "Papua Selatan",
+      "stunting_pct": 28.3,
+      "underweight_pct": 24.5,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6707
+    },
+    {
+      "kabupaten_kota": "Mimika",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 28.4,
+      "underweight_pct": 19.2,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6068
+    },
+    {
+      "kabupaten_kota": "Dogiyai",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 55.8,
+      "underweight_pct": 35.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9636
+    },
+    {
+      "kabupaten_kota": "Deiyai",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 30.6,
+      "underweight_pct": 26.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9087
+    },
+    {
+      "kabupaten_kota": "Nabire",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 21.7,
+      "underweight_pct": 19.3,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6068
+    },
+    {
+      "kabupaten_kota": "Paniai",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 29.6,
+      "underweight_pct": 25.8,
+      "kategori_prevalensi_stunting": "Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.8748
+    },
+    {
+      "kabupaten_kota": "Intan Jaya",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 48.4,
+      "underweight_pct": 42.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9636
+    },
+    {
+      "kabupaten_kota": "Puncak",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 42.5,
+      "underweight_pct": 27.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9693
+    },
+    {
+      "kabupaten_kota": "Puncak Jaya",
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 36.3,
+      "underweight_pct": 27.1,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.9693
+    },
+    {
+      "kabupaten_kota": "Nduga",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 36.0,
+      "underweight_pct": 28.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6391
+    },
+    {
+      "kabupaten_kota": "Jayawijaya",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 41.3,
+      "underweight_pct": 20.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4998
+    },
+    {
+      "kabupaten_kota": "Lanny jaya",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 35.4,
+      "underweight_pct": 21.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.5091
+    },
+    {
+      "kabupaten_kota": "Tolikara",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 46.4,
+      "underweight_pct": 26.5,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Sangat Tinggi",
+      "probabilitas_model": 0.6272
+    },
+    {
+      "kabupaten_kota": "Mamberamo Tengah",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 42.0,
+      "underweight_pct": 18.4,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4689
+    },
+    {
+      "kabupaten_kota": "Yalimo",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 35.1,
+      "underweight_pct": 24.6,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4221
+    },
+    {
+      "kabupaten_kota": "Yahukimo",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 37.7,
+      "underweight_pct": 20.2,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4998
+    },
+    {
+      "kabupaten_kota": "Pegunungan Bintang",
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 41.4,
+      "underweight_pct": 20.0,
+      "kategori_prevalensi_stunting": "Sangat Tinggi",
+      "prediksi_model": "Tinggi",
+      "probabilitas_model": 0.4779
+    }
+  ],
+  "rata_provinsi": [
+    {
+      "provinsi": "Papua Pegunungan",
+      "stunting_pct": 39.4,
+      "rata_kabkota_stunting_pct": 39.4
+    },
+    {
+      "provinsi": "Papua Tengah",
+      "stunting_pct": 36.7,
+      "rata_kabkota_stunting_pct": 36.7
+    },
+    {
+      "provinsi": "Nusa Tenggara Timur",
+      "stunting_pct": 35.6,
+      "rata_kabkota_stunting_pct": 35.6
+    },
+    {
+      "provinsi": "Sulawesi Barat",
+      "stunting_pct": 35.3,
+      "rata_kabkota_stunting_pct": 35.3
+    },
+    {
+      "provinsi": "Papua Barat Daya",
+      "stunting_pct": 32.0,
+      "rata_kabkota_stunting_pct": 32.0
+    },
+    {
+      "provinsi": "Maluku",
+      "stunting_pct": 29.5,
+      "rata_kabkota_stunting_pct": 29.5
+    },
+    {
+      "provinsi": "Aceh",
+      "stunting_pct": 28.5,
+      "rata_kabkota_stunting_pct": 28.5
+    },
+    {
+      "provinsi": "Papua",
+      "stunting_pct": 27.8,
+      "rata_kabkota_stunting_pct": 27.8
+    },
+    {
+      "provinsi": "Sulawesi Tenggara",
+      "stunting_pct": 27.1,
+      "rata_kabkota_stunting_pct": 27.1
+    },
+    {
+      "provinsi": "Papua Selatan",
+      "stunting_pct": 26.7,
+      "rata_kabkota_stunting_pct": 26.7
+    },
+    {
+      "provinsi": "Nusa Tenggara Barat",
+      "stunting_pct": 26.4,
+      "rata_kabkota_stunting_pct": 26.4
+    },
+    {
+      "provinsi": "Papua Barat",
+      "stunting_pct": 26.0,
+      "rata_kabkota_stunting_pct": 26.0
+    },
+    {
+      "provinsi": "Sulawesi Tengah",
+      "stunting_pct": 26.0,
+      "rata_kabkota_stunting_pct": 26.0
+    },
+    {
+      "provinsi": "Kalimantan Barat",
+      "stunting_pct": 25.6,
+      "rata_kabkota_stunting_pct": 25.6
+    },
+    {
+      "provinsi": "Sulawesi Selatan",
+      "stunting_pct": 25.1,
+      "rata_kabkota_stunting_pct": 25.1
+    },
+    {
+      "provinsi": "Kalimantan Timur",
+      "stunting_pct": 23.7,
+      "rata_kabkota_stunting_pct": 23.7
+    },
+    {
+      "provinsi": "Sumatera Barat",
+      "stunting_pct": 23.3,
+      "rata_kabkota_stunting_pct": 23.3
+    },
+    {
+      "provinsi": "Sumatera Utara",
+      "stunting_pct": 22.6,
+      "rata_kabkota_stunting_pct": 22.6
+    },
+    {
+      "provinsi": "Gorontalo",
+      "stunting_pct": 22.3,
+      "rata_kabkota_stunting_pct": 22.3
+    },
+    {
+      "provinsi": "Maluku Utara",
+      "stunting_pct": 21.8,
+      "rata_kabkota_stunting_pct": 21.8
+    },
+    {
+      "provinsi": "Kalimantan Tengah",
+      "stunting_pct": 21.6,
+      "rata_kabkota_stunting_pct": 21.6
+    },
+    {
+      "provinsi": "Kalimantan Selatan",
+      "stunting_pct": 21.3,
+      "rata_kabkota_stunting_pct": 21.3
+    },
+    {
+      "provinsi": "Banten",
+      "stunting_pct": 20.8,
+      "rata_kabkota_stunting_pct": 20.8
+    },
+    {
+      "provinsi": "Sulawesi Utara",
+      "stunting_pct": 20.7,
+      "rata_kabkota_stunting_pct": 20.7
+    },
+    {
+      "provinsi": "Bengkulu",
+      "stunting_pct": 20.3,
+      "rata_kabkota_stunting_pct": 20.3
+    },
+    {
+      "provinsi": "Bangka Belitung",
+      "stunting_pct": 19.9,
+      "rata_kabkota_stunting_pct": 19.9
+    },
+    {
+      "provinsi": "Sumatera Selatan",
+      "stunting_pct": 19.4,
+      "rata_kabkota_stunting_pct": 19.4
+    },
+    {
+      "provinsi": "Riau",
+      "stunting_pct": 18.8,
+      "rata_kabkota_stunting_pct": 18.8
+    },
+    {
+      "provinsi": "Jawa Tengah",
+      "stunting_pct": 18.2,
+      "rata_kabkota_stunting_pct": 18.2
+    },
+    {
+      "provinsi": "Jawa Barat",
+      "stunting_pct": 17.8,
+      "rata_kabkota_stunting_pct": 17.8
+    },
+    {
+      "provinsi": "DKI Jakarta",
+      "stunting_pct": 17.6,
+      "rata_kabkota_stunting_pct": 17.6
+    },
+    {
+      "provinsi": "DI Yogyakarta",
+      "stunting_pct": 17.3,
+      "rata_kabkota_stunting_pct": 17.3
+    },
+    {
+      "provinsi": "Kepulauan Riau",
+      "stunting_pct": 17.0,
+      "rata_kabkota_stunting_pct": 17.0
+    },
+    {
+      "provinsi": "Kalimantan Utara",
+      "stunting_pct": 16.7,
+      "rata_kabkota_stunting_pct": 16.7
+    },
+    {
+      "provinsi": "Lampung",
+      "stunting_pct": 16.4,
+      "rata_kabkota_stunting_pct": 16.4
+    },
+    {
+      "provinsi": "Jawa Timur",
+      "stunting_pct": 15.9,
+      "rata_kabkota_stunting_pct": 15.9
+    },
+    {
+      "provinsi": "Jambi",
+      "stunting_pct": 14.9,
+      "rata_kabkota_stunting_pct": 14.9
+    },
+    {
+      "provinsi": "Bali",
+      "stunting_pct": 8.8,
+      "rata_kabkota_stunting_pct": 8.8
+    }
+  ],
+  "peta_provinsi": {
+    "Aceh": {
+      "stunting_pct": 28.5,
+      "rata_kabkota_stunting_pct": 28.5,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Bali": {
+      "stunting_pct": 8.8,
+      "rata_kabkota_stunting_pct": 8.8,
+      "kategori": "Rendah",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Bangka Belitung": {
+      "stunting_pct": 19.9,
+      "rata_kabkota_stunting_pct": 19.9,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Banten": {
+      "stunting_pct": 20.8,
+      "rata_kabkota_stunting_pct": 20.8,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Bengkulu": {
+      "stunting_pct": 20.3,
+      "rata_kabkota_stunting_pct": 20.3,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "DI Yogyakarta": {
+      "stunting_pct": 17.3,
+      "rata_kabkota_stunting_pct": 17.3,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "DKI Jakarta": {
+      "stunting_pct": 17.6,
+      "rata_kabkota_stunting_pct": 17.6,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Gorontalo": {
+      "stunting_pct": 22.3,
+      "rata_kabkota_stunting_pct": 22.3,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Jambi": {
+      "stunting_pct": 14.9,
+      "rata_kabkota_stunting_pct": 14.9,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Jawa Barat": {
+      "stunting_pct": 17.8,
+      "rata_kabkota_stunting_pct": 17.8,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Jawa Tengah": {
+      "stunting_pct": 18.2,
+      "rata_kabkota_stunting_pct": 18.2,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Jawa Timur": {
+      "stunting_pct": 15.9,
+      "rata_kabkota_stunting_pct": 15.9,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Kalimantan Barat": {
+      "stunting_pct": 25.6,
+      "rata_kabkota_stunting_pct": 25.6,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Kalimantan Selatan": {
+      "stunting_pct": 21.3,
+      "rata_kabkota_stunting_pct": 21.3,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Kalimantan Tengah": {
+      "stunting_pct": 21.6,
+      "rata_kabkota_stunting_pct": 21.6,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Kalimantan Timur": {
+      "stunting_pct": 23.7,
+      "rata_kabkota_stunting_pct": 23.7,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Kalimantan Utara": {
+      "stunting_pct": 16.7,
+      "rata_kabkota_stunting_pct": 16.7,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Kepulauan Riau": {
+      "stunting_pct": 17.0,
+      "rata_kabkota_stunting_pct": 17.0,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Lampung": {
+      "stunting_pct": 16.4,
+      "rata_kabkota_stunting_pct": 16.4,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Maluku": {
+      "stunting_pct": 29.5,
+      "rata_kabkota_stunting_pct": 29.5,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Maluku Utara": {
+      "stunting_pct": 21.8,
+      "rata_kabkota_stunting_pct": 21.8,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Nusa Tenggara Barat": {
+      "stunting_pct": 26.4,
+      "rata_kabkota_stunting_pct": 26.4,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Nusa Tenggara Timur": {
+      "stunting_pct": 35.6,
+      "rata_kabkota_stunting_pct": 35.6,
+      "kategori": "Sangat Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Papua": {
+      "stunting_pct": 27.8,
+      "rata_kabkota_stunting_pct": 27.8,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Papua Barat": {
+      "stunting_pct": 26.0,
+      "rata_kabkota_stunting_pct": 26.0,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Papua Barat Daya": {
+      "stunting_pct": 32.0,
+      "rata_kabkota_stunting_pct": 32.0,
+      "kategori": "Sangat Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Papua Pegunungan": {
+      "stunting_pct": 39.4,
+      "rata_kabkota_stunting_pct": 39.4,
+      "kategori": "Sangat Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Papua Selatan": {
+      "stunting_pct": 26.7,
+      "rata_kabkota_stunting_pct": 26.7,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Papua Tengah": {
+      "stunting_pct": 36.7,
+      "rata_kabkota_stunting_pct": 36.7,
+      "kategori": "Sangat Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Riau": {
+      "stunting_pct": 18.8,
+      "rata_kabkota_stunting_pct": 18.8,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sulawesi Barat": {
+      "stunting_pct": 35.3,
+      "rata_kabkota_stunting_pct": 35.3,
+      "kategori": "Sangat Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sulawesi Selatan": {
+      "stunting_pct": 25.1,
+      "rata_kabkota_stunting_pct": 25.1,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sulawesi Tengah": {
+      "stunting_pct": 26.0,
+      "rata_kabkota_stunting_pct": 26.0,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sulawesi Tenggara": {
+      "stunting_pct": 27.1,
+      "rata_kabkota_stunting_pct": 27.1,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sulawesi Utara": {
+      "stunting_pct": 20.7,
+      "rata_kabkota_stunting_pct": 20.7,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sumatera Barat": {
+      "stunting_pct": 23.3,
+      "rata_kabkota_stunting_pct": 23.3,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sumatera Selatan": {
+      "stunting_pct": 19.4,
+      "rata_kabkota_stunting_pct": 19.4,
+      "kategori": "Sedang",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    },
+    "Sumatera Utara": {
+      "stunting_pct": 22.6,
+      "rata_kabkota_stunting_pct": 22.6,
+      "kategori": "Tinggi",
+      "keterangan": "Rata-rata aritmetika prevalensi kabupaten/kota dalam provinsi"
+    }
+  },
+  "indikator_provinsi": {
+    "Aceh": {
+      "akses_air_minum_layak_prov_pct": 90.8,
+      "akses_sanitasi_aman_prov_pct": 9.2,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 67.9
+    },
+    "Bali": {
+      "akses_air_minum_layak_prov_pct": 96.4,
+      "akses_sanitasi_aman_prov_pct": 11.8,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 67.0
+    },
+    "Bangka Belitung": {
+      "akses_air_minum_layak_prov_pct": 81.7,
+      "akses_sanitasi_aman_prov_pct": 4.4,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 51.6
+    },
+    "Banten": {
+      "akses_air_minum_layak_prov_pct": 96.3,
+      "akses_sanitasi_aman_prov_pct": 15.0,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 51.3
+    },
+    "Bengkulu": {
+      "akses_air_minum_layak_prov_pct": 89.8,
+      "akses_sanitasi_aman_prov_pct": 4.9,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 41.9
+    },
+    "DI Yogyakarta": {
+      "akses_air_minum_layak_prov_pct": 95.4,
+      "akses_sanitasi_aman_prov_pct": 20.4,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 73.7
+    },
+    "DKI Jakarta": {
+      "akses_air_minum_layak_prov_pct": 99.4,
+      "akses_sanitasi_aman_prov_pct": 19.0,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 57.3
+    },
+    "Gorontalo": {
+      "akses_air_minum_layak_prov_pct": 85.6,
+      "akses_sanitasi_aman_prov_pct": 1.4,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 48.3
+    },
+    "Jambi": {
+      "akses_air_minum_layak_prov_pct": 91.4,
+      "akses_sanitasi_aman_prov_pct": 5.7,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 35.1
+    },
+    "Jawa Barat": {
+      "akses_air_minum_layak_prov_pct": 93.2,
+      "akses_sanitasi_aman_prov_pct": 11.0,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 69.5
+    },
+    "Jawa Tengah": {
+      "akses_air_minum_layak_prov_pct": 93.9,
+      "akses_sanitasi_aman_prov_pct": 15.3,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 78.5
+    },
+    "Jawa Timur": {
+      "akses_air_minum_layak_prov_pct": 95.7,
+      "akses_sanitasi_aman_prov_pct": 10.9,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 74.5
+    },
+    "Kalimantan Barat": {
+      "akses_air_minum_layak_prov_pct": 83.4,
+      "akses_sanitasi_aman_prov_pct": 6.1,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 56.5
+    },
+    "Kalimantan Selatan": {
+      "akses_air_minum_layak_prov_pct": 84.0,
+      "akses_sanitasi_aman_prov_pct": 3.6,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 58.9
+    },
+    "Kalimantan Tengah": {
+      "akses_air_minum_layak_prov_pct": 80.5,
+      "akses_sanitasi_aman_prov_pct": 4.0,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 52.6
+    },
+    "Kalimantan Timur": {
+      "akses_air_minum_layak_prov_pct": 88.9,
+      "akses_sanitasi_aman_prov_pct": 8.0,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 67.2
+    },
+    "Kalimantan Utara": {
+      "akses_air_minum_layak_prov_pct": 85.8,
+      "akses_sanitasi_aman_prov_pct": 1.5,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 46.3
+    },
+    "Kepulauan Riau": {
+      "akses_air_minum_layak_prov_pct": 93.0,
+      "akses_sanitasi_aman_prov_pct": 8.4,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 55.6
+    },
+    "Lampung": {
+      "akses_air_minum_layak_prov_pct": 90.9,
+      "akses_sanitasi_aman_prov_pct": 3.4,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 55.7
+    },
+    "Maluku": {
+      "akses_air_minum_layak_prov_pct": 89.2,
+      "akses_sanitasi_aman_prov_pct": 1.7,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 62.4
+    },
+    "Maluku Utara": {
+      "akses_air_minum_layak_prov_pct": 76.5,
+      "akses_sanitasi_aman_prov_pct": 0.8,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 58.2
+    },
+    "Nusa Tenggara Barat": {
+      "akses_air_minum_layak_prov_pct": 94.3,
+      "akses_sanitasi_aman_prov_pct": 3.8,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 75.3
+    },
+    "Nusa Tenggara Timur": {
+      "akses_air_minum_layak_prov_pct": 72.6,
+      "akses_sanitasi_aman_prov_pct": 1.1,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 81.3
+    },
+    "Papua": {
+      "akses_air_minum_layak_prov_pct": 88.4,
+      "akses_sanitasi_aman_prov_pct": 5.7,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 49.8
+    },
+    "Papua Barat": {
+      "akses_air_minum_layak_prov_pct": 84.6,
+      "akses_sanitasi_aman_prov_pct": 4.4,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 44.7
+    },
+    "Papua Barat Daya": {
+      "akses_air_minum_layak_prov_pct": 67.4,
+      "akses_sanitasi_aman_prov_pct": 2.1,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 44.7
+    },
+    "Papua Pegunungan": {
+      "akses_air_minum_layak_prov_pct": null,
+      "akses_sanitasi_aman_prov_pct": null,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": null
+    },
+    "Papua Selatan": {
+      "akses_air_minum_layak_prov_pct": 67.2,
+      "akses_sanitasi_aman_prov_pct": 1.0,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 49.0
+    },
+    "Papua Tengah": {
+      "akses_air_minum_layak_prov_pct": null,
+      "akses_sanitasi_aman_prov_pct": null,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": null
+    },
+    "Riau": {
+      "akses_air_minum_layak_prov_pct": 92.4,
+      "akses_sanitasi_aman_prov_pct": 9.5,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 45.5
+    },
+    "Sulawesi Barat": {
+      "akses_air_minum_layak_prov_pct": 79.4,
+      "akses_sanitasi_aman_prov_pct": 1.3,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 70.8
+    },
+    "Sulawesi Selatan": {
+      "akses_air_minum_layak_prov_pct": 90.0,
+      "akses_sanitasi_aman_prov_pct": 4.4,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 56.9
+    },
+    "Sulawesi Tengah": {
+      "akses_air_minum_layak_prov_pct": 88.2,
+      "akses_sanitasi_aman_prov_pct": 3.5,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 57.5
+    },
+    "Sulawesi Tenggara": {
+      "akses_air_minum_layak_prov_pct": 81.5,
+      "akses_sanitasi_aman_prov_pct": 1.3,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 50.8
+    },
+    "Sulawesi Utara": {
+      "akses_air_minum_layak_prov_pct": 91.4,
+      "akses_sanitasi_aman_prov_pct": 8.6,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 49.7
+    },
+    "Sumatera Barat": {
+      "akses_air_minum_layak_prov_pct": 88.1,
+      "akses_sanitasi_aman_prov_pct": 6.3,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 62.5
+    },
+    "Sumatera Selatan": {
+      "akses_air_minum_layak_prov_pct": 91.2,
+      "akses_sanitasi_aman_prov_pct": 5.1,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 47.3
+    },
+    "Sumatera Utara": {
+      "akses_air_minum_layak_prov_pct": 90.6,
+      "akses_sanitasi_aman_prov_pct": 5.8,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 54.5
+    }
+  },
+  "ringkasan": {
+    "Rendah": 20,
+    "Sedang": 182,
+    "Tinggi": 220,
+    "Sangat Tinggi": 92
+  },
+  "kategori_standar": [
+    "Sangat Rendah",
+    "Rendah",
+    "Sedang",
+    "Tinggi",
+    "Sangat Tinggi"
+  ],
+  "kategori_operasional": [
+    "Rendah",
+    "Sedang",
+    "Tinggi",
+    "Sangat Tinggi"
+  ],
+  "total_kabkota": 514,
+  "total_provinsi": 38,
+  "prevalensi_nasional_resmi": 19.8,
+  "rata_kabkota": 22.7,
+  "model": {
+    "tahun_data": 2024,
+    "algoritma": "XGBoost Classifier",
+    "revisi_model": 2,
+    "unit_analisis": "target kategori prevalensi stunting pada kabupaten/kota; underweight berasal dari kabupaten/kota dan tiga fitur kontekstual berasal dari provinsi",
+    "unit_target": "kabupaten/kota",
+    "unit_fitur": {
+      "kabupaten_kota": [
+        "underweight_pct"
+      ],
+      "provinsi": [
+        "akses_air_minum_layak_prov_pct",
+        "akses_sanitasi_aman_prov_pct",
+        "pemantauan_pertumbuhan_sesuai_standar_prov_pct"
+      ]
+    },
+    "jumlah_data": 514,
+    "jumlah_provinsi": 38,
+    "fitur": [
+      "underweight_pct",
+      "akses_air_minum_layak_prov_pct",
+      "akses_sanitasi_aman_prov_pct",
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct"
+    ],
+    "kelas_model": [
+      "Rendah",
+      "Sedang",
+      "Tinggi",
+      "Sangat Tinggi"
+    ],
+    "kategori_standar": [
+      "Sangat Rendah",
+      "Rendah",
+      "Sedang",
+      "Tinggi",
+      "Sangat Tinggi"
+    ],
+    "kategori_operasional": [
+      "Rendah",
+      "Sedang",
+      "Tinggi",
+      "Sangat Tinggi"
+    ],
+    "evaluation_method": "Nested StratifiedGroupKFold 5 outer folds dengan tuning 4 inner folds",
+    "jumlah_evaluasi_oof": 514,
+    "preprocessing": {
+      "missing_value": "SimpleImputer median di dalam pipeline; fit hanya pada data training setiap fold",
+      "normalisasi": "Tidak digunakan karena XGBoost berbasis pohon",
+      "outer_evaluation": "StratifiedGroupKFold 5 fold berbasis provinsi",
+      "inner_tuning": "StratifiedGroupKFold 4 fold berbasis provinsi",
+      "class_imbalance": "sample_weight balanced dihitung pada data training",
+      "scoring_tuning": "F1 Macro"
+    },
+    "metrics": {
+      "accuracy": 0.636187,
+      "precision_macro": 0.593075,
+      "recall_macro": 0.658601,
+      "f1_macro": 0.617585,
+      "f1_weighted": 0.636088
+    },
+    "baseline_metrics": {
+      "accuracy": 0.428016,
+      "precision_macro": 0.107004,
+      "recall_macro": 0.25,
+      "f1_macro": 0.149864,
+      "f1_weighted": 0.256576
+    },
+    "fold_f1_macro": [
+      0.649213,
+      0.596342,
+      0.564274,
+      0.677056,
+      0.544928
+    ],
+    "fold_accuracy": [
+      0.6,
+      0.626263,
+      0.666667,
+      0.673267,
+      0.615385
+    ],
+    "fold_f1_macro_mean": 0.606363,
+    "fold_f1_macro_std": 0.04996,
+    "fold_results": [
+      {
+        "fold": 1,
+        "jumlah_data_uji": 105,
+        "jumlah_provinsi_uji": 7,
+        "provinsi_uji": [
+          "Aceh",
+          "Bengkulu",
+          "Jambi",
+          "Jawa Tengah",
+          "Maluku Utara",
+          "Papua",
+          "Papua Barat"
+        ],
+        "f1_macro": 0.649213470498611,
+        "accuracy": 0.6,
+        "inner_cv_best_f1_macro": 0.6262535795391947,
+        "best_params": {
+          "model__subsample": 0.8,
+          "model__reg_lambda": 1,
+          "model__reg_alpha": 0.01,
+          "model__n_estimators": 150,
+          "model__min_child_weight": 5,
+          "model__max_depth": 2,
+          "model__learning_rate": 0.03,
+          "model__gamma": 0.1,
+          "model__colsample_bytree": 0.8
+        }
+      },
+      {
+        "fold": 2,
+        "jumlah_data_uji": 99,
+        "jumlah_provinsi_uji": 7,
+        "provinsi_uji": [
+          "DI Yogyakarta",
+          "Jawa Timur",
+          "Kalimantan Barat",
+          "Maluku",
+          "Nusa Tenggara Barat",
+          "Papua Pegunungan",
+          "Sulawesi Tengah"
+        ],
+        "f1_macro": 0.5963419913419914,
+        "accuracy": 0.6262626262626263,
+        "inner_cv_best_f1_macro": 0.6616878448718944,
+        "best_params": {
+          "model__subsample": 0.8,
+          "model__reg_lambda": 10,
+          "model__reg_alpha": 0.5,
+          "model__n_estimators": 150,
+          "model__min_child_weight": 3,
+          "model__max_depth": 3,
+          "model__learning_rate": 0.015,
+          "model__gamma": 0,
+          "model__colsample_bytree": 0.9
+        }
+      },
+      {
+        "fold": 3,
+        "jumlah_data_uji": 105,
+        "jumlah_provinsi_uji": 7,
+        "provinsi_uji": [
+          "Banten",
+          "Kalimantan Tengah",
+          "Kalimantan Utara",
+          "Lampung",
+          "Papua Barat Daya",
+          "Sulawesi Selatan",
+          "Sumatera Utara"
+        ],
+        "f1_macro": 0.5642738126475991,
+        "accuracy": 0.6666666666666666,
+        "inner_cv_best_f1_macro": 0.6502235415388307,
+        "best_params": {
+          "model__subsample": 0.8,
+          "model__reg_lambda": 2,
+          "model__reg_alpha": 0.05,
+          "model__n_estimators": 100,
+          "model__min_child_weight": 8,
+          "model__max_depth": 2,
+          "model__learning_rate": 0.015,
+          "model__gamma": 0.1,
+          "model__colsample_bytree": 0.8
+        }
+      },
+      {
+        "fold": 4,
+        "jumlah_data_uji": 101,
+        "jumlah_provinsi_uji": 7,
+        "provinsi_uji": [
+          "Bali",
+          "DKI Jakarta",
+          "Kalimantan Selatan",
+          "Nusa Tenggara Timur",
+          "Sulawesi Utara",
+          "Sumatera Barat",
+          "Sumatera Selatan"
+        ],
+        "f1_macro": 0.6770560835513316,
+        "accuracy": 0.6732673267326733,
+        "inner_cv_best_f1_macro": 0.6148593913521487,
+        "best_params": {
+          "model__subsample": 1.0,
+          "model__reg_lambda": 1,
+          "model__reg_alpha": 0.5,
+          "model__n_estimators": 100,
+          "model__min_child_weight": 5,
+          "model__max_depth": 3,
+          "model__learning_rate": 0.1,
+          "model__gamma": 0.05,
+          "model__colsample_bytree": 0.8
+        }
+      },
+      {
+        "fold": 5,
+        "jumlah_data_uji": 104,
+        "jumlah_provinsi_uji": 10,
+        "provinsi_uji": [
+          "Bangka Belitung",
+          "Gorontalo",
+          "Jawa Barat",
+          "Kalimantan Timur",
+          "Kepulauan Riau",
+          "Papua Selatan",
+          "Papua Tengah",
+          "Riau",
+          "Sulawesi Barat",
+          "Sulawesi Tenggara"
+        ],
+        "f1_macro": 0.5449278316272609,
+        "accuracy": 0.6153846153846154,
+        "inner_cv_best_f1_macro": 0.63695128378167,
+        "best_params": {
+          "model__subsample": 1.0,
+          "model__reg_lambda": 1,
+          "model__reg_alpha": 0.05,
+          "model__n_estimators": 400,
+          "model__min_child_weight": 8,
+          "model__max_depth": 4,
+          "model__learning_rate": 0.05,
+          "model__gamma": 0.1,
+          "model__colsample_bytree": 1.0
+        }
+      }
+    ],
+    "final_tuning_best_params": {
+      "model__subsample": 0.8,
+      "model__reg_lambda": 1,
+      "model__reg_alpha": 0.1,
+      "model__n_estimators": 500,
+      "model__min_child_weight": 8,
+      "model__max_depth": 3,
+      "model__learning_rate": 0.03,
+      "model__gamma": 0,
+      "model__colsample_bytree": 0.9
+    },
+    "final_tuning_cv_f1_macro": 0.638547,
+    "best_params": {
+      "model__subsample": 0.8,
+      "model__reg_lambda": 1,
+      "model__reg_alpha": 0.1,
+      "model__n_estimators": 500,
+      "model__min_child_weight": 8,
+      "model__max_depth": 3,
+      "model__learning_rate": 0.03,
+      "model__gamma": 0,
+      "model__colsample_bytree": 0.9
+    },
+    "cv_f1_macro": 0.606363,
+    "confusion_matrix": [
+      [
+        14,
+        4,
+        2,
+        0
+      ],
+      [
+        15,
+        126,
+        37,
+        4
+      ],
+      [
+        2,
+        55,
+        125,
+        38
+      ],
+      [
+        0,
+        5,
+        25,
+        62
+      ]
+    ],
+    "classification_report": {
+      "Rendah": {
+        "precision": 0.45161290322580644,
+        "recall": 0.7,
+        "f1-score": 0.5490196078431373,
+        "support": 20.0
+      },
+      "Sedang": {
+        "precision": 0.6631578947368421,
+        "recall": 0.6923076923076923,
+        "f1-score": 0.6774193548387096,
+        "support": 182.0
+      },
+      "Tinggi": {
+        "precision": 0.6613756613756614,
+        "recall": 0.5681818181818182,
+        "f1-score": 0.6112469437652812,
+        "support": 220.0
+      },
+      "Sangat Tinggi": {
+        "precision": 0.5961538461538461,
+        "recall": 0.6739130434782609,
+        "f1-score": 0.6326530612244898,
+        "support": 92.0
+      },
+      "accuracy": 0.6361867704280155,
+      "macro avg": {
+        "precision": 0.593075076373039,
+        "recall": 0.6586006384919428,
+        "f1-score": 0.6175847419179046,
+        "support": 514.0
+      },
+      "weighted avg": {
+        "precision": 0.6421708059443983,
+        "recall": 0.6361867704280155,
+        "f1-score": 0.6360877898803945,
+        "support": 514.0
+      }
+    },
+    "feature_importance": {
+      "underweight_pct": 0.472049,
+      "akses_air_minum_layak_prov_pct": 0.245423,
+      "akses_sanitasi_aman_prov_pct": 0.138237,
+      "pemantauan_pertumbuhan_sesuai_standar_prov_pct": 0.144291
+    },
+    "prediction_display": "out-of-fold",
+    "underweight_role": "indikator status gizi pendamping tingkat kabupaten/kota yang digunakan sebagai fitur prediktif; bukan determinan dan bukan bukti hubungan sebab-akibat terhadap stunting",
+    "feature_importance_source": "model final full-data yang dilatih setelah evaluasi out-of-fold selesai",
+    "evaluation_source": "metrik, classification report, dan confusion matrix berasal dari prediksi out-of-fold berbasis provinsi",
+    "catatan": [
+      "Seluruh metrik evaluasi berasal dari prediksi out-of-fold; setiap kabupaten/kota diprediksi oleh model yang tidak dilatih pada provinsinya sendiri.",
+      "Hyperparameter dipilih pada inner cross-validation, sedangkan outer cross-validation digunakan untuk evaluasi.",
+      "Underweight merupakan indikator status gizi pendamping tingkat kabupaten/kota yang digunakan sebagai fitur prediktif; variabel ini tidak diposisikan sebagai determinan atau faktor penyebab stunting.",
+      "Tiga indikator kontekstual tetap berasal dari tingkat provinsi sehingga interpretasinya tetap bersifat kontekstual.",
+      "Feature importance berasal dari model final full-data setelah evaluasi out-of-fold selesai; nilainya menunjukkan kontribusi fitur pada model dan tidak membuktikan hubungan sebab-akibat.",
+      "Kategori Sangat Rendah (<2,5%) tetap merupakan ambang standar WHO-UNICEF, tetapi tidak menjadi kategori operasional karena tidak terdapat observasi pada dataset 2024.",
+      "Analisis operasional dan model menggunakan empat kelas teramati: Rendah, Sedang, Tinggi, dan Sangat Tinggi."
+    ]
+  },
+  "catatan_data": [
+    "Prevalensi nasional resmi SSGI 2024 adalah 19,8%.",
+    "Rata-rata kabupaten/kota dihitung secara aritmetika dari 514 observasi dan bukan prevalensi nasional resmi.",
+    "Nilai pada peta provinsi adalah rata-rata aritmetika kabupaten/kota dalam provinsi, bukan estimasi prevalensi resmi provinsi SSGI.",
+    "Model XGBoost menggunakan underweight tingkat kabupaten/kota dan tiga indikator kontekstual tingkat provinsi.",
+    "Tiga indikator kontekstual tingkat provinsi dipadankan ke kabupaten/kota sesuai provinsinya; underweight merupakan indikator status gizi pendamping tingkat kabupaten/kota yang digunakan sebagai fitur prediktif, bukan faktor penyebab stunting.",
+    "Prediksi yang ditampilkan untuk data 2024 merupakan prediksi out-of-fold berbasis kelompok provinsi, bukan prediksi in-sample dari model yang dilatih pada baris yang sama.",
+    "Metrik evaluasi dan confusion matrix berasal dari prediksi out-of-fold, sedangkan feature importance pada dashboard berasal dari model final full-data yang dilatih setelah evaluasi selesai.",
+    "Kategori Sangat Rendah (<2,5%) tetap merupakan ambang standar WHO-UNICEF, tetapi tidak ditampilkan sebagai kategori operasional karena tidak terdapat observasi pada dataset 2024.",
+    "Dashboard menggunakan empat kategori teramati: Rendah, Sedang, Tinggi, dan Sangat Tinggi.",
+    "Tanda em dash pada dashboard menunjukkan data indikator tidak tersedia pada sumber yang digunakan."
+  ]
+}

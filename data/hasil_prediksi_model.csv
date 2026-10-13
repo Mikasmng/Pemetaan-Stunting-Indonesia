@@ -1,0 +1,515 @@
+kabupaten_kota,provinsi,stunting_pct,kategori_prevalensi_stunting,prediksi_model,probabilitas_model,jenis_prediksi
+Simeulue,Aceh,25.5,Tinggi,Tinggi,0.5147,out-of-fold
+Aceh Singkil,Aceh,34.2,Sangat Tinggi,Tinggi,0.6473,out-of-fold
+Aceh Selatan,Aceh,34.2,Sangat Tinggi,Tinggi,0.6434,out-of-fold
+Aceh Tenggara,Aceh,30.9,Sangat Tinggi,Tinggi,0.6299,out-of-fold
+Aceh Timur,Aceh,36.7,Sangat Tinggi,Sangat Tinggi,0.7792,out-of-fold
+Aceh Tengah,Aceh,31.4,Sangat Tinggi,Tinggi,0.404,out-of-fold
+Aceh Barat,Aceh,25.6,Tinggi,Sangat Tinggi,0.7523,out-of-fold
+Aceh Besar,Aceh,32.3,Sangat Tinggi,Sangat Tinggi,0.7706,out-of-fold
+Pidie,Aceh,32.6,Sangat Tinggi,Sangat Tinggi,0.7581,out-of-fold
+Bireuen,Aceh,27.1,Tinggi,Sangat Tinggi,0.6634,out-of-fold
+Aceh Utara,Aceh,19.2,Sedang,Sedang,0.5829,out-of-fold
+Aceh Barat Daya,Aceh,36.2,Sangat Tinggi,Tinggi,0.528,out-of-fold
+Gayo Lues,Aceh,20.6,Tinggi,Tinggi,0.327,out-of-fold
+Aceh Tamiang,Aceh,27.4,Tinggi,Tinggi,0.6314,out-of-fold
+Nagan Raya,Aceh,35.5,Sangat Tinggi,Tinggi,0.528,out-of-fold
+Aceh Jaya,Aceh,31.0,Sangat Tinggi,Sangat Tinggi,0.7523,out-of-fold
+Bener Meriah,Aceh,32.8,Sangat Tinggi,Sedang,0.6422,out-of-fold
+Pidie Jaya,Aceh,31.6,Sangat Tinggi,Sangat Tinggi,0.6839,out-of-fold
+Kota Banda Aceh,Aceh,23.7,Tinggi,Tinggi,0.6434,out-of-fold
+Kota Sabang,Aceh,23.4,Tinggi,Tinggi,0.6126,out-of-fold
+Kota Langsa,Aceh,15.6,Sedang,Sedang,0.5741,out-of-fold
+Kota Lhokseumawe,Aceh,20.8,Tinggi,Tinggi,0.6473,out-of-fold
+Kota Subulussalam,Aceh,27.5,Tinggi,Tinggi,0.6299,out-of-fold
+Nias,Sumatera Utara,26.1,Tinggi,Tinggi,0.4548,out-of-fold
+Mandailing Natal,Sumatera Utara,22.2,Tinggi,Sedang,0.4067,out-of-fold
+Tapanuli Selatan,Sumatera Utara,6.6,Rendah,Rendah,0.5412,out-of-fold
+Tapanuli Tengah,Sumatera Utara,32.3,Sangat Tinggi,Sangat Tinggi,0.5097,out-of-fold
+Tapanuli Utara,Sumatera Utara,32.5,Sangat Tinggi,Sedang,0.4421,out-of-fold
+Toba,Sumatera Utara,27.1,Tinggi,Sedang,0.4317,out-of-fold
+Labuhanbatu,Sumatera Utara,25.3,Tinggi,Tinggi,0.4756,out-of-fold
+Asahan,Sumatera Utara,13.9,Sedang,Sedang,0.4067,out-of-fold
+Simalungun,Sumatera Utara,26.0,Tinggi,Tinggi,0.3991,out-of-fold
+Dairi,Sumatera Utara,29.0,Tinggi,Sedang,0.4126,out-of-fold
+Karo,Sumatera Utara,17.6,Sedang,Sedang,0.4074,out-of-fold
+Deli Serdang,Sumatera Utara,19.6,Sedang,Tinggi,0.3975,out-of-fold
+Langkat,Sumatera Utara,16.0,Sedang,Tinggi,0.3975,out-of-fold
+Nias Selatan,Sumatera Utara,37.6,Sangat Tinggi,Sangat Tinggi,0.5143,out-of-fold
+Humbang Hasundutan,Sumatera Utara,18.3,Sedang,Rendah,0.404,out-of-fold
+Pakpak Bharat,Sumatera Utara,27.5,Tinggi,Sedang,0.4126,out-of-fold
+Samosir,Sumatera Utara,28.6,Tinggi,Sedang,0.4118,out-of-fold
+Serdang Bedagai,Sumatera Utara,19.0,Sedang,Tinggi,0.4182,out-of-fold
+Batu Bara,Sumatera Utara,23.0,Tinggi,Tinggi,0.437,out-of-fold
+Padang Lawas Utara,Sumatera Utara,30.0,Sangat Tinggi,Tinggi,0.4577,out-of-fold
+Padang Lawas,Sumatera Utara,25.2,Tinggi,Tinggi,0.4548,out-of-fold
+Labuhanbatu Selatan,Sumatera Utara,22.0,Tinggi,Tinggi,0.3975,out-of-fold
+Labuhanbatu Utara,Sumatera Utara,17.5,Sedang,Tinggi,0.3975,out-of-fold
+Nias Utara,Sumatera Utara,25.8,Tinggi,Tinggi,0.4749,out-of-fold
+Nias Barat,Sumatera Utara,34.4,Sangat Tinggi,Sangat Tinggi,0.479,out-of-fold
+Sibolga,Sumatera Utara,18.1,Sedang,Sedang,0.4067,out-of-fold
+Kota Tanjungbalai,Sumatera Utara,5.6,Rendah,Tinggi,0.4158,out-of-fold
+Kota Pematang Siantar,Sumatera Utara,12.2,Sedang,Sedang,0.4317,out-of-fold
+Kota Tebing Tinggi,Sumatera Utara,17.6,Sedang,Sedang,0.3974,out-of-fold
+Kota Medan,Sumatera Utara,15.4,Sedang,Sedang,0.4421,out-of-fold
+Kota Binjai,Sumatera Utara,25.6,Tinggi,Tinggi,0.4756,out-of-fold
+Kota Padangsidimpuan,Sumatera Utara,30.3,Sangat Tinggi,Tinggi,0.3991,out-of-fold
+Kota Gunungsitoli,Sumatera Utara,17.4,Sedang,Tinggi,0.3975,out-of-fold
+Kepulauan Mentawai,Sumatera Barat,26.2,Tinggi,Tinggi,0.7918,out-of-fold
+Pesisir Selatan,Sumatera Barat,26.5,Tinggi,Tinggi,0.7332,out-of-fold
+Solok,Sumatera Barat,29.5,Tinggi,Sedang,0.4919,out-of-fold
+Sijunjung,Sumatera Barat,28.2,Tinggi,Tinggi,0.8207,out-of-fold
+Tanah Datar,Sumatera Barat,26.9,Tinggi,Tinggi,0.7068,out-of-fold
+Padang Pariaman,Sumatera Barat,26.6,Tinggi,Tinggi,0.806,out-of-fold
+Agam,Sumatera Barat,27.0,Tinggi,Tinggi,0.575,out-of-fold
+Lima Puluh Kota,Sumatera Barat,26.6,Tinggi,Tinggi,0.5386,out-of-fold
+Pasaman,Sumatera Barat,29.1,Tinggi,Tinggi,0.7068,out-of-fold
+Solok Selatan,Sumatera Barat,21.5,Tinggi,Tinggi,0.5386,out-of-fold
+Dharmasraya,Sumatera Barat,20.5,Tinggi,Tinggi,0.7398,out-of-fold
+Pasaman Barat,Sumatera Barat,26.6,Tinggi,Tinggi,0.806,out-of-fold
+Kota Padang,Sumatera Barat,20.6,Tinggi,Tinggi,0.7398,out-of-fold
+Kota Solok,Sumatera Barat,18.6,Sedang,Tinggi,0.5735,out-of-fold
+Kota Sawahlunto,Sumatera Barat,20.0,Tinggi,Tinggi,0.4813,out-of-fold
+Kota Padang Panjang,Sumatera Barat,19.0,Sedang,Sedang,0.5502,out-of-fold
+Kota Bukittinggi,Sumatera Barat,16.8,Sedang,Sedang,0.4399,out-of-fold
+Kota Payakumbuh,Sumatera Barat,16.4,Sedang,Sedang,0.511,out-of-fold
+Kota Pariaman,Sumatera Barat,15.7,Sedang,Tinggi,0.5735,out-of-fold
+Kuantan Singingi,Riau,23.1,Tinggi,Tinggi,0.6994,out-of-fold
+Indragiri Hulu,Riau,20.0,Tinggi,Tinggi,0.5021,out-of-fold
+Indragiri Hilir,Riau,25.0,Tinggi,Tinggi,0.6994,out-of-fold
+Pelalawan,Riau,16.8,Sedang,Tinggi,0.5584,out-of-fold
+Siak,Riau,16.2,Sedang,Tinggi,0.5074,out-of-fold
+Kampar,Riau,16.2,Sedang,Tinggi,0.5729,out-of-fold
+Rokan Hulu,Riau,21.4,Tinggi,Tinggi,0.8669,out-of-fold
+Bengkalis,Riau,12.5,Sedang,Sedang,0.7289,out-of-fold
+Rokan Hilir,Riau,24.5,Tinggi,Tinggi,0.8669,out-of-fold
+Kepulauan Meranti,Riau,18.0,Sedang,Sedang,0.6453,out-of-fold
+Kota Pekanbaru,Riau,14.5,Sedang,Tinggi,0.6282,out-of-fold
+Kota Dumai,Riau,16.9,Sedang,Sedang,0.8434,out-of-fold
+Kerinci,Jambi,16.4,Sedang,Sedang,0.6782,out-of-fold
+Merangin,Jambi,9.6,Rendah,Rendah,0.7453,out-of-fold
+Sarolangun,Jambi,6.6,Rendah,Rendah,0.7453,out-of-fold
+Batang Hari,Jambi,18.4,Sedang,Sedang,0.6111,out-of-fold
+Muaro Jambi,Jambi,18.8,Sedang,Sedang,0.4062,out-of-fold
+Tanjung Jabung Timur,Jambi,23.9,Tinggi,Sedang,0.3191,out-of-fold
+Tanjung Jabung Barat,Jambi,7.0,Rendah,Rendah,0.5525,out-of-fold
+Tebo,Jambi,24.2,Tinggi,Tinggi,0.5537,out-of-fold
+Bungo,Jambi,20.4,Tinggi,Sedang,0.4775,out-of-fold
+Kota Jambi,Jambi,10.3,Sedang,Sedang,0.7312,out-of-fold
+Kota Sungai Penuh,Jambi,8.0,Rendah,Rendah,0.7453,out-of-fold
+Ogan Komering Ulu,Sumatera Selatan,22.0,Tinggi,Sedang,0.7776,out-of-fold
+Ogan Komering Ilir,Sumatera Selatan,24.3,Tinggi,Tinggi,0.5175,out-of-fold
+Muara Enim,Sumatera Selatan,20.4,Tinggi,Sedang,0.7581,out-of-fold
+Lahat,Sumatera Selatan,12.9,Sedang,Sedang,0.8272,out-of-fold
+Musi Rawas,Sumatera Selatan,19.3,Sedang,Sedang,0.7581,out-of-fold
+Musi Banyuasin,Sumatera Selatan,14.8,Sedang,Sedang,0.8272,out-of-fold
+Banyu Asin,Sumatera Selatan,16.8,Sedang,Sedang,0.8541,out-of-fold
+Ogan Komering Ulu Selatan,Sumatera Selatan,16.6,Sedang,Rendah,0.6843,out-of-fold
+Ogan Komering Ulu Timur,Sumatera Selatan,17.4,Sedang,Sedang,0.7581,out-of-fold
+Ogan Ilir,Sumatera Selatan,27.4,Tinggi,Tinggi,0.5522,out-of-fold
+Empat Lawang,Sumatera Selatan,31.9,Sangat Tinggi,Tinggi,0.8037,out-of-fold
+Penukal Abab Lematang Ilir,Sumatera Selatan,20.5,Tinggi,Sedang,0.7581,out-of-fold
+Musi Rawas Utara,Sumatera Selatan,22.0,Tinggi,Tinggi,0.5522,out-of-fold
+Kota Palembang,Sumatera Selatan,10.6,Sedang,Rendah,0.9194,out-of-fold
+Kota Prabumulih,Sumatera Selatan,11.6,Sedang,Sedang,0.8085,out-of-fold
+Kota Pagar Alam,Sumatera Selatan,20.0,Tinggi,Sedang,0.8406,out-of-fold
+Kota Lubuk linggau,Sumatera Selatan,20.9,Tinggi,Sedang,0.7581,out-of-fold
+Bengkulu Selatan,Bengkulu,18.3,Sedang,Sedang,0.5091,out-of-fold
+Rejang Lebong,Bengkulu,24.7,Tinggi,Sedang,0.4631,out-of-fold
+Bengkulu Utara,Bengkulu,20.7,Tinggi,Sedang,0.4771,out-of-fold
+Kaur,Bengkulu,15.9,Sedang,Sedang,0.392,out-of-fold
+Seluma,Bengkulu,22.6,Tinggi,Tinggi,0.4834,out-of-fold
+Mukomuko,Bengkulu,22.0,Tinggi,Sedang,0.4341,out-of-fold
+Lebong,Bengkulu,22.7,Tinggi,Rendah,0.5099,out-of-fold
+Kepahiang,Bengkulu,17.0,Sedang,Sedang,0.5091,out-of-fold
+Bengkulu Tengah,Bengkulu,23.4,Tinggi,Sedang,0.4631,out-of-fold
+Kota Bengkulu,Bengkulu,16.1,Sedang,Tinggi,0.6982,out-of-fold
+Lampung Barat,Lampung,20.5,Tinggi,Rendah,0.5079,out-of-fold
+Tanggamus,Lampung,24.9,Tinggi,Sedang,0.3848,out-of-fold
+Lampung Selatan,Lampung,10.4,Sedang,Sedang,0.4701,out-of-fold
+Lampung Timur,Lampung,14.0,Sedang,Sedang,0.4291,out-of-fold
+Lampung Tengah,Lampung,15.5,Sedang,Sedang,0.4291,out-of-fold
+Lampung Utara,Lampung,20.0,Tinggi,Tinggi,0.3755,out-of-fold
+Way Kanan,Lampung,13.9,Sedang,Sedang,0.4482,out-of-fold
+Tulangbawang,Lampung,18.3,Sedang,Sedang,0.3848,out-of-fold
+Pesawaran,Lampung,15.5,Sedang,Sedang,0.4701,out-of-fold
+Pringsewu,Lampung,19.5,Sedang,Tinggi,0.393,out-of-fold
+Mesuji,Lampung,11.1,Sedang,Sedang,0.4668,out-of-fold
+Tulang Bawang Barat,Lampung,13.4,Sedang,Sedang,0.4701,out-of-fold
+Pesisir Barat,Lampung,19.8,Sedang,Sedang,0.4291,out-of-fold
+Kota Bandar Lampung,Lampung,14.8,Sedang,Sedang,0.4291,out-of-fold
+Kota Metro,Lampung,14.8,Sedang,Sedang,0.3848,out-of-fold
+Bangka,Bangka Belitung,21.2,Tinggi,Sedang,0.819,out-of-fold
+Belitung,Bangka Belitung,18.1,Sedang,Sedang,0.8526,out-of-fold
+Bangka Barat,Bangka Belitung,19.9,Sedang,Sedang,0.8526,out-of-fold
+Bangka Tengah,Bangka Belitung,21.2,Tinggi,Sedang,0.4836,out-of-fold
+Bangka Selatan,Bangka Belitung,24.6,Tinggi,Tinggi,0.5948,out-of-fold
+Belitung Timur,Bangka Belitung,17.1,Sedang,Sedang,0.6161,out-of-fold
+Kota Pangkal Pinang,Bangka Belitung,17.3,Sedang,Sedang,0.819,out-of-fold
+Karimun,Kepulauan Riau,21.4,Tinggi,Tinggi,0.54,out-of-fold
+Bintan,Kepulauan Riau,16.3,Sedang,Sedang,0.9189,out-of-fold
+Natuna,Kepulauan Riau,18.5,Sedang,Sedang,0.868,out-of-fold
+Lingga,Kepulauan Riau,19.8,Sedang,Sedang,0.6526,out-of-fold
+Kepulauan Anambas,Kepulauan Riau,15.8,Sedang,Sedang,0.8732,out-of-fold
+Kota Batam,Kepulauan Riau,14.0,Sedang,Sedang,0.7858,out-of-fold
+Kota Tanjung Pinang,Kepulauan Riau,12.9,Sedang,Sedang,0.7744,out-of-fold
+Kepulauan Seribu,DKI Jakarta,16.9,Sedang,Sedang,0.4892,out-of-fold
+Kota Jakarta Selatan,DKI Jakarta,14.9,Sedang,Sedang,0.8852,out-of-fold
+Kota Jakarta Timur,DKI Jakarta,16.4,Sedang,Sedang,0.8793,out-of-fold
+Kota Jakarta Pusat,DKI Jakarta,20.3,Tinggi,Sedang,0.6067,out-of-fold
+Kota Jakarta Barat,DKI Jakarta,17.4,Sedang,Sedang,0.8818,out-of-fold
+Kota Jakarta Utara,DKI Jakarta,19.7,Sedang,Sedang,0.8514,out-of-fold
+Bogor,Jawa Barat,18.9,Sedang,Sedang,0.7439,out-of-fold
+Sukabumi,Jawa Barat,20.5,Tinggi,Sedang,0.9321,out-of-fold
+Cianjur,Jawa Barat,7.2,Rendah,Rendah,0.9579,out-of-fold
+Bandung,Jawa Barat,24.1,Tinggi,Sedang,0.8207,out-of-fold
+Garut,Jawa Barat,14.2,Sedang,Sedang,0.933,out-of-fold
+Tasikmalaya,Jawa Barat,17.0,Sedang,Rendah,0.588,out-of-fold
+Ciamis,Jawa Barat,20.3,Tinggi,Sedang,0.7719,out-of-fold
+Kuningan,Jawa Barat,22.7,Tinggi,Sedang,0.6893,out-of-fold
+Cirebon,Jawa Barat,18.0,Sedang,Sedang,0.6792,out-of-fold
+Majalengka,Jawa Barat,18.0,Sedang,Sedang,0.8934,out-of-fold
+Sumedang,Jawa Barat,17.0,Sedang,Rendah,0.588,out-of-fold
+Indramayu,Jawa Barat,9.8,Rendah,Sedang,0.8207,out-of-fold
+Subang,Jawa Barat,12.4,Sedang,Sedang,0.933,out-of-fold
+Purwakarta,Jawa Barat,14.4,Sedang,Sedang,0.933,out-of-fold
+Karawang,Jawa Barat,17.6,Sedang,Sedang,0.8158,out-of-fold
+Bekasi,Jawa Barat,18.2,Sedang,Sedang,0.8937,out-of-fold
+Bandung Barat,Jawa Barat,30.8,Sangat Tinggi,Sedang,0.6893,out-of-fold
+Pangandaran,Jawa Barat,17.3,Sedang,Sedang,0.8956,out-of-fold
+Kota Bogor,Jawa Barat,21.1,Tinggi,Sedang,0.7688,out-of-fold
+Kota Sukabumi,Jawa Barat,19.7,Sedang,Sedang,0.7628,out-of-fold
+Kota Bandung,Jawa Barat,22.8,Tinggi,Sedang,0.8158,out-of-fold
+Kota Cirebon,Jawa Barat,14.9,Sedang,Sedang,0.7718,out-of-fold
+Kota Bekasi,Jawa Barat,11.7,Sedang,Rendah,0.9579,out-of-fold
+Kota Depok,Jawa Barat,12.5,Sedang,Sedang,0.7688,out-of-fold
+Kota Cimahi,Jawa Barat,22.3,Tinggi,Sedang,0.8934,out-of-fold
+Kota Tasikmalaya,Jawa Barat,19.6,Sedang,Sedang,0.8956,out-of-fold
+Kota Banjar,Jawa Barat,18.8,Sedang,Sedang,0.8934,out-of-fold
+Cilacap,Jawa Tengah,15.6,Sedang,Sedang,0.696,out-of-fold
+Banyumas,Jawa Tengah,19.6,Sedang,Sedang,0.6479,out-of-fold
+Purbalingga,Jawa Tengah,22.3,Tinggi,Sedang,0.7333,out-of-fold
+Banjarnegara,Jawa Tengah,20.6,Tinggi,Sedang,0.696,out-of-fold
+Kebumen,Jawa Tengah,18.0,Sedang,Sedang,0.4426,out-of-fold
+Purworejo,Jawa Tengah,14.9,Sedang,Sedang,0.6004,out-of-fold
+Wonosobo,Jawa Tengah,23.9,Tinggi,Sedang,0.427,out-of-fold
+Magelang,Jawa Tengah,19.3,Sedang,Sedang,0.6541,out-of-fold
+Boyolali,Jawa Tengah,24.5,Tinggi,Sedang,0.7512,out-of-fold
+Klaten,Jawa Tengah,20.8,Tinggi,Sedang,0.7512,out-of-fold
+Sukoharjo,Jawa Tengah,16.8,Sedang,Sedang,0.696,out-of-fold
+Wonogiri,Jawa Tengah,15.1,Sedang,Sedang,0.6004,out-of-fold
+Karanganyar,Jawa Tengah,17.4,Sedang,Sedang,0.696,out-of-fold
+Sragen,Jawa Tengah,15.8,Sedang,Sedang,0.7512,out-of-fold
+Grobogan,Jawa Tengah,25.6,Tinggi,Tinggi,0.5488,out-of-fold
+Blora,Jawa Tengah,21.7,Tinggi,Tinggi,0.5284,out-of-fold
+Rembang,Jawa Tengah,15.8,Sedang,Sedang,0.6902,out-of-fold
+Pati,Jawa Tengah,16.5,Sedang,Sedang,0.5143,out-of-fold
+Kudus,Jawa Tengah,13.2,Sedang,Sedang,0.696,out-of-fold
+Jepara,Jawa Tengah,15.6,Sedang,Sedang,0.696,out-of-fold
+Demak,Jawa Tengah,10.0,Sedang,Sedang,0.7333,out-of-fold
+Semarang,Jawa Tengah,14.5,Sedang,Sedang,0.7512,out-of-fold
+Temanggung,Jawa Tengah,27.3,Tinggi,Sedang,0.7512,out-of-fold
+Kendal,Jawa Tengah,19.2,Sedang,Tinggi,0.4942,out-of-fold
+Batang,Jawa Tengah,20.7,Tinggi,Sedang,0.6635,out-of-fold
+Pekalongan,Jawa Tengah,19.5,Sedang,Tinggi,0.4953,out-of-fold
+Pemalang,Jawa Tengah,19.1,Sedang,Tinggi,0.5386,out-of-fold
+Tegal,Jawa Tengah,15.9,Sedang,Tinggi,0.5064,out-of-fold
+Brebes,Jawa Tengah,23.1,Tinggi,Tinggi,0.5386,out-of-fold
+Kota Magelang,Jawa Tengah,15.3,Sedang,Sedang,0.7512,out-of-fold
+Kota Surakarta,Jawa Tengah,16.2,Sedang,Sedang,0.696,out-of-fold
+Kota Salatiga,Jawa Tengah,14.0,Sedang,Sedang,0.6004,out-of-fold
+Kota Semarang,Jawa Tengah,11.2,Sedang,Sedang,0.6004,out-of-fold
+Kota Pekalongan,Jawa Tengah,19.3,Sedang,Tinggi,0.5667,out-of-fold
+Kota Tegal,Jawa Tengah,18.0,Sedang,Tinggi,0.5386,out-of-fold
+Kulon Progo,DI Yogyakarta,18.0,Sedang,Sedang,0.5869,out-of-fold
+Bantul,DI Yogyakarta,16.5,Sedang,Sedang,0.6011,out-of-fold
+Gunung Kidul,DI Yogyakarta,19.7,Sedang,Sedang,0.4282,out-of-fold
+Sleman,DI Yogyakarta,17.3,Sedang,Sedang,0.6063,out-of-fold
+Kota Yogyakarta,DI Yogyakarta,14.8,Sedang,Sedang,0.6009,out-of-fold
+Pacitan,Jawa Timur,11.7,Sedang,Rendah,0.5904,out-of-fold
+Ponorogo,Jawa Timur,13.4,Sedang,Sedang,0.5931,out-of-fold
+Trenggalek,Jawa Timur,6.7,Rendah,Sedang,0.5217,out-of-fold
+Tulungagung,Jawa Timur,13.6,Sedang,Sedang,0.5002,out-of-fold
+Blitar,Jawa Timur,17.8,Sedang,Sedang,0.5839,out-of-fold
+Kediri,Jawa Timur,7.9,Rendah,Rendah,0.6762,out-of-fold
+Malang,Jawa Timur,23.3,Tinggi,Sedang,0.5634,out-of-fold
+Lumajang,Jawa Timur,23.4,Tinggi,Sedang,0.5634,out-of-fold
+Jember,Jawa Timur,30.4,Sangat Tinggi,Sangat Tinggi,0.5074,out-of-fold
+Banyuwangi,Jawa Timur,17.6,Sedang,Tinggi,0.4435,out-of-fold
+Bondowoso,Jawa Timur,11.2,Sedang,Sedang,0.5776,out-of-fold
+Situbondo,Jawa Timur,10.6,Sedang,Tinggi,0.4435,out-of-fold
+Probolinggo,Jawa Timur,26.3,Tinggi,Tinggi,0.4224,out-of-fold
+Pasuruan,Jawa Timur,26.1,Tinggi,Sangat Tinggi,0.4019,out-of-fold
+Sidoarjo,Jawa Timur,10.6,Sedang,Sedang,0.5307,out-of-fold
+Mojokerto,Jawa Timur,15.2,Sedang,Tinggi,0.3633,out-of-fold
+Jombang,Jawa Timur,17.2,Sedang,Sedang,0.4039,out-of-fold
+Nganjuk,Jawa Timur,22.8,Tinggi,Tinggi,0.369,out-of-fold
+Madiun,Jawa Timur,12.1,Sedang,Sedang,0.5964,out-of-fold
+Magetan,Jawa Timur,10.3,Sedang,Sedang,0.5325,out-of-fold
+Ngawi,Jawa Timur,11.4,Sedang,Tinggi,0.366,out-of-fold
+Bojonegoro,Jawa Timur,12.0,Sedang,Sedang,0.5812,out-of-fold
+Tuban,Jawa Timur,11.3,Sedang,Sedang,0.5588,out-of-fold
+Lamongan,Jawa Timur,6.9,Rendah,Sedang,0.5325,out-of-fold
+Gresik,Jawa Timur,15.2,Sedang,Sedang,0.5931,out-of-fold
+Bangkalan,Jawa Timur,17.6,Sedang,Sedang,0.5964,out-of-fold
+Sampang,Jawa Timur,18.9,Sedang,Sedang,0.5931,out-of-fold
+Pamekasan,Jawa Timur,22.3,Tinggi,Sedang,0.4409,out-of-fold
+Sumenep,Jawa Timur,11.2,Sedang,Rendah,0.6762,out-of-fold
+Kota Kediri,Jawa Timur,17.6,Sedang,Sedang,0.5954,out-of-fold
+Kota Blitar,Jawa Timur,11.4,Sedang,Sedang,0.5325,out-of-fold
+Kota Malang,Jawa Timur,22.8,Tinggi,Tinggi,0.3633,out-of-fold
+Kota Probolinggo,Jawa Timur,23.1,Tinggi,Tinggi,0.4435,out-of-fold
+Kota Pasuruan,Jawa Timur,18.3,Sedang,Tinggi,0.3634,out-of-fold
+Kota Mojokerto,Jawa Timur,11.7,Sedang,Sedang,0.5325,out-of-fold
+Kota Madiun,Jawa Timur,11.8,Sedang,Sedang,0.4271,out-of-fold
+Kota Surabaya,Jawa Timur,8.5,Rendah,Rendah,0.5904,out-of-fold
+Kota Batu,Jawa Timur,24.5,Tinggi,Sedang,0.5638,out-of-fold
+Pandeglang,Banten,26.4,Tinggi,Tinggi,0.3958,out-of-fold
+Lebak,Banten,32.4,Sangat Tinggi,Sedang,0.3764,out-of-fold
+Tangerang,Banten,23.4,Tinggi,Tinggi,0.3656,out-of-fold
+Serang,Banten,20.2,Tinggi,Sedang,0.4332,out-of-fold
+Kota Tangerang,Banten,11.2,Sedang,Rendah,0.6193,out-of-fold
+Kota Cilegon,Banten,19.0,Sedang,Sedang,0.3987,out-of-fold
+Kota Serang,Banten,22.9,Tinggi,Tinggi,0.3958,out-of-fold
+Kota Tangerang Selatan,Banten,10.5,Sedang,Rendah,0.5444,out-of-fold
+Jembrana,Bali,7.5,Rendah,Rendah,0.889,out-of-fold
+Tabanan,Bali,7.5,Rendah,Rendah,0.8955,out-of-fold
+Badung,Bali,7.2,Rendah,Rendah,0.9139,out-of-fold
+Gianyar,Bali,5.4,Rendah,Rendah,0.9139,out-of-fold
+Klungkung,Bali,5.2,Rendah,Rendah,0.9139,out-of-fold
+Bangli,Bali,8.3,Rendah,Rendah,0.8955,out-of-fold
+Karangasem,Bali,13.0,Sedang,Sedang,0.8436,out-of-fold
+Buleleng,Bali,14.8,Sedang,Rendah,0.889,out-of-fold
+Kota Denpasar,Bali,10.4,Sedang,Sedang,0.8436,out-of-fold
+Lombok Barat,Nusa Tenggara Barat,27.3,Tinggi,Tinggi,0.4356,out-of-fold
+Lombok Tengah,Nusa Tenggara Barat,24.9,Tinggi,Tinggi,0.4356,out-of-fold
+Lombok Timur,Nusa Tenggara Barat,33.0,Sangat Tinggi,Sangat Tinggi,0.5024,out-of-fold
+Sumbawa,Nusa Tenggara Barat,29.8,Tinggi,Sangat Tinggi,0.4974,out-of-fold
+Dompu,Nusa Tenggara Barat,19.8,Sedang,Sangat Tinggi,0.5119,out-of-fold
+Bima,Nusa Tenggara Barat,23.8,Tinggi,Sangat Tinggi,0.5089,out-of-fold
+Sumbawa Barat,Nusa Tenggara Barat,18.2,Sedang,Sedang,0.4019,out-of-fold
+Lombok Utara,Nusa Tenggara Barat,35.3,Sangat Tinggi,Sangat Tinggi,0.5089,out-of-fold
+Kota Mataram,Nusa Tenggara Barat,23.5,Tinggi,Sangat Tinggi,0.4974,out-of-fold
+Kota Bima,Nusa Tenggara Barat,28.4,Tinggi,Sangat Tinggi,0.5119,out-of-fold
+Sumba Barat,Nusa Tenggara Timur,35.2,Sangat Tinggi,Tinggi,0.4651,out-of-fold
+Sumba Timur,Nusa Tenggara Timur,30.9,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Kupang,Nusa Tenggara Timur,39.5,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Timor Tengah Selatan,Nusa Tenggara Timur,56.8,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Timor Tengah Utara,Nusa Tenggara Timur,47.3,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Belu,Nusa Tenggara Timur,44.3,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Alor,Nusa Tenggara Timur,37.4,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Lembata,Nusa Tenggara Timur,25.7,Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Flores Timur,Nusa Tenggara Timur,31.3,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Sikka,Nusa Tenggara Timur,32.3,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Ende,Nusa Tenggara Timur,30.7,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Ngada,Nusa Tenggara Timur,28.9,Tinggi,Sangat Tinggi,0.4181,out-of-fold
+Manggarai,Nusa Tenggara Timur,41.0,Sangat Tinggi,Tinggi,0.4651,out-of-fold
+Rote Ndao,Nusa Tenggara Timur,32.4,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Manggarai Barat,Nusa Tenggara Timur,31.1,Sangat Tinggi,Sangat Tinggi,0.4668,out-of-fold
+Sumba Tengah,Nusa Tenggara Timur,37.4,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Sumba Barat Daya,Nusa Tenggara Timur,47.5,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Nagekeo,Nusa Tenggara Timur,25.0,Tinggi,Sangat Tinggi,0.4181,out-of-fold
+Manggarai Timur,Nusa Tenggara Timur,38.8,Sangat Tinggi,Sangat Tinggi,0.4668,out-of-fold
+Sabu Raijua,Nusa Tenggara Timur,32.2,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Malaka,Nusa Tenggara Timur,31.6,Sangat Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Kota Kupang,Nusa Tenggara Timur,26.9,Tinggi,Sangat Tinggi,0.9323,out-of-fold
+Sambas,Kalimantan Barat,36.4,Sangat Tinggi,Sangat Tinggi,0.5797,out-of-fold
+Bengkayang,Kalimantan Barat,23.4,Tinggi,Tinggi,0.6106,out-of-fold
+Landak,Kalimantan Barat,28.6,Tinggi,Tinggi,0.6003,out-of-fold
+Mempawah,Kalimantan Barat,28.6,Tinggi,Sangat Tinggi,0.4895,out-of-fold
+Sanggau,Kalimantan Barat,21.3,Tinggi,Tinggi,0.5923,out-of-fold
+Ketapang,Kalimantan Barat,17.9,Sedang,Sedang,0.4249,out-of-fold
+Sintang,Kalimantan Barat,31.0,Sangat Tinggi,Sangat Tinggi,0.5645,out-of-fold
+Kapuas Hulu,Kalimantan Barat,23.6,Tinggi,Tinggi,0.5923,out-of-fold
+Sekadau,Kalimantan Barat,14.4,Sedang,Tinggi,0.6131,out-of-fold
+Melawi,Kalimantan Barat,35.2,Sangat Tinggi,Sangat Tinggi,0.5797,out-of-fold
+Kayong Utara,Kalimantan Barat,23.8,Tinggi,Tinggi,0.5051,out-of-fold
+Kubu Raya,Kalimantan Barat,30.2,Sangat Tinggi,Tinggi,0.5148,out-of-fold
+Kota Pontianak,Kalimantan Barat,22.3,Tinggi,Tinggi,0.4175,out-of-fold
+Kota Singkawang,Kalimantan Barat,21.9,Tinggi,Tinggi,0.6003,out-of-fold
+Kotawaringin Barat,Kalimantan Tengah,16.5,Sedang,Sedang,0.4421,out-of-fold
+Kotawaringin Timur,Kalimantan Tengah,21.6,Tinggi,Tinggi,0.428,out-of-fold
+Kapuas,Kalimantan Tengah,22.5,Tinggi,Tinggi,0.4251,out-of-fold
+Barito Selatan,Kalimantan Tengah,33.3,Sangat Tinggi,Sangat Tinggi,0.3991,out-of-fold
+Barito Utara,Kalimantan Tengah,20.4,Tinggi,Sedang,0.4231,out-of-fold
+Sukamara,Kalimantan Tengah,20.0,Tinggi,Tinggi,0.3889,out-of-fold
+Lamandau,Kalimantan Tengah,18.3,Sedang,Sedang,0.4225,out-of-fold
+Seruyan,Kalimantan Tengah,32.2,Sangat Tinggi,Tinggi,0.3914,out-of-fold
+Katingan,Kalimantan Tengah,19.6,Sedang,Tinggi,0.4459,out-of-fold
+Pulang Pisau,Kalimantan Tengah,27.9,Tinggi,Tinggi,0.4056,out-of-fold
+Gunung Mas,Kalimantan Tengah,14.1,Sedang,Sedang,0.4236,out-of-fold
+Barito Timur,Kalimantan Tengah,21.7,Tinggi,Tinggi,0.428,out-of-fold
+Murung Raya,Kalimantan Tengah,15.8,Sedang,Sedang,0.4592,out-of-fold
+Kota Palangka Raya,Kalimantan Tengah,19.1,Sedang,Tinggi,0.428,out-of-fold
+Tanah Laut,Kalimantan Selatan,22.5,Tinggi,Tinggi,0.8695,out-of-fold
+Kotabaru,Kalimantan Selatan,23.2,Tinggi,Tinggi,0.7985,out-of-fold
+Banjar,Kalimantan Selatan,32.3,Sangat Tinggi,Sangat Tinggi,0.5603,out-of-fold
+Barito Kuala,Kalimantan Selatan,16.5,Sedang,Tinggi,0.7321,out-of-fold
+Tapin,Kalimantan Selatan,13.2,Sedang,Sedang,0.5435,out-of-fold
+Hulu Sungai Selatan,Kalimantan Selatan,19.8,Sedang,Tinggi,0.7282,out-of-fold
+Hulu Sungai Tengah,Kalimantan Selatan,19.6,Sedang,Sedang,0.5435,out-of-fold
+Hulu Sungai Utara,Kalimantan Selatan,27.6,Tinggi,Sangat Tinggi,0.7506,out-of-fold
+Tabalong,Kalimantan Selatan,23.1,Tinggi,Tinggi,0.7282,out-of-fold
+Tanah Bumbu,Kalimantan Selatan,21.6,Tinggi,Tinggi,0.5764,out-of-fold
+Balangan,Kalimantan Selatan,16.0,Sedang,Sedang,0.5112,out-of-fold
+Kota Banjarmasin,Kalimantan Selatan,26.5,Tinggi,Tinggi,0.9087,out-of-fold
+Kota Banjarbaru,Kalimantan Selatan,15.4,Sedang,Tinggi,0.5764,out-of-fold
+Paser,Kalimantan Timur,23.4,Tinggi,Tinggi,0.8255,out-of-fold
+Kutai Barat,Kalimantan Timur,27.6,Tinggi,Tinggi,0.5985,out-of-fold
+Kutai Kartanegara,Kalimantan Timur,14.3,Sedang,Tinggi,0.4048,out-of-fold
+Kutai Timur,Kalimantan Timur,26.9,Tinggi,Tinggi,0.6356,out-of-fold
+Berau,Kalimantan Timur,23.4,Tinggi,Tinggi,0.6008,out-of-fold
+Penajam Paser Utara,Kalimantan Timur,32.0,Sangat Tinggi,Sangat Tinggi,0.6085,out-of-fold
+Mahakam Ulu,Kalimantan Timur,23.2,Tinggi,Sedang,0.6219,out-of-fold
+Kota Balikpapan,Kalimantan Timur,24.8,Tinggi,Tinggi,0.7828,out-of-fold
+Kota Samarinda,Kalimantan Timur,20.3,Tinggi,Tinggi,0.4816,out-of-fold
+Kota Bontang,Kalimantan Timur,20.7,Tinggi,Tinggi,0.6977,out-of-fold
+Malinau,Kalimantan Utara,26.0,Tinggi,Tinggi,0.4533,out-of-fold
+Bulungan,Kalimantan Utara,15.9,Sedang,Sedang,0.4209,out-of-fold
+Tana Tidung,Kalimantan Utara,7.4,Rendah,Sedang,0.3921,out-of-fold
+Nunukan,Kalimantan Utara,21.7,Tinggi,Tinggi,0.3829,out-of-fold
+Kota Tarakan,Kalimantan Utara,12.6,Sedang,Tinggi,0.4313,out-of-fold
+Bolaang Mongondow,Sulawesi Utara,19.3,Sedang,Tinggi,0.4677,out-of-fold
+Minahasa,Sulawesi Utara,19.4,Sedang,Rendah,0.9007,out-of-fold
+Kepulauan Sangihe,Sulawesi Utara,24.2,Tinggi,Tinggi,0.4677,out-of-fold
+Kepulauan Talaud,Sulawesi Utara,11.6,Sedang,Rendah,0.9007,out-of-fold
+Minahasa Selatan,Sulawesi Utara,28.1,Tinggi,Sedang,0.8612,out-of-fold
+Minahasa Utara,Sulawesi Utara,18.9,Sedang,Sedang,0.8421,out-of-fold
+Bolaang Mongondow Utara,Sulawesi Utara,26.3,Tinggi,Sangat Tinggi,0.8786,out-of-fold
+Siau Tagulandang Biaro,Sulawesi Utara,19.9,Sedang,Sedang,0.7979,out-of-fold
+Minahasa Tenggara,Sulawesi Utara,21.9,Tinggi,Sedang,0.7979,out-of-fold
+Bolaang Mongondow Selatan,Sulawesi Utara,23.6,Tinggi,Tinggi,0.7857,out-of-fold
+Bolaang Mongondow Timur,Sulawesi Utara,18.8,Sedang,Rendah,0.3993,out-of-fold
+Kota Manado,Sulawesi Utara,18.8,Sedang,Sedang,0.8616,out-of-fold
+Kota Bitung,Sulawesi Utara,25.1,Tinggi,Sedang,0.814,out-of-fold
+Kota Tomohon,Sulawesi Utara,10.8,Sedang,Rendah,0.9233,out-of-fold
+Kota Kotamobagu,Sulawesi Utara,23.1,Tinggi,Sedang,0.7979,out-of-fold
+Banggai Kepulauan,Sulawesi Tengah,28.4,Tinggi,Sangat Tinggi,0.5808,out-of-fold
+Banggai,Sulawesi Tengah,28.7,Tinggi,Tinggi,0.5769,out-of-fold
+Morowali,Sulawesi Tengah,22.6,Tinggi,Tinggi,0.527,out-of-fold
+Poso,Sulawesi Tengah,21.1,Tinggi,Sedang,0.455,out-of-fold
+Donggala,Sulawesi Tengah,29.6,Tinggi,Sangat Tinggi,0.5808,out-of-fold
+Toli-Toli,Sulawesi Tengah,26.9,Tinggi,Tinggi,0.5002,out-of-fold
+Buol,Sulawesi Tengah,36.9,Sangat Tinggi,Sangat Tinggi,0.5808,out-of-fold
+Parigi Moutong,Sulawesi Tengah,22.3,Tinggi,Tinggi,0.5803,out-of-fold
+Tojo Una-Una,Sulawesi Tengah,16.5,Sedang,Sangat Tinggi,0.5808,out-of-fold
+Sigi,Sulawesi Tengah,33.0,Sangat Tinggi,Sangat Tinggi,0.5808,out-of-fold
+Banggai Laut,Sulawesi Tengah,26.6,Tinggi,Sangat Tinggi,0.5808,out-of-fold
+Morowali Utara,Sulawesi Tengah,20.4,Tinggi,Tinggi,0.5979,out-of-fold
+Kota Palu,Sulawesi Tengah,25.6,Tinggi,Tinggi,0.5848,out-of-fold
+Kepulauan Selayar,Sulawesi Selatan,25.7,Tinggi,Tinggi,0.4746,out-of-fold
+Bulukumba,Sulawesi Selatan,25.2,Tinggi,Tinggi,0.477,out-of-fold
+Bantaeng,Sulawesi Selatan,24.3,Tinggi,Tinggi,0.4746,out-of-fold
+Jeneponto,Sulawesi Selatan,37.0,Sangat Tinggi,Sangat Tinggi,0.4753,out-of-fold
+Takalar,Sulawesi Selatan,24.0,Tinggi,Tinggi,0.477,out-of-fold
+Gowa,Sulawesi Selatan,17.0,Sedang,Sedang,0.4153,out-of-fold
+Sinjai,Sulawesi Selatan,28.6,Tinggi,Tinggi,0.477,out-of-fold
+Maros,Sulawesi Selatan,22.4,Tinggi,Tinggi,0.471,out-of-fold
+Pangkajene Dan Kepulauan,Sulawesi Selatan,25.2,Tinggi,Tinggi,0.455,out-of-fold
+Barru,Sulawesi Selatan,26.9,Tinggi,Tinggi,0.4226,out-of-fold
+Bone,Sulawesi Selatan,26.0,Tinggi,Tinggi,0.477,out-of-fold
+Soppeng,Sulawesi Selatan,26.6,Tinggi,Tinggi,0.477,out-of-fold
+Wajo,Sulawesi Selatan,20.5,Tinggi,Tinggi,0.4226,out-of-fold
+Sidenreng Rappang,Sulawesi Selatan,20.3,Tinggi,Sedang,0.376,out-of-fold
+Pinrang,Sulawesi Selatan,22.2,Tinggi,Tinggi,0.4818,out-of-fold
+Enrekang,Sulawesi Selatan,34.3,Sangat Tinggi,Tinggi,0.3989,out-of-fold
+Luwu,Sulawesi Selatan,23.6,Tinggi,Tinggi,0.4561,out-of-fold
+Tana Toraja,Sulawesi Selatan,27.5,Tinggi,Sedang,0.4313,out-of-fold
+Luwu Utara,Sulawesi Selatan,23.6,Tinggi,Tinggi,0.4818,out-of-fold
+Luwu Timur,Sulawesi Selatan,21.8,Tinggi,Tinggi,0.4338,out-of-fold
+Toraja Utara,Sulawesi Selatan,27.6,Tinggi,Sedang,0.4059,out-of-fold
+Kota Makassar,Sulawesi Selatan,22.9,Tinggi,Tinggi,0.4195,out-of-fold
+Kota Parepare,Sulawesi Selatan,26.1,Tinggi,Sangat Tinggi,0.4753,out-of-fold
+Kota Palopo,Sulawesi Selatan,22.7,Tinggi,Tinggi,0.477,out-of-fold
+Buton,Sulawesi Tenggara,28.8,Tinggi,Sangat Tinggi,0.8909,out-of-fold
+Muna,Sulawesi Tenggara,25.0,Tinggi,Tinggi,0.8003,out-of-fold
+Konawe,Sulawesi Tenggara,25.0,Tinggi,Tinggi,0.6112,out-of-fold
+Kolaka,Sulawesi Tenggara,29.7,Tinggi,Tinggi,0.8003,out-of-fold
+Konawe Selatan,Sulawesi Tenggara,21.3,Tinggi,Tinggi,0.5228,out-of-fold
+Bombana,Sulawesi Tenggara,24.7,Tinggi,Sangat Tinggi,0.6752,out-of-fold
+Wakatobi,Sulawesi Tenggara,24.1,Tinggi,Sangat Tinggi,0.895,out-of-fold
+Kolaka Utara,Sulawesi Tenggara,23.6,Tinggi,Sedang,0.451,out-of-fold
+Buton Utara,Sulawesi Tenggara,30.5,Sangat Tinggi,Sangat Tinggi,0.8752,out-of-fold
+Konawe Utara,Sulawesi Tenggara,27.0,Tinggi,Sedang,0.6416,out-of-fold
+Kolaka Timur,Sulawesi Tenggara,22.0,Tinggi,Sedang,0.6416,out-of-fold
+Konawe Kepulauan,Sulawesi Tenggara,26.5,Tinggi,Sedang,0.4634,out-of-fold
+Muna Barat,Sulawesi Tenggara,28.4,Tinggi,Sangat Tinggi,0.5586,out-of-fold
+Buton Tengah,Sulawesi Tenggara,31.8,Sangat Tinggi,Sangat Tinggi,0.8813,out-of-fold
+Buton Selatan,Sulawesi Tenggara,38.9,Sangat Tinggi,Sangat Tinggi,0.8813,out-of-fold
+Kota Kendari,Sulawesi Tenggara,24.4,Tinggi,Sedang,0.6142,out-of-fold
+Kota Baubau,Sulawesi Tenggara,29.8,Tinggi,Sangat Tinggi,0.8909,out-of-fold
+Boalemo,Gorontalo,8.0,Rendah,Tinggi,0.738,out-of-fold
+Gorontalo,Gorontalo,28.3,Tinggi,Tinggi,0.6701,out-of-fold
+Pohuwato,Gorontalo,18.0,Sedang,Tinggi,0.7356,out-of-fold
+Bone Bolango,Gorontalo,23.0,Tinggi,Tinggi,0.8984,out-of-fold
+Gorontalo Utara,Gorontalo,25.6,Tinggi,Sangat Tinggi,0.7209,out-of-fold
+Kota Gorontalo,Gorontalo,31.2,Sangat Tinggi,Sangat Tinggi,0.7308,out-of-fold
+Majene,Sulawesi Barat,37.5,Sangat Tinggi,Sangat Tinggi,0.7843,out-of-fold
+Polewali Mandar,Sulawesi Barat,31.5,Sangat Tinggi,Sangat Tinggi,0.7835,out-of-fold
+Mamasa,Sulawesi Barat,35.7,Sangat Tinggi,Sedang,0.7241,out-of-fold
+Mamuju,Sulawesi Barat,38.7,Sangat Tinggi,Sangat Tinggi,0.8852,out-of-fold
+Pasangkayu,Sulawesi Barat,36.7,Sangat Tinggi,Sangat Tinggi,0.9132,out-of-fold
+Mamuju Tengah,Sulawesi Barat,31.5,Sangat Tinggi,Tinggi,0.7787,out-of-fold
+Kep.Tanimbar,Maluku,29.5,Tinggi,Sangat Tinggi,0.5982,out-of-fold
+Maluku Tenggara,Maluku,28.1,Tinggi,Tinggi,0.4844,out-of-fold
+Maluku Tengah,Maluku,27.0,Tinggi,Tinggi,0.4877,out-of-fold
+Buru,Maluku,25.4,Tinggi,Sangat Tinggi,0.5817,out-of-fold
+Kepulauan Aru,Maluku,37.6,Sangat Tinggi,Sangat Tinggi,0.5982,out-of-fold
+Seram Bagian Barat,Maluku,33.8,Sangat Tinggi,Sangat Tinggi,0.5944,out-of-fold
+Seram Bagian Timur,Maluku,35.0,Sangat Tinggi,Sangat Tinggi,0.5944,out-of-fold
+Maluku Barat Daya,Maluku,23.8,Tinggi,Sangat Tinggi,0.5944,out-of-fold
+Buru Selatan,Maluku,39.7,Sangat Tinggi,Sangat Tinggi,0.5944,out-of-fold
+Kota Ambon,Maluku,19.7,Sedang,Tinggi,0.5749,out-of-fold
+Kota Tual,Maluku,25.2,Tinggi,Tinggi,0.5749,out-of-fold
+Halmahera Barat,Maluku Utara,22.1,Tinggi,Sangat Tinggi,0.6495,out-of-fold
+Halmahera Tengah,Maluku Utara,19.7,Sedang,Sangat Tinggi,0.3674,out-of-fold
+Kepulauan Sula,Maluku Utara,22.5,Tinggi,Tinggi,0.4765,out-of-fold
+Halmahera Selatan,Maluku Utara,32.3,Sangat Tinggi,Sangat Tinggi,0.8892,out-of-fold
+Halmahera Utara,Maluku Utara,21.8,Tinggi,Sangat Tinggi,0.6248,out-of-fold
+Halmahera Timur,Maluku Utara,24.3,Tinggi,Sangat Tinggi,0.6069,out-of-fold
+Pulau Morotai,Maluku Utara,17.7,Sedang,Tinggi,0.4258,out-of-fold
+Pulau Taliabu,Maluku Utara,24.9,Tinggi,Sangat Tinggi,0.8278,out-of-fold
+Kota Ternate,Maluku Utara,16.6,Sedang,Tinggi,0.4497,out-of-fold
+Tidore Kepulauan,Maluku Utara,16.6,Sedang,Sangat Tinggi,0.3824,out-of-fold
+Fakfak,Papua Barat,21.0,Tinggi,Tinggi,0.667,out-of-fold
+Kaimana,Papua Barat,20.2,Tinggi,Tinggi,0.6022,out-of-fold
+Teluk Wondama,Papua Barat,29.2,Tinggi,Sangat Tinggi,0.6671,out-of-fold
+Teluk Bintuni,Papua Barat,22.3,Tinggi,Tinggi,0.6765,out-of-fold
+Manokwari,Papua Barat,23.5,Tinggi,Tinggi,0.667,out-of-fold
+Manokwari Selatan,Papua Barat,26.4,Tinggi,Sangat Tinggi,0.6559,out-of-fold
+Pegunungan Arfak,Papua Barat,39.3,Sangat Tinggi,Sangat Tinggi,0.6559,out-of-fold
+Raja Ampat,Papua Barat Daya,37.4,Sangat Tinggi,Sangat Tinggi,0.507,out-of-fold
+Sorong,Papua Barat Daya,25.1,Tinggi,Tinggi,0.4269,out-of-fold
+Sorong Selatan,Papua Barat Daya,31.3,Sangat Tinggi,Sangat Tinggi,0.507,out-of-fold
+Maybrat,Papua Barat Daya,30.7,Sangat Tinggi,Tinggi,0.407,out-of-fold
+Tambrauw,Papua Barat Daya,37.9,Sangat Tinggi,Sangat Tinggi,0.475,out-of-fold
+Kota Sorong,Papua Barat Daya,29.3,Tinggi,Sangat Tinggi,0.507,out-of-fold
+Jayapura,Papua,22.5,Tinggi,Tinggi,0.4371,out-of-fold
+Kepulauan Yapen,Papua,33.5,Sangat Tinggi,Sangat Tinggi,0.7027,out-of-fold
+Biak Numfor,Papua,20.6,Tinggi,Tinggi,0.7099,out-of-fold
+Sarmi,Papua,31.6,Sangat Tinggi,Tinggi,0.7044,out-of-fold
+Keerom,Papua,24.4,Tinggi,Tinggi,0.7053,out-of-fold
+Waropen,Papua,22.3,Tinggi,Tinggi,0.6344,out-of-fold
+Supiori,Papua,37.5,Sangat Tinggi,Sangat Tinggi,0.6952,out-of-fold
+Mamberamo Raya,Papua,33.8,Sangat Tinggi,Tinggi,0.5801,out-of-fold
+Kota Jayapura,Papua,24.1,Tinggi,Tinggi,0.4415,out-of-fold
+Merauke,Papua Selatan,18.5,Sedang,Sedang,0.8571,out-of-fold
+Boven Digoel,Papua Selatan,30.2,Sangat Tinggi,Tinggi,0.7756,out-of-fold
+Mappi,Papua Selatan,29.9,Tinggi,Tinggi,0.7756,out-of-fold
+Asmat,Papua Selatan,28.3,Tinggi,Sangat Tinggi,0.6707,out-of-fold
+Mimika,Papua Tengah,28.4,Tinggi,Sangat Tinggi,0.6068,out-of-fold
+Dogiyai,Papua Tengah,55.8,Sangat Tinggi,Sangat Tinggi,0.9636,out-of-fold
+Deiyai,Papua Tengah,30.6,Sangat Tinggi,Sangat Tinggi,0.9087,out-of-fold
+Nabire,Papua Tengah,21.7,Tinggi,Sangat Tinggi,0.6068,out-of-fold
+Paniai,Papua Tengah,29.6,Tinggi,Sangat Tinggi,0.8748,out-of-fold
+Intan Jaya,Papua Tengah,48.4,Sangat Tinggi,Sangat Tinggi,0.9636,out-of-fold
+Puncak,Papua Tengah,42.5,Sangat Tinggi,Sangat Tinggi,0.9693,out-of-fold
+Puncak Jaya,Papua Tengah,36.3,Sangat Tinggi,Sangat Tinggi,0.9693,out-of-fold
+Nduga,Papua Pegunungan,36.0,Sangat Tinggi,Sangat Tinggi,0.6391,out-of-fold
+Jayawijaya,Papua Pegunungan,41.3,Sangat Tinggi,Tinggi,0.4998,out-of-fold
+Lanny jaya,Papua Pegunungan,35.4,Sangat Tinggi,Tinggi,0.5091,out-of-fold
+Tolikara,Papua Pegunungan,46.4,Sangat Tinggi,Sangat Tinggi,0.6272,out-of-fold
+Mamberamo Tengah,Papua Pegunungan,42.0,Sangat Tinggi,Tinggi,0.4689,out-of-fold
+Yalimo,Papua Pegunungan,35.1,Sangat Tinggi,Tinggi,0.4221,out-of-fold
+Yahukimo,Papua Pegunungan,37.7,Sangat Tinggi,Tinggi,0.4998,out-of-fold
+Pegunungan Bintang,Papua Pegunungan,41.4,Sangat Tinggi,Tinggi,0.4779,out-of-fold

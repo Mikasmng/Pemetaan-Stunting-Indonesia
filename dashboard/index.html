@@ -1,0 +1,7581 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Stunting Indonesia · SSGI 2024</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<style>
+
+:root{
+  --navy:#0f426a;
+  --navy2:#17648d;
+
+  --text:#164f70;
+  --soft:#34738a;
+  --muted:#588394;
+
+  --page:#f1f7f6;
+  --white:#ffffff;
+
+  --border:#c9dfe1;
+  --border2:#adcdd1;
+
+  --teal:#008b7a;
+  --blue:#2878d0;
+  --amber:#d69b18;
+
+  --low:#43a36c;
+  --medium:#d3a21c;
+  --high:#eb7736;
+  --very-high:#d43d48;
+
+  --low-bg:#ebf8ef;
+  --medium-bg:#fff6cf;
+  --high-bg:#fff0e5;
+  --very-high-bg:#fdebee;
+
+  --shadow:
+    0 12px 32px rgba(15,66,106,.09);
+}
+
+
+*{
+  box-sizing:border-box;
+}
+
+
+html{
+  scroll-behavior:smooth;
+}
+
+
+body{
+  margin:0;
+
+  background:
+    linear-gradient(
+      180deg,
+      #f8fcfb,
+      #f1f7f6 380px
+    );
+
+  color:var(--text);
+
+  font-family:
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+
+  font-size:16px;
+
+  line-height:1.65;
+}
+
+
+button,
+select,
+input{
+  font:inherit;
+}
+
+
+.num{
+  font-variant-numeric:tabular-nums;
+}
+
+
+::selection{
+  color:#fff;
+  background:var(--navy);
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.topbar{
+  position:sticky;
+
+  top:0;
+
+  z-index:1000;
+
+  height:80px;
+
+  background:
+    rgba(255,255,255,.97);
+
+  backdrop-filter:
+    blur(14px);
+
+  border-bottom:
+    1px solid var(--border);
+}
+
+
+.topbar-inner,
+main{
+  width:
+    calc(100% - 68px);
+
+  max-width:
+    1380px;
+
+  margin:auto;
+}
+
+
+.topbar-inner{
+  height:100%;
+
+  display:flex;
+
+  align-items:center;
+
+  justify-content:
+    space-between;
+
+  gap:40px;
+}
+
+
+.brand{
+  display:flex;
+
+  align-items:center;
+
+  gap:13px;
+
+  white-space:
+    nowrap;
+
+  color:
+    var(--navy);
+
+  font-size:
+    18px;
+
+  font-weight:
+    750;
+}
+
+
+.brand-mark{
+  width:38px;
+  height:38px;
+
+  display:grid;
+
+  place-items:center;
+
+  color:
+    var(--teal);
+
+  border:
+    1.5px solid var(--teal);
+
+  border-radius:
+    50%;
+}
+
+
+.brand-mark svg{
+  width:18px;
+}
+
+
+.brand-sub{
+  color:
+    #31778a;
+
+  font-size:
+    11px;
+
+  font-weight:
+    700;
+
+  letter-spacing:
+    .13em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.nav{
+  display:flex;
+
+  align-items:center;
+
+  gap:34px;
+
+  height:100%;
+}
+
+
+.nav-btn{
+  position:relative;
+
+  height:80px;
+
+  padding:
+    0 2px;
+
+  display:flex;
+
+  align-items:center;
+
+  color:
+    #326c84;
+
+  background:none;
+
+  border:0;
+
+  cursor:pointer;
+
+  font-size:
+    15px;
+
+  font-weight:
+    650;
+
+  white-space:
+    nowrap;
+}
+
+
+.nav-btn::after{
+  content:"";
+
+  position:absolute;
+
+  left:0;
+  right:0;
+  bottom:0;
+
+  height:3px;
+
+  background:
+    transparent;
+}
+
+
+.nav-btn:hover{
+  color:
+    var(--teal);
+}
+
+
+.nav-btn.active{
+  color:
+    var(--navy);
+}
+
+
+.nav-btn.active::after{
+  background:
+    var(--teal);
+}
+
+
+/* =========================================================
+   MAIN
+========================================================= */
+
+main{
+  padding-bottom:
+    90px;
+}
+
+
+/* =========================================================
+   HERO
+========================================================= */
+
+.hero{
+  padding:
+    56px 0 40px;
+
+  display:grid;
+
+  grid-template-columns:
+    minmax(0,1.55fr)
+    minmax(350px,.68fr);
+
+  align-items:end;
+
+  gap:62px;
+
+  border-bottom:
+    1px solid var(--border);
+}
+
+
+.eyebrow{
+  margin-bottom:
+    16px;
+
+  display:flex;
+
+  align-items:center;
+
+  gap:9px;
+
+  color:
+    var(--teal);
+
+  font-size:
+    12px;
+
+  font-weight:
+    750;
+
+  letter-spacing:
+    .12em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.eyebrow::before{
+  content:"";
+
+  width:25px;
+  height:2px;
+
+  background:
+    var(--teal);
+}
+
+
+.hero h1{
+  max-width:
+    800px;
+
+  margin:
+    0 0 18px;
+
+  color:
+    var(--navy);
+
+  font-size:
+    56px;
+
+  font-weight:
+    550;
+
+  line-height:
+    1.02;
+
+  letter-spacing:
+    -2.6px;
+}
+
+
+.hero-copy{
+  max-width:
+    780px;
+
+  margin:0;
+
+  color:
+    #347188;
+
+  font-size:
+    17px;
+
+  line-height:
+    1.75;
+}
+
+
+.source-note{
+  margin-top:
+    18px;
+
+  color:
+    #588394;
+
+  font-size:
+    13px;
+}
+
+
+.source-note strong{
+  color:
+    #176182;
+}
+
+
+/* =========================================================
+   OVERVIEW
+========================================================= */
+
+.overview{
+  overflow:hidden;
+
+  background:#fff;
+
+  border:
+    1px solid var(--border);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+.overview-title{
+  padding:
+    15px 20px;
+
+  color:
+    #14786f;
+
+  background:
+    #eaf7f4;
+
+  border-bottom:
+    1px solid var(--border);
+
+  font-size:
+    12px;
+
+  font-weight:
+    750;
+
+  letter-spacing:
+    .12em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.overview-row{
+  min-height:
+    82px;
+
+  padding:
+    17px 20px;
+
+  display:grid;
+
+  grid-template-columns:
+    minmax(0,1fr)
+    auto;
+
+  align-items:center;
+
+  gap:22px;
+
+  border-bottom:
+    1px solid #e6eeee;
+}
+
+
+.overview-row:last-child{
+  border:0;
+}
+
+
+.overview-label{
+  max-width:
+    230px;
+
+  color:
+    #397086;
+
+  font-size:
+    14px;
+}
+
+
+.overview-value{
+  min-width:
+    95px;
+
+  color:
+    #10527c;
+
+  font-size:
+    36px;
+
+  font-weight:
+    700;
+
+  text-align:right;
+
+  letter-spacing:
+    -1px;
+}
+
+
+.overview-row:first-of-type
+.overview-value{
+  color:
+    var(--teal);
+}
+
+
+/* =========================================================
+   CATEGORY
+========================================================= */
+
+.category-wrap{
+  padding:
+    30px 0 46px;
+}
+
+
+.micro-title{
+  margin-bottom:
+    13px;
+
+  color:
+    #17776f;
+
+  font-size:
+    11px;
+
+  font-weight:
+    750;
+
+  letter-spacing:
+    .12em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.category-grid{
+  display:grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  gap:14px;
+}
+
+
+.category-item{
+  position:relative;
+
+  min-height:
+    125px;
+
+  padding:
+    20px;
+
+  overflow:hidden;
+
+  border:
+    1px solid;
+
+  box-shadow:
+    0 2px 8px
+    rgba(17,42,58,.03);
+}
+
+
+.category-item:nth-child(1){
+  background:
+    var(--low-bg);
+
+  border-color:
+    #cfe8d4;
+}
+
+
+.category-item:nth-child(2){
+  background:
+    var(--medium-bg);
+
+  border-color:
+    #efdda0;
+}
+
+
+.category-item:nth-child(3){
+  background:
+    var(--high-bg);
+
+  border-color:
+    #efc9b6;
+}
+
+
+.category-item:nth-child(4){
+  background:
+    var(--very-high-bg);
+
+  border-color:
+    #ecc0c5;
+}
+
+
+.category-item::before{
+  content:"";
+
+  position:absolute;
+
+  top:0;
+  left:0;
+  right:0;
+
+  height:4px;
+}
+
+
+.category-item:nth-child(1)::before{
+  background:
+    var(--low);
+}
+
+
+.category-item:nth-child(2)::before{
+  background:
+    var(--medium);
+}
+
+
+.category-item:nth-child(3)::before{
+  background:
+    var(--high);
+}
+
+
+.category-item:nth-child(4)::before{
+  background:
+    var(--very-high);
+}
+
+
+.category-top{
+  display:flex;
+
+  justify-content:
+    space-between;
+
+  align-items:center;
+}
+
+
+.category-dot,
+.legend-dot,
+.badge-dot{
+  border-radius:
+    50%;
+}
+
+
+.category-dot{
+  width:9px;
+  height:9px;
+}
+
+
+.category-percent{
+  color:
+    #527d8e;
+
+  font-size:
+    11px;
+}
+
+
+.category-number{
+  margin-top:
+    9px;
+
+  color:
+    #10527c;
+
+  font-size:
+    38px;
+
+  font-weight:
+    700;
+
+  line-height:1;
+}
+
+
+.category-label{
+  margin-top:
+    9px;
+
+  color:
+    #315f75;
+
+  font-size:
+    12px;
+
+  font-weight:
+    750;
+
+  letter-spacing:
+    .09em;
+
+  text-transform:
+    uppercase;
+}
+
+
+/* =========================================================
+   PAGES
+========================================================= */
+
+.page{
+  display:none;
+}
+
+
+.page.active{
+  display:block;
+
+  animation:
+    fade .2s ease;
+}
+
+
+@keyframes fade{
+
+  from{
+    opacity:0;
+  }
+
+  to{
+    opacity:1;
+  }
+
+}
+
+
+/* =========================================================
+   SECTION HEAD
+========================================================= */
+
+.section-head{
+  margin:
+    34px 0 22px;
+
+  display:flex;
+
+  align-items:
+    flex-end;
+
+  justify-content:
+    space-between;
+
+  gap:44px;
+}
+
+
+.section-head h2{
+  margin:0;
+
+  color:
+    #10527c;
+
+  font-size:
+    31px;
+
+  font-weight:
+    700;
+
+  letter-spacing:
+    -1px;
+}
+
+
+.section-head p{
+  max-width:
+    560px;
+
+  margin:0;
+
+  color:
+    #42768a;
+
+  font-size:
+    14px;
+
+  line-height:
+    1.65;
+}
+
+
+/* =========================================================
+   MAP
+========================================================= */
+
+.map-layout{
+  overflow:hidden;
+
+  display:grid;
+
+  grid-template-columns:
+    300px
+    minmax(0,1fr);
+
+  background:#fff;
+
+  border:
+    1px solid var(--border2);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+.map-sidebar{
+  padding:
+    30px 26px;
+
+  background:
+    #f9fcfb;
+
+  border-right:
+    1px solid var(--border);
+}
+
+
+.map-sidebar h3{
+  margin:
+    0 0 6px;
+
+  color:
+    #10547c;
+
+  font-size:
+    20px;
+}
+
+
+.map-sidebar > p{
+  margin:
+    0 0 28px;
+
+  color:
+    #45788b;
+
+  font-size:
+    13px;
+}
+
+
+.field{
+  margin-bottom:
+    19px;
+}
+
+
+.field label{
+  display:block;
+
+  margin-bottom:
+    7px;
+
+  color:
+    #13766f;
+
+  font-size:
+    11px;
+
+  font-weight:
+    750;
+
+  letter-spacing:
+    .1em;
+
+  text-transform:
+    uppercase;
+}
+
+
+select,
+input{
+  width:100%;
+
+  min-height:
+    46px;
+
+  padding:
+    0 13px;
+
+  color:
+    #165470;
+
+  background:#fff;
+
+  border:
+    1px solid #b2d0d4;
+
+  border-radius:
+    5px;
+
+  outline:none;
+
+  font-size:
+    14px;
+}
+
+
+select:focus,
+input:focus{
+  border-color:
+    var(--teal);
+
+  box-shadow:
+    0 0 0 3px
+    rgba(0,139,122,.1);
+}
+
+
+#map{
+  height:
+    620px;
+}
+
+
+.leaflet-tile-pane{
+  filter:
+    grayscale(.2)
+    saturate(.9)
+    brightness(1.02);
+}
+
+
+.map-legend{
+  padding:
+    16px 20px;
+
+  display:flex;
+
+  flex-wrap:wrap;
+
+  gap:22px;
+
+  background:
+    #f8fcfb;
+
+  border-top:
+    1px solid var(--border);
+}
+
+
+.legend-item{
+  display:flex;
+
+  align-items:center;
+
+  gap:7px;
+
+  color:
+    #245f77;
+
+  font-size:
+    13px;
+
+  font-weight:
+    650;
+}
+
+
+.legend-dot{
+  width:10px;
+  height:10px;
+}
+
+
+.warning{
+  margin-top:
+    15px;
+
+  padding:
+    12px 14px;
+
+  color:
+    #755715;
+
+  background:
+    #fff4cf;
+
+  border-left:
+    4px solid var(--amber);
+
+  font-size:
+    12px;
+}
+
+
+.popup{
+  min-width:
+    240px;
+
+  font-family:
+    Arial,
+    sans-serif;
+}
+
+
+.popup h3{
+  margin:
+    0 0 9px;
+
+  color:
+    var(--navy);
+
+  font-size:
+    17px;
+}
+
+
+.popup-row{
+  padding:
+    7px 0;
+
+  display:flex;
+
+  justify-content:
+    space-between;
+
+  gap:16px;
+
+  border-top:
+    1px solid #e7eeee;
+
+  font-size:
+    13px;
+}
+
+
+.popup-key{
+  color:
+    #477689;
+}
+
+
+.popup-value{
+  color:
+    #125778;
+
+  text-align:right;
+
+  font-weight:
+    750;
+}
+
+
+/* =========================================================
+   CHART
+========================================================= */
+
+.chart-layout{
+  display:grid;
+
+  grid-template-columns:
+    minmax(0,1.72fr)
+    minmax(370px,.8fr);
+
+  gap:22px;
+}
+
+
+.chart-side{
+  display:flex;
+
+  flex-direction:column;
+
+  gap:22px;
+}
+
+
+.panel{
+  padding:
+    31px 32px;
+
+  background:#fff;
+
+  border:
+    1px solid var(--border);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+.panel-title{
+  margin-bottom:
+    24px;
+
+  padding-left:
+    14px;
+
+  border-left:
+    4px solid var(--teal);
+}
+
+
+.panel-title h3{
+  margin:
+    0 0 5px;
+
+  color:
+    #10547c;
+
+  font-size:
+    21px;
+
+  font-weight:
+    750;
+}
+
+
+.panel-title p{
+  margin:0;
+
+  color:
+    #44768b;
+
+  font-size:
+    13.5px;
+}
+
+
+.chart{
+  position:relative;
+
+  width:100%;
+}
+
+
+.chart-large{
+  height:
+    760px;
+}
+
+
+.chart-medium{
+  height:
+    370px;
+}
+
+
+.chart-wide{
+  height:
+    880px;
+}
+
+
+.chart-source{
+  margin-top:
+    16px;
+
+  padding-top:
+    12px;
+
+  color:
+    #517d8e;
+
+  border-top:
+    1px solid #e8eeee;
+
+  font-size:
+    12px;
+}
+
+
+.full-panel{
+  margin-top:
+    23px;
+}
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.table-shell{
+  overflow:hidden;
+
+  background:#fff;
+
+  border:
+    1px solid var(--border);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+.table-toolbar{
+  padding:
+    25px 26px;
+
+  display:flex;
+
+  align-items:
+    flex-end;
+
+  justify-content:
+    space-between;
+
+  gap:20px;
+
+  background:
+    #fbfefd;
+
+  border-bottom:
+    1px solid var(--border);
+}
+
+
+.table-title h3{
+  margin:0;
+
+  color:
+    #10527c;
+
+  font-size:
+    23px;
+}
+
+
+.table-title span{
+  color:
+    #4b788b;
+
+  font-size:
+    12px;
+}
+
+
+.table-controls{
+  display:flex;
+
+  align-items:
+    flex-end;
+
+  gap:12px;
+}
+
+
+.search-field{
+  min-width:
+    310px;
+}
+
+
+.table-scroll{
+  max-height:
+    650px;
+
+  overflow:auto;
+}
+
+
+table{
+  width:100%;
+
+  border-collapse:
+    collapse;
+
+  font-size:
+    14px;
+}
+
+
+th,
+td{
+  padding:
+    14px 16px;
+
+  text-align:left;
+
+  white-space:
+    nowrap;
+
+  border-bottom:
+    1px solid #e8eeee;
+}
+
+
+th{
+  position:sticky;
+
+  top:0;
+
+  z-index:5;
+
+  color:
+    #10677a;
+
+  background:
+    #e8f6f5;
+
+  font-size:
+    11.5px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    .06em;
+
+  text-transform:
+    uppercase;
+
+  cursor:pointer;
+}
+
+
+td{
+  color:
+    #315f74;
+}
+
+
+td.num{
+  color:
+    #164f6c;
+
+  font-weight:
+    650;
+}
+
+
+tbody tr:nth-child(even){
+  background:
+    #f8fcfb;
+}
+
+
+tbody tr:hover{
+  background:
+    #e4f5f1;
+}
+
+
+.badge{
+  padding:
+    6px 10px;
+
+  display:inline-flex;
+
+  align-items:center;
+
+  gap:6px;
+
+  border-radius:
+    99px;
+
+  font-size:
+    11px;
+
+  font-weight:
+    750;
+}
+
+
+.badge-dot{
+  width:7px;
+  height:7px;
+}
+
+
+.pagination{
+  padding:
+    16px 20px;
+
+  display:flex;
+
+  justify-content:
+    flex-end;
+
+  align-items:center;
+
+  gap:10px;
+}
+
+
+.pagination span,
+.pagination button{
+  font-size:
+    12px;
+}
+
+
+.pagination span{
+  color:
+    #40768a;
+}
+
+
+.pagination button{
+  padding:
+    9px 13px;
+
+  color:
+    #155b75;
+
+  background:#fff;
+
+  border:
+    1px solid #afd0d4;
+
+  border-radius:
+    4px;
+
+  cursor:pointer;
+
+  font-weight:
+    650;
+}
+
+
+.pagination button:hover:not(:disabled){
+  color:#fff;
+
+  background:
+    var(--navy);
+
+  border-color:
+    var(--navy);
+}
+
+
+.pagination button:disabled{
+  opacity:.35;
+
+  cursor:
+    not-allowed;
+}
+
+
+/* =========================================================
+   MODEL
+========================================================= */
+
+.model-metrics{
+  display:grid;
+
+  grid-template-columns:
+    repeat(4,1fr);
+
+  gap:12px;
+
+  margin-bottom:
+    21px;
+}
+
+
+.metric{
+  padding:
+    24px;
+
+  background:
+    #fbfefd;
+
+  border:
+    1px solid var(--border);
+
+  border-top:
+    4px solid var(--teal);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+.metric:nth-child(2){
+  border-top-color:
+    var(--blue);
+}
+
+
+.metric:nth-child(3){
+  border-top-color:
+    var(--amber);
+}
+
+
+.metric:nth-child(4){
+  border-top-color:
+    var(--very-high);
+}
+
+
+.metric-value{
+  color:
+    #10527c;
+
+  font-size:
+    37px;
+
+  font-weight:
+    700;
+}
+
+
+.metric-label{
+  margin-top:
+    4px;
+
+  color:
+    #357487;
+
+  font-size:
+    10.5px;
+
+  font-weight:
+    800;
+
+  letter-spacing:
+    .1em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.model-note{
+  margin-bottom:
+    21px;
+
+  padding:
+    18px 20px;
+
+  color:
+    #306a70;
+
+  background:
+    #e4f5f1;
+
+  border-left:
+    4px solid var(--teal);
+
+  font-size:
+    13px;
+
+  line-height:
+    1.72;
+}
+
+
+.model-grid{
+  display:grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap:21px;
+}
+
+
+/* =========================================================
+   CALCULATOR
+========================================================= */
+
+.calc-shell{
+  overflow:hidden;
+
+  display:grid;
+
+  grid-template-columns:
+    360px
+    minmax(0,1fr);
+
+  background:#fff;
+
+  border:
+    1px solid var(--border);
+
+  box-shadow:
+    var(--shadow);
+}
+
+
+.calc-form{
+  padding:
+    28px;
+
+  background:
+    #f2f9f7;
+
+  border-right:
+    1px solid var(--border);
+}
+
+
+.calc-output{
+  padding:
+    32px;
+}
+
+
+.calc-info{
+  margin-bottom:
+    19px;
+
+  padding:
+    12px 13px;
+
+  color:
+    #226d61;
+
+  background:
+    #e1f5ef;
+
+  border-left:
+    3px solid var(--teal);
+
+  font-size:
+    12px;
+}
+
+
+.primary-btn{
+  width:100%;
+
+  min-height:
+    48px;
+
+  color:#fff;
+
+  background:
+    #10527c;
+
+  border:
+    1px solid #10527c;
+
+  border-radius:
+    5px;
+
+  cursor:pointer;
+
+  font-size:
+    12px;
+
+  font-weight:
+    750;
+
+  letter-spacing:
+    .06em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.primary-btn:hover{
+  background:
+    var(--teal);
+
+  border-color:
+    var(--teal);
+}
+
+
+.calc-empty{
+  padding:
+    50px 20px;
+
+  color:
+    #4e7d8e;
+
+  text-align:center;
+
+  background:
+    #fafcfc;
+
+  border:
+    1px dashed var(--border2);
+
+  font-size:
+    14px;
+}
+
+
+.calc-result-top{
+  display:flex;
+
+  align-items:flex-end;
+
+  gap:17px;
+}
+
+
+.calc-z-label{
+  color:
+    #34788a;
+
+  font-size:
+    11px;
+
+  font-weight:
+    750;
+
+  letter-spacing:
+    .1em;
+
+  text-transform:
+    uppercase;
+}
+
+
+.calc-z{
+  font-size:
+    56px;
+
+  font-weight:
+    700;
+
+  line-height:1;
+}
+
+
+.calc-meta{
+  margin-top:
+    9px;
+
+  color:
+    #4b7889;
+
+  font-size:
+    12px;
+}
+
+
+.calc-scale{
+  margin-top:
+    24px;
+}
+
+
+.scale-track{
+  position:relative;
+
+  height:8px;
+
+  border-radius:
+    99px;
+
+  background:
+    linear-gradient(
+      to right,
+      var(--very-high),
+      var(--high) 22%,
+      var(--medium) 40%,
+      var(--low) 48%,
+      var(--low) 52%,
+      var(--medium) 60%,
+      var(--high) 78%,
+      var(--very-high)
+    );
+}
+
+
+.scale-marker{
+  position:absolute;
+
+  top:50%;
+
+  width:17px;
+  height:17px;
+
+  background:#fff;
+
+  border:
+    3px solid var(--navy);
+
+  border-radius:
+    50%;
+
+  transform:
+    translate(-50%,-50%);
+}
+
+
+.scale-ticks{
+  margin-top:
+    8px;
+
+  display:flex;
+
+  justify-content:
+    space-between;
+
+  color:
+    #4b7889;
+
+  font-size:
+    10px;
+}
+
+
+.calc-explanation{
+  margin-top:
+    19px;
+
+  padding-top:
+    15px;
+
+  color:
+    #315f73;
+
+  border-top:
+    1px solid var(--border);
+
+  font-size:
+    13px;
+}
+
+
+.calc-note{
+  margin-top:
+    21px;
+
+  padding-top:
+    14px;
+
+  color:
+    #4b7889;
+
+  border-top:
+    1px solid var(--border);
+
+  font-size:
+    12px;
+}
+
+
+.growth-panel{
+  margin-top:
+    22px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1100px){
+
+  .hero,
+  .chart-layout{
+    grid-template-columns:
+      1fr;
+  }
+
+  .category-grid{
+    grid-template-columns:
+      repeat(2,1fr);
+  }
+
+  .model-grid{
+    grid-template-columns:
+      1fr;
+  }
+
+}
+
+
+@media(max-width:760px){
+
+  .topbar{
+    position:relative;
+    height:auto;
+  }
+
+  .topbar-inner{
+    width:
+      calc(100% - 32px);
+
+    padding:
+      12px 0;
+
+    align-items:
+      flex-start;
+
+    flex-direction:
+      column;
+
+    gap:8px;
+  }
+
+  .nav{
+    width:100%;
+
+    overflow-x:auto;
+
+    gap:23px;
+  }
+
+  .nav-btn{
+    height:42px;
+
+    font-size:14px;
+  }
+
+  main{
+    width:
+      calc(100% - 32px);
+  }
+
+  .hero{
+    padding:
+      35px 0 27px;
+  }
+
+  .hero h1{
+    font-size:
+      42px;
+  }
+
+  .category-grid{
+    grid-template-columns:
+      1fr;
+  }
+
+  .map-layout,
+  .calc-shell{
+    grid-template-columns:
+      1fr;
+  }
+
+  .map-sidebar,
+  .calc-form{
+    border-right:0;
+
+    border-bottom:
+      1px solid var(--border);
+  }
+
+  #map{
+    height:
+      460px;
+  }
+
+  .section-head,
+  .table-toolbar,
+  .table-controls{
+    align-items:
+      stretch;
+
+    flex-direction:
+      column;
+  }
+
+  .search-field{
+    min-width:0;
+  }
+
+  .model-metrics{
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .chart-large{
+    height:
+      700px;
+  }
+
+  .chart-wide{
+    height:
+      780px;
+  }
+
+  table{
+    font-size:
+      13px;
+  }
+
+}
+
+
+@media(max-width:500px){
+
+  .hero h1{
+    font-size:
+      34px;
+  }
+
+  .model-metrics{
+    grid-template-columns:
+      1fr;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="topbar">
+
+  <div class="topbar-inner">
+
+    <div class="brand">
+
+      <span class="brand-mark">
+
+        <svg
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.8"
+        >
+          <path d="M4 16c3-8 6-8 8 0s5 8 8 0"/>
+          <path d="M4 8c3 8 6 8 8 0s5-8 8 0"/>
+        </svg>
+
+      </span>
+
+      Stunting Indonesia
+
+      <span class="brand-sub">
+        SSGI 2024
+      </span>
+
+    </div>
+
+
+    <nav class="nav">
+
+      <button
+        class="nav-btn active"
+        data-page="mapPage"
+      >
+        Peta
+      </button>
+
+      <button
+        class="nav-btn"
+        data-page="analysisPage"
+      >
+        Grafik
+      </button>
+
+      <button
+        class="nav-btn"
+        data-page="dataPage"
+      >
+        Tabel
+      </button>
+
+      <button
+        class="nav-btn"
+        data-page="modelPage"
+      >
+        Model XGBoost
+      </button>
+
+      <button
+        class="nav-btn"
+        data-page="calculatorPage"
+      >
+        Kalkulator
+      </button>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+
+<!-- =======================================================
+     HERO
+======================================================= -->
+
+<section class="hero">
+
+  <div>
+
+    <div class="eyebrow">
+      Data kesehatan publik · SSGI 2024
+    </div>
+
+    <h1>
+      Stunting Indonesia dalam data.
+    </h1>
+
+    <p class="hero-copy">
+      Dashboard analitik untuk melihat kondisi prevalensi
+      stunting pada kabupaten/kota di Indonesia,
+      disandingkan dengan akses air minum layak,
+      sanitasi aman, dan pemantauan pertumbuhan
+      sesuai standar.
+    </p>
+
+    <div class="source-note">
+
+      Sumber utama:
+
+      <strong>
+        Survei Status Gizi Indonesia (SSGI) 2024
+      </strong>
+
+      · Kementerian Kesehatan Republik Indonesia
+
+    </div>
+
+  </div>
+
+
+  <aside class="overview">
+
+    <div class="overview-title">
+      Ringkasan dataset
+    </div>
+
+
+    <div class="overview-row">
+
+      <div class="overview-label">
+        Prevalensi nasional resmi SSGI 2024
+      </div>
+
+      <div
+        class="overview-value num"
+        id="officialRate"
+      >
+        19.8%
+      </div>
+
+    </div>
+
+
+    <div class="overview-row">
+
+      <div class="overview-label">
+        Kabupaten/kota dalam dataset
+      </div>
+
+      <div
+        class="overview-value num"
+        id="totalRegions"
+      >
+        514
+      </div>
+
+    </div>
+
+
+    <div class="overview-row">
+
+      <div class="overview-label">
+        Rata-rata aritmetika kabupaten/kota
+      </div>
+
+      <div
+        class="overview-value num"
+        id="averageRegions"
+      >
+        —
+      </div>
+
+    </div>
+
+  </aside>
+
+</section>
+
+
+<!-- =======================================================
+     CATEGORY
+======================================================= -->
+
+<section class="category-wrap">
+
+  <div class="micro-title">
+    Distribusi kategori prevalensi · 4 kategori teramati pada dataset 2024
+  </div>
+
+  <div
+    class="category-grid"
+    id="categoryGrid"
+  ></div>
+
+</section>
+
+
+<!-- =======================================================
+     MAP PAGE
+======================================================= -->
+
+<section
+  class="page active"
+  id="mapPage"
+>
+
+  <div class="section-head">
+
+    <h2>
+      Peta prevalensi stunting
+    </h2>
+
+    <p>
+      Warna menunjukkan kategori berdasarkan rata-rata
+      prevalensi kabupaten/kota dalam provinsi.
+      Nilai tersebut bukan prevalensi resmi provinsi.
+    </p>
+
+  </div>
+
+
+  <div class="map-layout">
+
+
+    <aside class="map-sidebar">
+
+      <h3>
+        Jelajahi wilayah
+      </h3>
+
+      <p>
+        Gunakan filter untuk melihat provinsi
+        atau kategori prevalensi tertentu.
+      </p>
+
+
+      <div class="field">
+
+        <label>
+          Provinsi
+        </label>
+
+        <select id="provinceFilter">
+
+          <option value="">
+            Semua provinsi
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div class="field">
+
+        <label>
+          Kategori prevalensi
+        </label>
+
+        <select id="categoryFilter">
+
+          <option value="">
+            Semua kategori
+          </option>
+
+          <option>
+            Rendah
+          </option>
+
+          <option>
+            Sedang
+          </option>
+
+          <option>
+            Tinggi
+          </option>
+
+          <option>
+            Sangat Tinggi
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div id="mapWarning"></div>
+
+    </aside>
+
+
+    <div>
+
+      <div id="map"></div>
+
+      <div
+        class="map-legend"
+        id="legend"
+      ></div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =======================================================
+     ANALYSIS PAGE
+======================================================= -->
+
+<section
+  class="page"
+  id="analysisPage"
+>
+
+  <div class="section-head">
+
+    <h2>
+      Analisis visual
+    </h2>
+
+    <p>
+      Warna digunakan untuk menunjukkan tingkat prevalensi
+      dan membedakan indikator agar data lebih mudah dibaca.
+    </p>
+
+  </div>
+
+
+  <div class="chart-layout">
+
+
+    <div class="panel">
+
+      <div class="panel-title">
+
+        <h3>
+          Rata-rata prevalensi menurut provinsi
+        </h3>
+
+        <p>
+          Provinsi diurutkan berdasarkan rata-rata
+          prevalensi kabupaten/kota.
+        </p>
+
+      </div>
+
+
+      <div class="chart chart-large">
+
+        <canvas id="rankingChart"></canvas>
+
+      </div>
+
+
+      <div class="chart-source">
+        Sumber: olahan SSGI 2024.
+        Nilai bukan prevalensi resmi provinsi.
+      </div>
+
+    </div>
+
+
+    <div class="chart-side">
+
+
+      <div class="panel">
+
+        <div class="panel-title">
+
+          <h3>
+            Distribusi kategori
+          </h3>
+
+          <p>
+            Jumlah kabupaten/kota pada setiap
+            kategori prevalensi.
+          </p>
+
+        </div>
+
+
+        <div class="chart chart-medium">
+
+          <canvas id="distributionChart"></canvas>
+
+        </div>
+
+      </div>
+
+
+      <div class="panel">
+
+        <div class="panel-title">
+
+          <h3>
+            Sanitasi dan stunting
+          </h3>
+
+          <p>
+            Hubungan visual tingkat provinsi.
+            Tidak menunjukkan hubungan sebab-akibat.
+          </p>
+
+        </div>
+
+
+        <div class="chart chart-medium">
+
+          <canvas id="scatterChart"></canvas>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="panel full-panel">
+
+    <div class="panel-title">
+
+      <h3>
+        Indikator kontekstual provinsi
+      </h3>
+
+      <p>
+        Perbandingan akses air minum layak,
+        sanitasi aman, dan pemantauan pertumbuhan
+        sesuai standar.
+      </p>
+
+    </div>
+
+
+    <div class="chart chart-wide">
+
+      <canvas id="indicatorChart"></canvas>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =======================================================
+     TABLE PAGE
+======================================================= -->
+
+<section
+  class="page"
+  id="dataPage"
+>
+
+  <div class="section-head">
+
+    <h2>
+      Data kabupaten/kota
+    </h2>
+
+    <p>
+      Gunakan pencarian dan filter untuk menemukan
+      wilayah tertentu. Tabel dapat digeser horizontal
+      untuk melihat seluruh variabel.
+    </p>
+
+  </div>
+
+
+  <div class="table-shell">
+
+
+    <div class="table-toolbar">
+
+
+      <div class="table-title">
+
+        <h3 id="tableTitle">
+          514 kabupaten/kota
+        </h3>
+
+        <span>
+          Dataset SSGI 2024
+        </span>
+
+      </div>
+
+
+      <div class="table-controls">
+
+
+        <div class="field search-field">
+
+          <label>
+            Cari wilayah
+          </label>
+
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Kabupaten/kota atau provinsi"
+          >
+
+        </div>
+
+
+        <div class="field">
+
+          <label>
+            Kategori
+          </label>
+
+          <select id="tableCategory">
+
+            <option value="">
+              Semua kategori
+            </option>
+
+            <option>
+              Rendah
+            </option>
+
+            <option>
+              Sedang
+            </option>
+
+            <option>
+              Tinggi
+            </option>
+
+            <option>
+              Sangat Tinggi
+            </option>
+
+          </select>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="table-scroll">
+
+      <table>
+
+        <thead>
+
+          <tr>
+
+            <th data-key="kabupaten_kota">
+              Kabupaten/Kota
+            </th>
+
+            <th data-key="provinsi">
+              Provinsi
+            </th>
+
+            <th data-key="stunting_pct">
+              Stunting
+            </th>
+
+            <th data-key="underweight_pct">
+              Underweight
+            </th>
+
+            <th data-key="akses_air_minum_layak_prov_pct">
+              Air Minum Layak (Prov.)
+            </th>
+
+            <th data-key="akses_sanitasi_aman_prov_pct">
+              Sanitasi Aman (Prov.)
+            </th>
+
+            <th data-key="pemantauan_pertumbuhan_sesuai_standar_prov_pct">
+              Pemantauan Pertumbuhan (Prov.)
+            </th>
+
+            <th data-key="category">
+              Kategori
+            </th>
+
+            <th data-key="prediksi_model">
+              Prediksi
+            </th>
+
+            <th data-key="probabilitas_model">
+              Probabilitas Model
+            </th>
+
+          </tr>
+
+        </thead>
+
+        <tbody id="tableBody"></tbody>
+
+      </table>
+
+    </div>
+
+
+    <div
+      class="warning"
+      style="margin:14px 18px 0;"
+    >
+
+      <strong>Catatan data:</strong>
+
+      prevalensi stunting dan underweight merupakan data
+      kabupaten/kota. Underweight digunakan sebagai indikator
+      status gizi pendamping dan fitur prediktif XGBoost,
+      bukan sebagai faktor penyebab stunting.
+
+      Air Minum Layak, Sanitasi Aman, dan Pemantauan
+      Pertumbuhan merupakan indikator tingkat provinsi,
+      sehingga kabupaten/kota dalam provinsi yang sama
+      dapat memiliki nilai indikator yang sama.
+
+      Tanda “—” berarti data indikator tidak tersedia
+      pada sumber yang digunakan.
+
+    </div>
+
+
+    <div class="pagination">
+
+      <span id="pageInfo"></span>
+
+      <button id="prevPage">
+        ← Sebelumnya
+      </button>
+
+      <button id="nextPage">
+        Berikutnya →
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =======================================================
+     MODEL PAGE
+======================================================= -->
+
+<section
+  class="page"
+  id="modelPage"
+>
+
+  <div class="section-head">
+
+    <h2>
+      Evaluasi model XGBoost
+    </h2>
+
+    <p>
+      Evaluasi XGBoost menggunakan nested cross-validation
+      berbasis kelompok provinsi untuk menjaga pemisahan
+      wilayah antara proses pelatihan dan evaluasi.
+    </p>
+
+  </div>
+
+
+  <div
+    class="model-metrics"
+    id="modelMetrics"
+  ></div>
+
+
+  <div
+    class="model-note"
+    id="modelInfo"
+  ></div>
+
+
+  <div class="model-grid">
+
+
+    <div class="panel">
+
+      <div class="panel-title">
+
+        <h3>
+          Feature importance model final
+        </h3>
+
+        <p>
+          Kontribusi relatif fitur pada model final full-data.
+          Bukan metrik evaluasi dan bukan bukti hubungan sebab-akibat.
+        </p>
+
+      </div>
+
+
+      <div class="chart chart-medium">
+
+        <canvas id="importanceChart"></canvas>
+
+      </div>
+
+    </div>
+
+
+    <div class="panel">
+
+      <div class="panel-title">
+
+        <h3>
+          Confusion matrix
+        </h3>
+
+        <p>
+          Baris menunjukkan kelas aktual,
+          sedangkan kolom menunjukkan hasil prediksi.
+        </p>
+
+      </div>
+
+
+      <div id="confusionMatrix"></div>
+
+      <div
+        id="classificationReport"
+        style="margin-top:18px;"
+      ></div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =======================================================
+     CALCULATOR PAGE
+======================================================= -->
+
+<section
+  class="page"
+  id="calculatorPage"
+>
+
+  <div class="section-head">
+
+    <h2>
+      Kalkulator antropometri WHO
+    </h2>
+
+    <p>
+      Perhitungan panjang atau tinggi badan menurut umur
+      berdasarkan WHO Child Growth Standards usia 0–60 bulan.
+    </p>
+
+  </div>
+
+
+  <div class="calc-shell">
+
+
+    <div class="calc-form">
+
+
+      <div class="field">
+
+        <label>
+          Jenis kelamin
+        </label>
+
+        <select id="calcSex">
+
+          <option value="laki-laki">
+            Laki-laki
+          </option>
+
+          <option value="perempuan">
+            Perempuan
+          </option>
+
+        </select>
+
+      </div>
+
+
+      <div class="field">
+
+        <label>
+          Umur (bulan)
+        </label>
+
+        <input
+          id="calcAge"
+          type="number"
+          min="0"
+          max="60"
+          placeholder="Contoh: 30"
+        >
+
+      </div>
+
+
+      <div
+        class="calc-info"
+        id="calcIndicator"
+      >
+        Indikator: Panjang badan menurut umur (PB/U)
+      </div>
+
+
+      <div class="field">
+
+        <label id="calcHeightLabel">
+          Panjang badan (cm, berbaring)
+        </label>
+
+        <input
+          id="calcHeight"
+          type="number"
+          step=".1"
+          placeholder="Contoh: 75.7"
+        >
+
+      </div>
+
+
+      <button
+        class="primary-btn"
+        onclick="calculateZScore()"
+      >
+        Hitung Z-score
+      </button>
+
+    </div>
+
+
+    <div class="calc-output">
+
+      <div
+        class="calc-empty"
+        id="calcResult"
+      >
+        Isi data anak kemudian klik
+        <strong>Hitung Z-score</strong>.
+      </div>
+
+
+      <div class="calc-note">
+
+        <strong>Catatan:</strong>
+
+        kalkulator ini merupakan alat bantu edukasi dan
+        akademik, bukan diagnosis medis. Usia 0–23 bulan
+        menggunakan panjang badan berbaring, sedangkan usia
+        24–60 bulan menggunakan tinggi badan berdiri.
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="panel growth-panel">
+
+    <div class="panel-title">
+
+      <h3>
+        Kurva pertumbuhan WHO
+      </h3>
+
+      <p>
+        Median WHO, batas −2 SD, batas −3 SD,
+        dan posisi hasil pengukuran anak.
+      </p>
+
+    </div>
+
+
+    <div class="chart chart-medium">
+
+      <canvas id="growthChart"></canvas>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+</main>
+
+
+<script>
+
+/* =========================================================
+   CHART DEFAULT
+========================================================= */
+
+Chart.defaults.font.family =
+  '"Helvetica Neue", Helvetica, Arial, sans-serif';
+
+Chart.defaults.font.size =
+  13;
+
+Chart.defaults.color =
+  "#2f6278";
+
+Chart.defaults.borderColor =
+  "#d7e7ec";
+
+Chart.defaults.devicePixelRatio =
+  Math.min(
+    window.devicePixelRatio || 1,
+    2
+  );
+
+Chart.defaults.plugins.legend.labels.usePointStyle =
+  true;
+
+Chart.defaults.plugins.legend.labels.boxWidth =
+  9;
+
+Chart.defaults.plugins.tooltip.backgroundColor =
+  "#13293d";
+
+Chart.defaults.plugins.tooltip.titleColor =
+  "#ffffff";
+
+Chart.defaults.plugins.tooltip.bodyColor =
+  "#ffffff";
+
+Chart.defaults.plugins.tooltip.padding =
+  12;
+
+Chart.defaults.plugins.tooltip.cornerRadius =
+  5;
+
+
+/* =========================================================
+   COLORS
+========================================================= */
+
+const COLORS = {
+
+  "Sangat Rendah":"#147b5b",
+
+  "Rendah":"#4b9866",
+
+  "Sedang":"#d5a624",
+
+  "Tinggi":"#e1682f",
+
+  "Sangat Tinggi":"#c72f36"
+
+};
+
+
+const SERIES_COLORS = {
+
+  water:
+    "#2868d8",
+
+  sanitation:
+    "#087f6b",
+
+  growth:
+    "#d98a1c"
+
+};
+
+
+let DATA = null;
+
+let MODEL = null;
+
+let GEO = null;
+
+let map = null;
+
+let geoLayer = null;
+
+let growthChartInstance = null;
+
+
+/* =========================================================
+   HELPERS
+========================================================= */
+
+function getRows(){
+
+  return (
+    DATA.kabkota ||
+    DATA.data ||
+    DATA.rows ||
+    []
+  );
+
+}
+
+
+function rowCategory(row){
+
+  return (
+    row.kategori_prevalensi_stunting ||
+    row.kategori ||
+    ""
+  );
+
+}
+
+
+function categoryFromValue(v){
+
+  v = Number(v);
+
+
+  if(v < 2.5){
+
+    return "Sangat Rendah";
+
+  }
+
+
+  if(v < 10){
+
+    return "Rendah";
+
+  }
+
+
+  if(v < 20){
+
+    return "Sedang";
+
+  }
+
+
+  if(v < 30){
+
+    return "Tinggi";
+
+  }
+
+
+  return "Sangat Tinggi";
+
+}
+
+
+function formatPercent(v){
+
+  if(
+    v===null ||
+    v===undefined ||
+    v==="" ||
+    Number.isNaN(Number(v))
+  ){
+
+    return "—";
+
+  }
+
+
+  const number =
+    Number(v);
+
+
+  return (
+    number.toFixed(
+      number%1===0
+        ? 0
+        : 1
+    )
+    +
+    "%"
+  );
+
+}
+
+
+function average(arr){
+
+  const values =
+    arr
+      .map(Number)
+      .filter(Number.isFinite);
+
+
+  if(!values.length){
+
+    return null;
+
+  }
+
+
+  return (
+    values.reduce(
+      (a,b)=>a+b,
+      0
+    )
+    /
+    values.length
+  );
+
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+document
+  .querySelectorAll(".nav-btn")
+  .forEach(btn=>{
+
+    btn.addEventListener(
+      "click",
+      ()=>{
+
+        document
+          .querySelectorAll(".nav-btn")
+          .forEach(
+            x=>x.classList.remove("active")
+          );
+
+
+        document
+          .querySelectorAll(".page")
+          .forEach(
+            x=>x.classList.remove("active")
+          );
+
+
+        btn.classList.add(
+          "active"
+        );
+
+
+        document
+          .getElementById(
+            btn.dataset.page
+          )
+          .classList.add(
+            "active"
+          );
+
+
+        if(
+          btn.dataset.page==="mapPage" &&
+          map
+        ){
+
+          setTimeout(
+            ()=>map.invalidateSize(),
+            100
+          );
+
+        }
+
+
+        setTimeout(
+          resizeCharts,
+          120
+        );
+
+      }
+    );
+
+  });
+
+
+function resizeCharts(){
+
+  Chart.instances &&
+  Object
+    .values(
+      Chart.instances
+    )
+    .forEach(chart=>{
+
+      if(chart){
+
+        chart.resize();
+
+      }
+
+    });
+
+}
+
+
+/* =========================================================
+   LOAD DATA
+========================================================= */
+
+Promise.all([
+
+  fetch("data.json")
+    .then(
+      r=>r.json()
+    ),
+
+
+  fetch("provinsi.geojson")
+    .then(
+      r=>r.json()
+    ),
+
+
+  fetch("model_output.json")
+    .then(
+      r=>
+        r.ok
+          ? r.json()
+          : null
+    )
+    .catch(
+      ()=>null
+    )
+
+])
+
+.then(
+  ([data,geo,model])=>{
+
+
+    DATA = data;
+
+    GEO = geo;
+
+    MODEL =
+      model ||
+      data.model ||
+      null;
+
+
+    prepareFallbackData();
+
+
+    const rows =
+      getRows();
+
+
+    const stuntingAverage =
+      average(
+        rows.map(
+          x=>x.stunting_pct
+        )
+      );
+
+
+    document
+      .getElementById(
+        "officialRate"
+      )
+      .textContent =
+        `${DATA.prevalensi_nasional_resmi ?? 19.8}%`;
+
+
+    document
+      .getElementById(
+        "totalRegions"
+      )
+      .textContent =
+        DATA.total_kabkota ??
+        rows.length;
+
+
+    document
+      .getElementById(
+        "averageRegions"
+      )
+      .textContent =
+        `${(
+          DATA.rata_kabkota ??
+          stuntingAverage ??
+          0
+        ).toFixed(1)}%`;
+
+
+    buildCategoryCards();
+
+    buildProvinceFilter();
+
+    buildMap();
+
+    buildCharts();
+
+    buildTable();
+
+    buildModel();
+
+  }
+)
+
+.catch(err=>{
+
+  console.error(err);
+
+
+  alert(
+    "Dashboard gagal memuat data. Pastikan index.html, data.json, model_output.json, dan provinsi.geojson berada di folder yang sama dan jalankan melalui server lokal."
+  );
+
+});
+
+
+/* =========================================================
+   FALLBACK DATA
+========================================================= */
+
+function prepareFallbackData(){
+
+  const rows =
+    getRows();
+
+
+  if(!DATA.ringkasan){
+
+    DATA.ringkasan = {
+
+      "Rendah":0,
+
+      "Sedang":0,
+
+      "Tinggi":0,
+
+      "Sangat Tinggi":0
+
+    };
+
+
+    rows.forEach(row=>{
+
+      const c =
+        rowCategory(row) ||
+        categoryFromValue(
+          row.stunting_pct
+        );
+
+
+      if(
+        DATA.ringkasan[c] !==
+        undefined
+      ){
+
+        DATA.ringkasan[c]++;
+
+      }
+
+    });
+
+  }
+
+
+  if(
+    !DATA.rata_provinsi ||
+    !DATA.rata_provinsi.length
+  ){
+
+    const groups = {};
+
+
+    rows.forEach(row=>{
+
+      const p =
+        row.provinsi;
+
+
+      if(!groups[p]){
+
+        groups[p]=[];
+
+      }
+
+
+      groups[p].push(
+        Number(
+          row.stunting_pct
+        )
+      );
+
+    });
+
+
+    DATA.rata_provinsi =
+      Object
+        .entries(groups)
+        .map(
+          ([provinsi,values])=>({
+
+            provinsi,
+
+            stunting_pct:
+              +average(values)
+                .toFixed(1)
+
+          })
+        );
+
+  }
+
+
+  if(!DATA.peta_provinsi){
+
+    DATA.peta_provinsi = {};
+
+
+    DATA.rata_provinsi
+      .forEach(row=>{
+
+        DATA.peta_provinsi[
+          row.provinsi
+        ] = {
+
+          stunting_pct:
+            row.stunting_pct,
+
+          kategori:
+            categoryFromValue(
+              row.stunting_pct
+            )
+
+        };
+
+      });
+
+  }
+
+
+  if(!DATA.indikator_provinsi){
+
+    DATA.indikator_provinsi = {};
+
+
+    const groups = {};
+
+
+    rows.forEach(row=>{
+
+      const p =
+        row.provinsi;
+
+
+      if(!groups[p]){
+
+        groups[p]=[];
+
+      }
+
+
+      groups[p].push(
+        row
+      );
+
+    });
+
+
+    Object
+      .entries(groups)
+      .forEach(
+        ([province,list])=>{
+
+          DATA.indikator_provinsi[
+            province
+          ] = {
+
+            akses_air_minum_layak_prov_pct:
+              average(
+                list.map(
+                  x=>
+                    x.akses_air_minum_layak_prov_pct
+                )
+              ),
+
+            akses_sanitasi_aman_prov_pct:
+              average(
+                list.map(
+                  x=>
+                    x.akses_sanitasi_aman_prov_pct
+                )
+              ),
+
+            pemantauan_pertumbuhan_sesuai_standar_prov_pct:
+              average(
+                list.map(
+                  x=>
+                    x.pemantauan_pertumbuhan_sesuai_standar_prov_pct
+                )
+              )
+
+          };
+
+        }
+      );
+
+  }
+
+}
+
+
+/* =========================================================
+   CATEGORY CARDS
+========================================================= */
+
+function buildCategoryCards(){
+
+  const order = [
+
+    "Rendah",
+
+    "Sedang",
+
+    "Tinggi",
+
+    "Sangat Tinggi"
+
+  ];
+
+
+  const total =
+    order.reduce(
+      (s,c)=>
+        s+
+        (
+          DATA.ringkasan[c] ||
+          0
+        ),
+      0
+    );
+
+
+  const grid =
+    document.getElementById(
+      "categoryGrid"
+    );
+
+
+  grid.innerHTML =
+    "";
+
+
+  order.forEach(category=>{
+
+    const n =
+      DATA.ringkasan[category] ||
+      0;
+
+
+    const percentage =
+      total
+        ? Math.round(
+            n/total*100
+          )
+        : 0;
+
+
+    grid.innerHTML += `
+
+      <div class="category-item">
+
+        <div class="category-top">
+
+          <span
+            class="category-dot"
+            style="
+              background:${COLORS[category]}
+            "
+          ></span>
+
+          <span class="category-percent">
+            ${percentage}% data
+          </span>
+
+        </div>
+
+        <div class="category-number num">
+          ${n}
+        </div>
+
+        <div class="category-label">
+          ${category}
+        </div>
+
+      </div>
+
+    `;
+
+  });
+
+}
+
+
+/* =========================================================
+   PROVINCE FILTER
+========================================================= */
+
+function buildProvinceFilter(){
+
+  const select =
+    document.getElementById(
+      "provinceFilter"
+    );
+
+
+  Object
+    .keys(
+      DATA.peta_provinsi
+    )
+    .sort(
+      (a,b)=>
+        a.localeCompare(
+          b,
+          "id"
+        )
+    )
+    .forEach(province=>{
+
+      select.innerHTML += `
+
+        <option value="${province}">
+          ${province}
+        </option>
+
+      `;
+
+    });
+
+}
+
+
+const aliases = {
+
+  "DI ACEH":
+    "Aceh",
+
+  "NANGGROE ACEH DARUSSALAM":
+    "Aceh",
+
+  "KEPULAUAN BANGKA BELITUNG":
+    "Bangka Belitung",
+
+  "DAERAH ISTIMEWA YOGYAKARTA":
+    "DI Yogyakarta",
+
+  "DI YOGYAKARTA":
+    "DI Yogyakarta",
+
+  "DKI JAKARTA":
+    "DKI Jakarta"
+
+};
+
+
+function normalizeProvince(name){
+
+  const raw =
+    String(
+      name || ""
+    )
+    .trim();
+
+
+  return (
+    aliases[
+      raw.toUpperCase()
+    ] ||
+    raw
+  );
+
+}
+
+
+/* =========================================================
+   MAP
+========================================================= */
+
+function mapStyle(feature){
+
+  const props =
+    feature.properties ||
+    {};
+
+
+  const rawName =
+    props.PROVINSI ||
+    props.provinsi ||
+    props.NAME_1 ||
+    props.name ||
+    "";
+
+
+  const province =
+    normalizeProvince(
+      rawName
+    );
+
+
+  const info =
+    DATA.peta_provinsi[
+      province
+    ];
+
+
+  if(!info){
+
+    return{
+
+      fillColor:
+        "#d6dbde",
+
+      color:
+        "#ffffff",
+
+      weight:
+        1,
+
+      fillOpacity:
+        .7
+
+    };
+
+  }
+
+
+  const category =
+    info.kategori ||
+    categoryFromValue(
+      info.stunting_pct
+    );
+
+
+  const filter =
+    document
+      .getElementById(
+        "categoryFilter"
+      )
+      .value;
+
+
+  const visible =
+    !filter ||
+    filter===category;
+
+
+  return{
+
+    fillColor:
+      COLORS[category],
+
+    color:
+      "#ffffff",
+
+    weight:
+      1.25,
+
+    fillOpacity:
+      visible
+        ? .88
+        : .1
+
+  };
+
+}
+
+
+function buildMap(){
+
+  map =
+    L.map(
+      "map",
+      {
+        zoomControl:true
+      }
+    )
+    .setView(
+      [-2.5,118],
+      4.5
+    );
+
+
+  L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+    {
+      attribution:
+        "&copy; OpenStreetMap contributors"
+    }
+  )
+  .addTo(map);
+
+
+  const unmatched=[];
+
+
+  geoLayer =
+    L.geoJSON(
+      GEO,
+      {
+
+        style:
+          mapStyle,
+
+
+        onEachFeature:
+          (feature,layer)=>{
+
+
+            const p =
+              feature.properties ||
+              {};
+
+
+            const rawName =
+              p.PROVINSI ||
+              p.provinsi ||
+              p.NAME_1 ||
+              p.name ||
+              "";
+
+
+            const province =
+              normalizeProvince(
+                rawName
+              );
+
+
+            const info =
+              DATA.peta_provinsi[
+                province
+              ];
+
+
+            if(!info){
+
+              unmatched.push(
+                rawName
+              );
+
+              return;
+
+            }
+
+
+            const category =
+              info.kategori ||
+              categoryFromValue(
+                info.stunting_pct
+              );
+
+
+            const indicator =
+              DATA.indikator_provinsi[
+                province
+              ];
+
+
+            layer.bindPopup(`
+
+              <div class="popup">
+
+                <h3>
+                  ${province}
+                </h3>
+
+
+                <div class="popup-row">
+
+                  <span class="popup-key">
+                    Rata-rata stunting
+                  </span>
+
+                  <span class="popup-value">
+
+                    ${formatPercent(
+                      info.stunting_pct
+                    )}
+
+                  </span>
+
+                </div>
+
+
+                <div class="popup-row">
+
+                  <span class="popup-key">
+                    Kategori
+                  </span>
+
+                  <span
+                    class="popup-value"
+                    style="
+                      color:${COLORS[category]}
+                    "
+                  >
+
+                    ${category}
+
+                  </span>
+
+                </div>
+
+
+                ${
+                  indicator
+                  ? `
+
+                    <div class="popup-row">
+
+                      <span class="popup-key">
+                        Air minum layak
+                      </span>
+
+                      <span class="popup-value">
+
+                        ${formatPercent(
+                          indicator
+                            .akses_air_minum_layak_prov_pct
+                        )}
+
+                      </span>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                      <span class="popup-key">
+                        Sanitasi aman
+                      </span>
+
+                      <span class="popup-value">
+
+                        ${formatPercent(
+                          indicator
+                            .akses_sanitasi_aman_prov_pct
+                        )}
+
+                      </span>
+
+                    </div>
+
+
+                    <div class="popup-row">
+
+                      <span class="popup-key">
+                        Pemantauan pertumbuhan
+                      </span>
+
+                      <span class="popup-value">
+
+                        ${formatPercent(
+                          indicator
+                            .pemantauan_pertumbuhan_sesuai_standar_prov_pct
+                        )}
+
+                      </span>
+
+                    </div>
+
+                  `
+                  : ""
+                }
+
+
+              </div>
+
+            `);
+
+
+            layer.on(
+              "mouseover",
+              ()=>{
+
+                layer.setStyle({
+                  weight:2.4
+                });
+
+              }
+            );
+
+
+            layer.on(
+              "mouseout",
+              ()=>{
+
+                geoLayer.resetStyle(
+                  layer
+                );
+
+              }
+            );
+
+          }
+
+      }
+    )
+    .addTo(map);
+
+
+  buildLegend();
+
+
+  if(unmatched.length){
+
+    document
+      .getElementById(
+        "mapWarning"
+      )
+      .innerHTML = `
+
+        <div class="warning">
+
+          ${unmatched.length}
+          nama wilayah pada GeoJSON
+          belum cocok dengan dataset.
+
+        </div>
+
+      `;
+
+  }
+
+
+  document
+    .getElementById(
+      "categoryFilter"
+    )
+    .addEventListener(
+      "change",
+      ()=>{
+
+        geoLayer.setStyle(
+          mapStyle
+        );
+
+      }
+    );
+
+
+  document
+    .getElementById(
+      "provinceFilter"
+    )
+    .addEventListener(
+      "change",
+      function(){
+
+
+        if(!this.value){
+
+          map.setView(
+            [-2.5,118],
+            4.5
+          );
+
+          return;
+
+        }
+
+
+        geoLayer.eachLayer(
+          layer=>{
+
+
+            const p =
+              layer.feature.properties ||
+              {};
+
+
+            const rawName =
+              p.PROVINSI ||
+              p.provinsi ||
+              p.NAME_1 ||
+              p.name ||
+              "";
+
+
+            const province =
+              normalizeProvince(
+                rawName
+              );
+
+
+            if(
+              province===
+              this.value
+            ){
+
+              map.fitBounds(
+                layer.getBounds(),
+                {
+                  maxZoom:7
+                }
+              );
+
+              layer.openPopup();
+
+            }
+
+          }
+        );
+
+      }
+    );
+
+}
+
+
+function buildLegend(){
+
+  const order=[
+
+    "Rendah",
+
+    "Sedang",
+
+    "Tinggi",
+
+    "Sangat Tinggi"
+
+  ];
+
+
+  const legend =
+    document.getElementById(
+      "legend"
+    );
+
+
+  legend.innerHTML =
+    "";
+
+
+  order.forEach(category=>{
+
+    legend.innerHTML += `
+
+      <span class="legend-item">
+
+        <span
+          class="legend-dot"
+          style="
+            background:${COLORS[category]}
+          "
+        ></span>
+
+        ${category}
+
+      </span>
+
+    `;
+
+  });
+
+}
+
+
+/* =========================================================
+   CHARTS
+========================================================= */
+
+function buildCharts(){
+
+  buildRankingChart();
+
+  buildDistributionChart();
+
+  buildScatterChart();
+
+  buildIndicatorChart();
+
+}
+
+
+/* =========================================================
+   RANKING CHART
+========================================================= */
+
+function buildRankingChart(){
+
+  const rows =
+    [...DATA.rata_provinsi]
+      .sort(
+        (a,b)=>
+          a.stunting_pct -
+          b.stunting_pct
+      );
+
+
+  const colors =
+    rows.map(row=>{
+
+      const category =
+        categoryFromValue(
+          row.stunting_pct
+        );
+
+      return COLORS[category];
+
+    });
+
+
+  new Chart(
+    document.getElementById(
+      "rankingChart"
+    ),
+    {
+
+      type:"bar",
+
+
+      data:{
+
+        labels:
+          rows.map(
+            x=>x.provinsi
+          ),
+
+
+        datasets:[{
+
+          data:
+            rows.map(
+              x=>x.stunting_pct
+            ),
+
+          backgroundColor:
+            colors,
+
+          borderWidth:
+            0,
+
+          borderRadius:
+            3,
+
+          barThickness:
+            10
+
+        }]
+
+      },
+
+
+      options:{
+
+        maintainAspectRatio:
+          false,
+
+        indexAxis:
+          "y",
+
+
+        animation:{
+          duration:350
+        },
+
+
+        layout:{
+
+          padding:{
+            top:4,
+            right:10,
+            bottom:5,
+            left:4
+          }
+
+        },
+
+
+        plugins:{
+
+          legend:{
+            display:false
+          },
+
+
+          tooltip:{
+
+            callbacks:{
+
+              label:c=>{
+
+                const value =
+                  c.parsed.x;
+
+
+                return (
+                  `${value}% · ` +
+                  categoryFromValue(
+                    value
+                  )
+                );
+
+              }
+
+            }
+
+          }
+
+        },
+
+
+        scales:{
+
+          x:{
+
+            beginAtZero:
+              true,
+
+
+            grid:{
+              color:
+                "#e4e9eb"
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              color:
+                "#2d627b",
+
+              font:{
+                size:13.5,
+                weight:"500"
+              },
+
+              padding:6
+
+            },
+
+
+            title:{
+
+              display:true,
+
+              text:
+                "Rata-rata prevalensi stunting (%)",
+
+              color:
+                "#195f73",
+
+              font:{
+                size:14,
+                weight:"600"
+              },
+
+              padding:{
+                top:10
+              }
+
+            }
+
+          },
+
+
+          y:{
+
+            grid:{
+              display:false
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              autoSkip:false,
+
+              color:
+                "#174c67",
+
+              padding:10,
+
+              font:{
+                size:14,
+                weight:"500"
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+  );
+
+}
+
+
+/* =========================================================
+   DISTRIBUTION CHART
+========================================================= */
+
+function buildDistributionChart(){
+
+  const categories=[
+
+    "Rendah",
+
+    "Sedang",
+
+    "Tinggi",
+
+    "Sangat Tinggi"
+
+  ];
+
+
+  new Chart(
+    document.getElementById(
+      "distributionChart"
+    ),
+    {
+
+      type:"bar",
+
+
+      data:{
+
+        labels:
+          categories,
+
+
+        datasets:[{
+
+          data:
+            categories.map(
+              c=>
+                DATA.ringkasan[c] ||
+                0
+            ),
+
+          backgroundColor:
+            categories.map(
+              c=>COLORS[c]
+            ),
+
+          borderWidth:0,
+
+          borderRadius:5,
+
+          barPercentage:.65,
+
+          categoryPercentage:.72
+
+        }]
+
+      },
+
+
+      options:{
+
+        maintainAspectRatio:false,
+
+
+        plugins:{
+
+          legend:{
+            display:false
+          },
+
+
+          tooltip:{
+
+            callbacks:{
+
+              label:c=>
+                `${c.parsed.y} kabupaten/kota`
+
+            }
+
+          }
+
+        },
+
+
+        scales:{
+
+          x:{
+
+            grid:{
+              display:false
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              color:
+                "#245f78",
+
+              autoSkip:false,
+
+              font:{
+                size:14,
+                weight:"500"
+              },
+
+              padding:7,
+
+              maxRotation:0
+
+            }
+
+          },
+
+
+          y:{
+
+            beginAtZero:true,
+
+
+            grid:{
+              color:"#e4e9eb"
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              color:
+                "#39758a",
+
+              font:{
+                size:13
+              },
+
+              padding:6
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+  );
+
+}
+
+
+/* =========================================================
+   SCATTER CHART
+========================================================= */
+
+function buildScatterChart(){
+
+  const points =
+    DATA.rata_provinsi
+
+      .map(row=>{
+
+
+        const indicator =
+          DATA.indikator_provinsi[
+            row.provinsi
+          ];
+
+
+        if(
+          !indicator ||
+          indicator
+            .akses_sanitasi_aman_prov_pct
+            ==null
+        ){
+
+          return null;
+
+        }
+
+
+        return{
+
+          x:
+            indicator
+              .akses_sanitasi_aman_prov_pct,
+
+          y:
+            row.stunting_pct,
+
+          province:
+            row.provinsi,
+
+          category:
+            categoryFromValue(
+              row.stunting_pct
+            )
+
+        };
+
+      })
+
+      .filter(Boolean);
+
+
+  const grouped={};
+
+
+  points.forEach(point=>{
+
+
+    if(
+      !grouped[
+        point.category
+      ]
+    ){
+
+      grouped[
+        point.category
+      ]=[];
+
+    }
+
+
+    grouped[
+      point.category
+    ].push(point);
+
+  });
+
+
+  const order=[
+
+    "Rendah",
+
+    "Sedang",
+
+    "Tinggi",
+
+    "Sangat Tinggi"
+
+  ];
+
+
+  new Chart(
+    document.getElementById(
+      "scatterChart"
+    ),
+    {
+
+      type:"scatter",
+
+
+      data:{
+
+        datasets:
+
+          order
+            .filter(
+              c=>grouped[c]
+            )
+            .map(category=>({
+
+              label:
+                category,
+
+              data:
+                grouped[category],
+
+              backgroundColor:
+                COLORS[category],
+
+              borderColor:
+                "#ffffff",
+
+              borderWidth:
+                1.5,
+
+              pointRadius:
+                5.5,
+
+              pointHoverRadius:
+                7.5
+
+            }))
+
+      },
+
+
+      options:{
+
+        maintainAspectRatio:
+          false,
+
+
+        plugins:{
+
+          legend:{
+            display:false
+          },
+
+
+          tooltip:{
+
+            callbacks:{
+
+              label:c=>{
+
+                const p =
+                  c.raw;
+
+
+                return (
+                  `${p.province}: ` +
+                  `sanitasi ${p.x.toFixed(1)}%, ` +
+                  `stunting ${p.y.toFixed(1)}%`
+                );
+
+              }
+
+            }
+
+          }
+
+        },
+
+
+        scales:{
+
+          x:{
+
+            grid:{
+              color:
+                "#e4e9eb"
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              color:
+                "#2e6b82",
+
+              font:{
+                size:13
+              },
+
+              padding:5
+
+            },
+
+
+            title:{
+
+              display:true,
+
+              text:
+                "Akses sanitasi aman (%)",
+
+              color:
+                "#17677a",
+
+              font:{
+                size:13.5,
+                weight:"600"
+              },
+
+              padding:{
+                top:9
+              }
+
+            }
+
+          },
+
+
+          y:{
+
+            grid:{
+              color:
+                "#e4e9eb"
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              color:
+                "#2e6b82",
+
+              font:{
+                size:13
+              },
+
+              padding:5
+
+            },
+
+
+            title:{
+
+              display:true,
+
+              text:
+                "Stunting (%)",
+
+              color:
+                "#17677a",
+
+              font:{
+                size:13.5,
+                weight:"600"
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+  );
+
+}
+
+
+/* =========================================================
+   INDICATOR CHART
+========================================================= */
+
+function buildIndicatorChart(){
+
+  const provinces =
+    Object
+      .keys(
+        DATA.indikator_provinsi
+      )
+
+      .sort(
+        (a,b)=>
+
+          (
+            DATA
+              .peta_provinsi[a]
+              ?.stunting_pct
+            ||
+            0
+          )
+
+          -
+
+          (
+            DATA
+              .peta_provinsi[b]
+              ?.stunting_pct
+            ||
+            0
+          )
+      );
+
+
+  new Chart(
+    document.getElementById(
+      "indicatorChart"
+    ),
+    {
+
+      type:"bar",
+
+
+      data:{
+
+        labels:
+          provinces,
+
+
+        datasets:[
+
+
+          {
+
+            label:
+              "Air minum layak",
+
+            data:
+              provinces.map(
+                p=>
+                  DATA
+                    .indikator_provinsi[p]
+                    ?.akses_air_minum_layak_prov_pct
+              ),
+
+            backgroundColor:
+              SERIES_COLORS.water,
+
+            borderWidth:0,
+
+            borderRadius:2,
+
+            barThickness:6
+
+          },
+
+
+          {
+
+            label:
+              "Sanitasi aman",
+
+            data:
+              provinces.map(
+                p=>
+                  DATA
+                    .indikator_provinsi[p]
+                    ?.akses_sanitasi_aman_prov_pct
+              ),
+
+            backgroundColor:
+              SERIES_COLORS.sanitation,
+
+            borderWidth:0,
+
+            borderRadius:2,
+
+            barThickness:6
+
+          },
+
+
+          {
+
+            label:
+              "Pemantauan pertumbuhan (provinsi)",
+
+            data:
+              provinces.map(
+                p=>
+                  DATA
+                    .indikator_provinsi[p]
+                    ?.pemantauan_pertumbuhan_sesuai_standar_prov_pct
+              ),
+
+            backgroundColor:
+              SERIES_COLORS.growth,
+
+            borderWidth:0,
+
+            borderRadius:2,
+
+            barThickness:6
+
+          }
+
+        ]
+
+      },
+
+
+      options:{
+
+        maintainAspectRatio:false,
+
+        indexAxis:"y",
+
+
+        layout:{
+
+          padding:{
+            top:5,
+            right:8,
+            bottom:0,
+            left:3
+          }
+
+        },
+
+
+        plugins:{
+
+          legend:{
+
+            position:"bottom",
+
+
+            labels:{
+
+              usePointStyle:true,
+
+              pointStyle:
+                "circle",
+
+              boxWidth:9,
+
+              boxHeight:9,
+
+              color:
+                "#15546b",
+
+              padding:24,
+
+              font:{
+                size:13.5,
+                weight:"600"
+              }
+
+            }
+
+          }
+
+        },
+
+
+        scales:{
+
+          x:{
+
+            min:0,
+
+            max:100,
+
+
+            grid:{
+              color:
+                "#e4e9eb"
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              color:
+                "#2d627b",
+
+              font:{
+                size:13
+              },
+
+              padding:5
+
+            },
+
+
+            title:{
+
+              display:true,
+
+              text:
+                "Persentase (%)",
+
+              color:
+                "#4c606e",
+
+              font:{
+                size:14,
+                weight:"600"
+              },
+
+              padding:{
+                top:10
+              }
+
+            }
+
+          },
+
+
+          y:{
+
+            grid:{
+              display:false
+            },
+
+
+            border:{
+              display:false
+            },
+
+
+            ticks:{
+
+              autoSkip:false,
+
+              color:
+                "#174c67",
+
+              padding:10,
+
+              font:{
+                size:13.5,
+                weight:"500"
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+  );
+
+}
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+const tableState={
+
+  page:1,
+
+  perPage:20,
+
+  sortKey:
+    "stunting_pct",
+
+  direction:
+    "desc"
+
+};
+
+
+function buildTable(){
+
+
+  document
+    .getElementById(
+      "searchInput"
+    )
+    .addEventListener(
+      "input",
+      ()=>{
+
+        tableState.page=1;
+
+        renderTable();
+
+      }
+    );
+
+
+  document
+    .getElementById(
+      "tableCategory"
+    )
+    .addEventListener(
+      "change",
+      ()=>{
+
+        tableState.page=1;
+
+        renderTable();
+
+      }
+    );
+
+
+  document
+    .querySelectorAll(
+      "#dataPage th[data-key]"
+    )
+    .forEach(th=>{
+
+
+      th.addEventListener(
+        "click",
+        ()=>{
+
+
+          const key =
+            th.dataset.key;
+
+
+          if(
+            tableState.sortKey===
+            key
+          ){
+
+            tableState.direction =
+              tableState.direction===
+              "asc"
+                ? "desc"
+                : "asc";
+
+          }else{
+
+            tableState.sortKey =
+              key;
+
+            tableState.direction =
+              "asc";
+
+          }
+
+
+          renderTable();
+
+        }
+      );
+
+    });
+
+
+  document
+    .getElementById(
+      "prevPage"
+    )
+    .addEventListener(
+      "click",
+      ()=>{
+
+
+        if(
+          tableState.page>1
+        ){
+
+          tableState.page--;
+
+          renderTable();
+
+        }
+
+      }
+    );
+
+
+  document
+    .getElementById(
+      "nextPage"
+    )
+    .addEventListener(
+      "click",
+      ()=>{
+
+
+        const pages =
+          Math.ceil(
+            getTableRows().length /
+            tableState.perPage
+          );
+
+
+        if(
+          tableState.page<
+          pages
+        ){
+
+          tableState.page++;
+
+          renderTable();
+
+        }
+
+      }
+    );
+
+
+  renderTable();
+
+}
+
+
+function getTableRows(){
+
+  const query =
+    document
+      .getElementById(
+        "searchInput"
+      )
+      .value
+      .trim()
+      .toLowerCase();
+
+
+  const category =
+    document
+      .getElementById(
+        "tableCategory"
+      )
+      .value;
+
+
+  const result =
+    getRows()
+      .filter(row=>{
+
+
+        const text =
+          (
+            String(
+              row.kabupaten_kota ||
+              ""
+            )
+            +
+            " "
+            +
+            String(
+              row.provinsi ||
+              ""
+            )
+          )
+          .toLowerCase();
+
+
+        const c =
+          rowCategory(row) ||
+          categoryFromValue(
+            row.stunting_pct
+          );
+
+
+        return(
+          text.includes(
+            query
+          )
+          &&
+          (
+            !category ||
+            c===category
+          )
+        );
+
+      });
+
+
+  result.sort(
+    (a,b)=>{
+
+
+      let av =
+        tableState.sortKey===
+        "category"
+          ? rowCategory(a)
+          : a[
+              tableState.sortKey
+            ];
+
+
+      let bv =
+        tableState.sortKey===
+        "category"
+          ? rowCategory(b)
+          : b[
+              tableState.sortKey
+            ];
+
+
+      if(av==null){
+        return 1;
+      }
+
+
+      if(bv==null){
+        return -1;
+      }
+
+
+      if(
+        typeof av===
+        "string"
+      ){
+
+        av =
+          av.toLowerCase();
+
+        bv =
+          String(bv)
+            .toLowerCase();
+
+      }
+
+
+      if(av<bv){
+
+        return(
+          tableState.direction===
+          "asc"
+            ? -1
+            : 1
+        );
+
+      }
+
+
+      if(av>bv){
+
+        return(
+          tableState.direction===
+          "asc"
+            ? 1
+            : -1
+        );
+
+      }
+
+
+      return 0;
+
+    }
+  );
+
+
+  return result;
+
+}
+
+
+function valueCell(
+  v,
+  pct=false
+){
+
+  if(
+    v===null ||
+    v===undefined ||
+    v===""
+  ){
+
+    return "—";
+
+  }
+
+
+  return (
+    pct
+      ? formatPercent(v)
+      : v
+  );
+
+}
+
+
+function renderTable(){
+
+  const rows =
+    getTableRows();
+
+
+  const totalPages =
+    Math.max(
+      1,
+      Math.ceil(
+        rows.length /
+        tableState.perPage
+      )
+    );
+
+
+  if(
+    tableState.page>
+    totalPages
+  ){
+
+    tableState.page =
+      totalPages;
+
+  }
+
+
+  const start =
+    (
+      tableState.page-1
+    )
+    *
+    tableState.perPage;
+
+
+  const visible =
+    rows.slice(
+      start,
+      start+
+      tableState.perPage
+    );
+
+
+  const body =
+    document.getElementById(
+      "tableBody"
+    );
+
+
+  body.innerHTML =
+    "";
+
+
+  visible.forEach(row=>{
+
+
+    const category =
+      rowCategory(row) ||
+      categoryFromValue(
+        row.stunting_pct
+      );
+
+
+    const color =
+      COLORS[category] ||
+      "#6b7780";
+
+
+    body.innerHTML += `
+
+      <tr>
+
+
+        <td>
+
+          ${
+            valueCell(
+              row.kabupaten_kota
+            )
+          }
+
+        </td>
+
+
+        <td>
+
+          ${
+            valueCell(
+              row.provinsi
+            )
+          }
+
+        </td>
+
+
+        <td class="num">
+
+          ${
+            valueCell(
+              row.stunting_pct,
+              true
+            )
+          }
+
+        </td>
+
+
+        <td class="num">
+
+          ${
+            valueCell(
+              row.underweight_pct,
+              true
+            )
+          }
+
+        </td>
+
+
+        <td class="num">
+
+          ${
+            valueCell(
+
+              row.akses_air_minum_layak_prov_pct
+              ??
+              DATA.indikator_provinsi?.[row.provinsi]
+                ?.akses_air_minum_layak_prov_pct,
+
+              true
+
+            )
+          }
+
+        </td>
+
+
+        <td class="num">
+
+          ${
+            valueCell(
+
+              row.akses_sanitasi_aman_prov_pct
+              ??
+              DATA.indikator_provinsi?.[row.provinsi]
+                ?.akses_sanitasi_aman_prov_pct,
+
+              true
+
+            )
+          }
+
+        </td>
+
+
+        <td class="num">
+
+          ${
+            valueCell(
+
+              row.pemantauan_pertumbuhan_sesuai_standar_prov_pct
+              ??
+              DATA.indikator_provinsi?.[row.provinsi]
+                ?.pemantauan_pertumbuhan_sesuai_standar_prov_pct,
+
+              true
+
+            )
+          }
+
+        </td>
+
+
+        <td>
+
+          <span
+            class="badge"
+            style="
+              color:${color};
+              background:${color}18;
+            "
+          >
+
+            <span
+              class="badge-dot"
+              style="
+                background:${color}
+              "
+            ></span>
+
+            ${category}
+
+          </span>
+
+        </td>
+
+
+        <td>
+
+          ${
+            valueCell(
+              row.prediksi_model
+            )
+          }
+
+        </td>
+
+
+        <td class="num">
+
+          ${
+            row.probabilitas_model==null
+
+              ? "—"
+
+              :
+
+                `${(
+
+                  Number(
+                    row.probabilitas_model
+                  )
+
+                  *
+
+                  (
+
+                    Number(
+                      row.probabilitas_model
+                    )<=1
+
+                      ? 100
+
+                      : 1
+
+                  )
+
+                ).toFixed(1)}%`
+          }
+
+        </td>
+
+
+      </tr>
+
+    `;
+
+  });
+
+
+  document
+    .getElementById(
+      "tableTitle"
+    )
+    .textContent =
+      `${rows.length} kabupaten/kota`;
+
+
+  document
+    .getElementById(
+      "pageInfo"
+    )
+    .textContent =
+      `Halaman ${tableState.page} dari ${totalPages}`;
+
+
+  document
+    .getElementById(
+      "prevPage"
+    )
+    .disabled =
+      tableState.page<=1;
+
+
+  document
+    .getElementById(
+      "nextPage"
+    )
+    .disabled =
+      tableState.page>=
+      totalPages;
+
+}
+
+
+/* =========================================================
+   MODEL
+========================================================= */
+
+function metricPct(value){
+
+  if(
+    value===null ||
+    value===undefined
+  ){
+
+    return "—";
+
+  }
+
+
+  const number =
+    Number(value);
+
+
+  return (
+    (
+      number<=1
+        ? number*100
+        : number
+    )
+    .toFixed(1)
+    +
+    "%"
+  );
+
+}
+
+
+function featureLabel(name){
+
+  const labels={
+
+    underweight_pct:
+      "Underweight (kabupaten/kota)",
+
+    akses_air_minum_layak_prov_pct:
+      "Akses air minum layak (provinsi)",
+
+    akses_sanitasi_aman_prov_pct:
+      "Akses sanitasi aman (provinsi)",
+
+    pemantauan_pertumbuhan_sesuai_standar_prov_pct:
+      "Pemantauan pertumbuhan (provinsi)"
+
+  };
+
+
+  return (
+    labels[name] ||
+    name
+  );
+
+}
+
+
+function buildModel(){
+
+  if(!MODEL){
+
+    document
+      .getElementById(
+        "modelInfo"
+      )
+      .textContent =
+        "Hasil model belum tersedia.";
+
+    return;
+
+  }
+
+
+  const metrics =
+    MODEL.metrics ||
+    MODEL;
+
+
+  const cards=[
+
+    [
+      "Accuracy",
+      metrics.accuracy
+    ],
+
+    [
+      "Precision Macro",
+      metrics.precision_macro
+    ],
+
+    [
+      "Recall Macro",
+      metrics.recall_macro
+    ],
+
+    [
+      "F1 Macro",
+      metrics.f1_macro
+    ]
+
+  ];
+
+
+  document
+    .getElementById(
+      "modelMetrics"
+    )
+    .innerHTML =
+      cards
+        .map(
+          ([label,value])=>`
+
+            <div class="metric">
+
+              <div class="metric-value num">
+                ${metricPct(value)}
+              </div>
+
+              <div class="metric-label">
+                ${label}
+              </div>
+
+            </div>
+
+          `
+        )
+        .join("");
+
+
+  const params =
+    Object
+      .entries(
+        MODEL.best_params ||
+        {}
+      )
+      .map(
+        ([key,value])=>
+          `${key.replace(
+            "model__",
+            ""
+          )}: ${value}`
+      )
+      .join(" · ");
+
+
+  const baseline =
+    MODEL.baseline_metrics ||
+    {};
+
+
+  document
+    .getElementById(
+      "modelInfo"
+    )
+    .innerHTML = `
+
+      <strong>
+
+        ${
+          MODEL.algoritma ||
+          "XGBoost Classifier"
+        }
+
+      </strong>
+
+      <br>
+
+
+      Evaluasi:
+
+      <strong>
+
+        ${
+          MODEL.evaluation_method ||
+          "StratifiedGroupKFold berbasis provinsi"
+        }
+
+      </strong>.
+
+
+      <br>
+
+
+      Prediksi evaluasi out-of-fold:
+
+      <strong>
+
+        ${
+          MODEL.jumlah_evaluasi_oof ??
+          MODEL.jumlah_data ??
+          "—"
+        }
+
+      </strong>
+
+      kabupaten/kota dari
+
+      <strong>
+
+        ${
+          MODEL.jumlah_provinsi ??
+          "—"
+        }
+
+      </strong>
+
+      provinsi.
+
+
+      ${
+        MODEL.fold_f1_macro_mean!=null
+
+          ? `
+
+            <br>
+
+            Rata-rata F1 Macro antar-fold:
+
+            <strong>
+
+              ${metricPct(
+                MODEL.fold_f1_macro_mean
+              )}
+
+            </strong>
+
+            ${
+              MODEL.fold_f1_macro_std!=null
+
+                ? `± ${(Number(
+                    MODEL.fold_f1_macro_std
+                  )*100).toFixed(1)} poin persentase`
+
+                : ""
+            }.
+
+          `
+
+          : ""
+      }
+
+
+      ${
+        baseline.accuracy!=null
+
+          ? `
+
+            <br>
+
+            Baseline majority-class:
+
+            Accuracy
+
+            <strong>
+              ${metricPct(
+                baseline.accuracy
+              )}
+            </strong>
+
+            · F1 Macro
+
+            <strong>
+              ${metricPct(
+                baseline.f1_macro
+              )}
+            </strong>.
+
+          `
+
+          : ""
+      }
+
+
+      ${
+        params
+
+          ? `
+
+            <br>
+
+            Parameter model final:
+
+            ${params}.
+
+          `
+
+          : ""
+      }
+
+
+      <br>
+
+
+      <span style="color:#416f7d">
+
+        Model menggunakan underweight sebagai indikator
+        status gizi pendamping dan fitur prediktif tingkat
+        kabupaten/kota, bersama tiga indikator kontekstual
+        tingkat provinsi.
+
+        Underweight tidak diposisikan sebagai determinan
+        atau faktor penyebab stunting.
+
+        Metrik evaluasi dan confusion matrix berasal dari
+        prediksi out-of-fold berbasis provinsi, sehingga
+        setiap wilayah dievaluasi oleh model yang tidak
+        dilatih pada provinsinya sendiri.
+
+        Feature importance berasal dari model final yang
+        dilatih pada seluruh dataset setelah evaluasi selesai.
+
+        Nilainya menunjukkan kontribusi relatif fitur
+        terhadap keputusan model, bukan hubungan
+        sebab-akibat.
+
+      </span>
+
+    `;
+
+
+  const entries =
+    Object
+      .entries(
+        MODEL.feature_importance ||
+        {}
+      )
+      .sort(
+        (a,b)=>a[1]-b[1]
+      );
+
+
+  const featureColors = [
+
+    "#d98a1c",
+
+    "#2868d8",
+
+    "#087f6b",
+
+    "#7b5fc7"
+
+  ];
+
+
+  if(entries.length){
+
+    new Chart(
+      document.getElementById(
+        "importanceChart"
+      ),
+      {
+
+        type:"bar",
+
+
+        data:{
+
+          labels:
+            entries.map(
+              ([name])=>
+                featureLabel(name)
+            ),
+
+
+          datasets:[{
+
+            data:
+              entries.map(
+                ([,value])=>
+                  value
+              ),
+
+            backgroundColor:
+              entries.map(
+                (_,i)=>
+                  featureColors[
+                    i %
+                    featureColors.length
+                  ]
+              ),
+
+            borderWidth:0,
+
+            borderRadius:4,
+
+            barThickness:23
+
+          }]
+
+        },
+
+
+        options:{
+
+          maintainAspectRatio:false,
+
+          indexAxis:"y",
+
+
+          plugins:{
+
+            legend:{
+              display:false
+            },
+
+
+            tooltip:{
+
+              callbacks:{
+
+                label:c=>{
+
+                  const v =
+                    Number(
+                      c.parsed.x
+                    );
+
+
+                  return (
+
+                    (
+                      v<=1
+                        ? v*100
+                        : v
+                    )
+
+                    .toFixed(1)
+
+                    +
+
+                    "%"
+
+                  );
+
+                }
+
+              }
+
+            }
+
+          },
+
+
+          scales:{
+
+            x:{
+
+              beginAtZero:true,
+
+
+              grid:{
+                color:"#e4e9eb"
+              },
+
+
+              border:{
+                display:false
+              },
+
+
+              ticks:{
+
+                color:
+                  "#2e6b82",
+
+                font:{
+                  size:13
+                },
+
+
+                callback:value=>
+                  `${
+                    Math.round(
+                      value<=1
+                        ? value*100
+                        : value
+                    )
+                  }%`
+
+              }
+
+            },
+
+
+            y:{
+
+              grid:{
+                display:false
+              },
+
+
+              border:{
+                display:false
+              },
+
+
+              ticks:{
+
+                color:
+                  "#174c67",
+
+                padding:9,
+
+                font:{
+                  size:13.5,
+                  weight:"500"
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+    );
+
+  }
+
+
+  const classes =
+    MODEL.kelas_model ||
+    MODEL.classes ||
+    [];
+
+
+  const matrix =
+    MODEL.confusion_matrix ||
+    [];
+
+
+  if(
+    classes.length &&
+    matrix.length
+  ){
+
+    let html=`
+
+      <div class="table-scroll">
+
+      <table>
+
+      <thead>
+
+      <tr>
+
+      <th>
+        Aktual \\ Prediksi
+      </th>
+
+    `;
+
+
+    classes.forEach(
+      c=>{
+
+        html +=
+          `<th>${c}</th>`;
+
+      }
+    );
+
+
+    html +=
+      "</tr></thead><tbody>";
+
+
+    classes.forEach(
+      (label,i)=>{
+
+        html +=
+          `<tr><th>${label}</th>`;
+
+
+        classes.forEach(
+          (_,j)=>{
+
+            html += `
+
+              <td class="num">
+
+                ${
+                  matrix[i]?.[j] ??
+                  0
+                }
+
+              </td>
+
+            `;
+
+          }
+        );
+
+
+        html +=
+          "</tr>";
+
+      }
+    );
+
+
+    html +=
+      "</tbody></table></div>";
+
+
+    document
+      .getElementById(
+        "confusionMatrix"
+      )
+      .innerHTML =
+        html;
+
+
+    const report =
+      MODEL.classification_report ||
+      {};
+
+
+    let reportHtml = `
+
+      <div
+        class="panel-title"
+        style="margin:18px 0 10px;"
+      >
+
+        <h3 style="font-size:15px;">
+          Metrik per kelas
+        </h3>
+
+        <p>
+          Precision, recall, F1-score, dan jumlah
+          observasi pada prediksi out-of-fold.
+        </p>
+
+      </div>
+
+
+      <div
+        class="table-scroll"
+        style="max-height:none;"
+      >
+
+        <table>
+
+          <thead>
+
+            <tr>
+
+              <th>
+                Kelas
+              </th>
+
+              <th>
+                Precision
+              </th>
+
+              <th>
+                Recall
+              </th>
+
+              <th>
+                F1
+              </th>
+
+              <th>
+                Support
+              </th>
+
+            </tr>
+
+          </thead>
+
+          <tbody>
+
+    `;
+
+
+    classes.forEach(label=>{
+
+      const r =
+        report[label] ||
+        {};
+
+
+      reportHtml += `
+
+        <tr>
+
+          <td>
+            ${label}
+          </td>
+
+          <td class="num">
+
+            ${
+              r.precision==null
+                ? "—"
+                : metricPct(
+                    r.precision
+                  )
+            }
+
+          </td>
+
+          <td class="num">
+
+            ${
+              r.recall==null
+                ? "—"
+                : metricPct(
+                    r.recall
+                  )
+            }
+
+          </td>
+
+          <td class="num">
+
+            ${
+              r["f1-score"]==null
+                ? "—"
+                : metricPct(
+                    r["f1-score"]
+                  )
+            }
+
+          </td>
+
+          <td class="num">
+
+            ${
+              r.support==null
+                ? "—"
+                : Math.round(
+                    r.support
+                  )
+            }
+
+          </td>
+
+        </tr>
+
+      `;
+
+    });
+
+
+    reportHtml += `
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    `;
+
+
+    document
+      .getElementById(
+        "classificationReport"
+      )
+      .innerHTML =
+        reportHtml;
+
+  }
+
+}
+
+
+/* =========================================================
+   WHO DATA
+========================================================= */
+
+const WHO={
+
+
+  "laki-laki":{
+
+
+    M:[
+
+      49.8842,54.7244,58.4249,61.4292,63.8860,
+
+      65.9026,67.6236,69.1645,70.5994,71.9687,
+
+      73.2812,74.5388,75.7488,76.9186,78.0497,
+
+      79.1458,80.2113,81.2487,82.2587,83.2418,
+
+      84.1996,85.1348,86.0477,86.9410,87.1161,
+
+      87.9720,88.8065,89.6197,90.4120,91.1828,
+
+      91.9327,92.6631,93.3753,94.0711,94.7532,
+
+      95.4236,96.0835,96.7337,97.3749,98.0073,
+
+      98.6310,99.2459,99.8515,100.4485,101.0374,
+
+      101.6186,102.1933,102.7625,103.3273,103.8886,
+
+      104.4473,105.0041,105.5596,106.1138,106.6668,
+
+      107.2188,107.7697,108.3198,108.8689,109.4170,
+
+      109.9638
+
+    ],
+
+
+    S:[
+
+      .03795,.03557,.03424,.03328,.03257,
+
+      .03204,.03165,.03139,.03124,.03117,
+
+      .03118,.03125,.03137,.03154,.03174,
+
+      .03197,.03222,.03250,.03279,.03310,
+
+      .03342,.03376,.03410,.03445,.03507,
+
+      .03542,.03576,.03610,.03642,.03674,
+
+      .03704,.03733,.03761,.03787,.03812,
+
+      .03836,.03858,.03879,.03900,.03919,
+
+      .03937,.03954,.03971,.03986,.04002,
+
+      .04016,.04031,.04045,.04059,.04073,
+
+      .04086,.04100,.04113,.04126,.04139,
+
+      .04152,.04165,.04177,.04190,.04202,
+
+      .04214
+
+    ]
+
+  },
+
+
+  "perempuan":{
+
+
+    M:[
+
+      49.1477,53.6872,57.0673,59.8029,62.0899,
+
+      64.0301,65.7311,67.2873,68.7498,70.1435,
+
+      71.4818,72.7710,74.0150,75.2176,76.3817,
+
+      77.5099,78.6055,79.6710,80.7079,81.7182,
+
+      82.7036,83.6654,84.6040,85.5202,85.7153,
+
+      86.5904,87.4462,88.2830,89.1004,89.8991,
+
+      90.6797,91.4430,92.1906,92.9239,93.6444,
+
+      94.3533,95.0515,95.7399,96.4187,97.0885,
+
+      97.7493,98.4015,99.0448,99.6795,100.3058,
+
+      100.9238,101.5337,102.1360,102.7312,103.3197,
+
+      103.9021,104.4786,105.0494,105.6148,106.1748,
+
+      106.7295,107.2788,107.8227,108.3613,108.8948,
+
+      109.4233
+
+    ],
+
+
+    S:[
+
+      .03790,.03640,.03568,.03520,.03486,
+
+      .03463,.03448,.03441,.03440,.03444,
+
+      .03452,.03464,.03479,.03496,.03514,
+
+      .03534,.03555,.03576,.03598,.03620,
+
+      .03643,.03666,.03688,.03711,.03764,
+
+      .03786,.03808,.03830,.03851,.03872,
+
+      .03893,.03913,.03933,.03952,.03971,
+
+      .03989,.04006,.04024,.04041,.04057,
+
+      .04073,.04089,.04105,.04120,.04135,
+
+      .04150,.04164,.04179,.04193,.04206,
+
+      .04220,.04233,.04246,.04259,.04272,
+
+      .04285,.04298,.04310,.04322,.04334,
+
+      .04347
+
+    ]
+
+  }
+
+};
+
+
+/* =========================================================
+   CALCULATOR
+========================================================= */
+
+document
+  .getElementById(
+    "calcAge"
+  )
+  .addEventListener(
+    "input",
+    function(){
+
+
+      const age =
+        Number(
+          this.value
+        );
+
+
+      if(
+        Number.isFinite(age) &&
+        age>=24
+      ){
+
+        document
+          .getElementById(
+            "calcIndicator"
+          )
+          .textContent =
+            "Indikator: Tinggi badan menurut umur (TB/U)";
+
+
+        document
+          .getElementById(
+            "calcHeightLabel"
+          )
+          .textContent =
+            "Tinggi badan (cm, berdiri)";
+
+      }else{
+
+        document
+          .getElementById(
+            "calcIndicator"
+          )
+          .textContent =
+            "Indikator: Panjang badan menurut umur (PB/U)";
+
+
+        document
+          .getElementById(
+            "calcHeightLabel"
+          )
+          .textContent =
+            "Panjang badan (cm, berbaring)";
+
+      }
+
+    }
+  );
+
+
+function zCategory(z){
+
+  if(z<-3){
+
+    return{
+
+      label:
+        "Sangat pendek",
+
+      color:
+        COLORS[
+          "Sangat Tinggi"
+        ]
+
+    };
+
+  }
+
+
+  if(z<-2){
+
+    return{
+
+      label:
+        "Pendek",
+
+      color:
+        COLORS[
+          "Tinggi"
+        ]
+
+    };
+
+  }
+
+
+  if(z<=3){
+
+    return{
+
+      label:
+        "Normal",
+
+      color:
+        COLORS[
+          "Sangat Rendah"
+        ]
+
+    };
+
+  }
+
+
+  return{
+
+    label:
+      "Di atas rentang normal",
+
+    color:
+      COLORS[
+        "Sedang"
+      ]
+
+  };
+
+}
+
+
+function calculateZScore(){
+
+  const sex =
+    document
+      .getElementById(
+        "calcSex"
+      )
+      .value;
+
+
+  const age =
+    parseInt(
+      document
+        .getElementById(
+          "calcAge"
+        )
+        .value
+    );
+
+
+  const height =
+    parseFloat(
+      document
+        .getElementById(
+          "calcHeight"
+        )
+        .value
+    );
+
+
+  const result =
+    document
+      .getElementById(
+        "calcResult"
+      );
+
+
+  if(
+    Number.isNaN(age) ||
+    age<0 ||
+    age>60 ||
+    Number.isNaN(height) ||
+    height<=0
+  ){
+
+    result.className =
+      "calc-empty";
+
+
+    result.innerHTML =
+      "Masukkan umur 0–60 bulan dan ukuran badan yang valid.";
+
+
+    return;
+
+  }
+
+
+  const M =
+    WHO[sex].M[age];
+
+
+  const S =
+    WHO[sex].S[age];
+
+
+  const z =
+    (
+      height/M - 1
+    )
+    /
+    S;
+
+
+  const category =
+    zCategory(z);
+
+
+  const position =
+    Math.max(
+      0,
+      Math.min(
+        100,
+        (
+          (
+            Math.max(
+              -3,
+              Math.min(
+                3,
+                z
+              )
+            )
+            +
+            3
+          )
+          /
+          6
+        )
+        *
+        100
+      )
+    );
+
+
+  result.className =
+    "";
+
+
+  result.innerHTML = `
+
+    <div class="calc-result-top">
+
+
+      <div>
+
+        <div class="calc-z-label">
+          Z-score
+        </div>
+
+        <div
+          class="calc-z num"
+          style="
+            color:${category.color}
+          "
+        >
+          ${z.toFixed(2)}
+        </div>
+
+      </div>
+
+
+      <span
+        class="badge"
+        style="
+          color:${category.color};
+          background:${category.color}18;
+        "
+      >
+
+        <span
+          class="badge-dot"
+          style="
+            background:${category.color}
+          "
+        ></span>
+
+        ${category.label}
+
+      </span>
+
+
+    </div>
+
+
+    <div class="calc-meta">
+
+      Median WHO usia
+      ${age} bulan:
+      ${M.toFixed(1)} cm
+
+    </div>
+
+
+    <div class="calc-scale">
+
+
+      <div class="scale-track">
+
+        <div
+          class="scale-marker"
+          style="
+            left:${position}%;
+            border-color:${category.color};
+          "
+        ></div>
+
+      </div>
+
+
+      <div class="scale-ticks">
+
+        <span>-3</span>
+
+        <span>-2</span>
+
+        <span>-1</span>
+
+        <span>0</span>
+
+        <span>+1</span>
+
+        <span>+2</span>
+
+        <span>+3</span>
+
+      </div>
+
+
+    </div>
+
+
+    <div class="calc-explanation">
+
+      Berdasarkan WHO Child Growth Standards,
+      nilai Z-score adalah
+
+      <strong>
+        ${z.toFixed(2)}
+      </strong>
+
+      dengan kategori
+
+      <strong>
+        ${category.label}
+      </strong>.
+
+    </div>
+
+  `;
+
+
+  buildGrowthChart(
+    sex,
+    age,
+    height
+  );
+
+}
+
+
+/* =========================================================
+   GROWTH CHART
+========================================================= */
+
+function buildGrowthChart(
+  sex,
+  childAge,
+  childHeight
+){
+
+  const M =
+    WHO[sex].M;
+
+
+  const S =
+    WHO[sex].S;
+
+
+  const ages=[];
+
+  const median=[];
+
+  const minus2=[];
+
+  const minus3=[];
+
+
+  for(
+    let i=0;
+    i<=60;
+    i++
+  ){
+
+    ages.push(i);
+
+
+    median.push(
+      +M[i].toFixed(2)
+    );
+
+
+    minus2.push(
+      +(
+        M[i]*
+        (
+          1-
+          2*S[i]
+        )
+      )
+      .toFixed(2)
+    );
+
+
+    minus3.push(
+      +(
+        M[i]*
+        (
+          1-
+          3*S[i]
+        )
+      )
+      .toFixed(2)
+    );
+
+  }
+
+
+  if(
+    growthChartInstance
+  ){
+
+    growthChartInstance
+      .destroy();
+
+  }
+
+
+  growthChartInstance =
+    new Chart(
+      document.getElementById(
+        "growthChart"
+      ),
+      {
+
+        type:"line",
+
+
+        data:{
+
+          labels:
+            ages,
+
+
+          datasets:[
+
+
+            {
+
+              label:
+                "Median WHO",
+
+              data:
+                median,
+
+              borderColor:
+                "#087f6b",
+
+              backgroundColor:
+                "#087f6b",
+
+              pointRadius:0,
+
+              borderWidth:2.5,
+
+              tension:.18
+
+            },
+
+
+            {
+
+              label:
+                "-2 SD",
+
+              data:
+                minus2,
+
+              borderColor:
+                "#d89b21",
+
+              backgroundColor:
+                "#d89b21",
+
+              pointRadius:0,
+
+              borderWidth:1.8,
+
+              borderDash:[
+                6,
+                4
+              ],
+
+              tension:.18
+
+            },
+
+
+            {
+
+              label:
+                "-3 SD",
+
+              data:
+                minus3,
+
+              borderColor:
+                "#c93434",
+
+              backgroundColor:
+                "#c93434",
+
+              pointRadius:0,
+
+              borderWidth:1.8,
+
+              borderDash:[
+                3,
+                3
+              ],
+
+              tension:.18
+
+            },
+
+
+            {
+
+              type:"scatter",
+
+              label:
+                "Anak",
+
+              data:[{
+
+                x:
+                  childAge,
+
+                y:
+                  childHeight
+
+              }],
+
+              backgroundColor:
+                "#2868d8",
+
+              borderColor:
+                "#ffffff",
+
+              borderWidth:2,
+
+              pointRadius:7,
+
+              pointHoverRadius:9
+
+            }
+
+          ]
+
+        },
+
+
+        options:{
+
+          maintainAspectRatio:false,
+
+
+          plugins:{
+
+            legend:{
+
+              position:
+                "bottom",
+
+
+              labels:{
+
+                color:
+                  "#1d6078",
+
+                padding:
+                  22,
+
+                font:{
+                  size:13.5,
+                  weight:"600"
+                }
+
+              }
+
+            }
+
+          },
+
+
+          scales:{
+
+            x:{
+
+              type:
+                "linear",
+
+              min:0,
+
+              max:60,
+
+
+              grid:{
+                color:
+                  "#e4e9eb"
+              },
+
+
+              border:{
+                display:false
+              },
+
+
+              ticks:{
+
+                color:
+                  "#2e6b82",
+
+                font:{
+                  size:13
+                }
+
+              },
+
+
+              title:{
+
+                display:true,
+
+                text:
+                  "Usia (bulan)",
+
+                color:
+                  "#195f73",
+
+                font:{
+                  size:13.5,
+                  weight:"600"
+                }
+
+              }
+
+            },
+
+
+            y:{
+
+              grid:{
+                color:
+                  "#e4e9eb"
+              },
+
+
+              border:{
+                display:false
+              },
+
+
+              ticks:{
+
+                color:
+                  "#2e6b82",
+
+                font:{
+                  size:13
+                }
+
+              },
+
+
+              title:{
+
+                display:true,
+
+                text:
+                  "Panjang / tinggi badan (cm)",
+
+                color:
+                  "#195f73",
+
+                font:{
+                  size:13.5,
+                  weight:"600"
+                }
+
+              }
+
+            }
+
+          }
+
+        }
+
+      }
+    );
+
+}
+
+</script>
+
+
+<script>
+
+/* =========================================================
+   FINAL CHART COLOR / FONT
+========================================================= */
+
+window.addEventListener(
+  "load",
+  function(){
+
+
+    if(
+      typeof Chart ===
+      "undefined"
+    ){
+
+      return;
+
+    }
+
+
+    Chart.defaults.color =
+      "#356f86";
+
+
+    Chart.defaults.borderColor =
+      "#d4e5e7";
+
+
+    setTimeout(
+      function(){
+
+
+        const charts =
+          Chart.instances
+            ? Object.values(
+                Chart.instances
+              )
+            : [];
+
+
+        charts.forEach(
+          function(chart){
+
+
+            if(
+              !chart ||
+              !chart.options
+            ){
+
+              return;
+
+            }
+
+
+            const legend =
+              chart.options.plugins &&
+              chart.options.plugins.legend;
+
+
+            if(
+              legend &&
+              legend.labels
+            ){
+
+              legend.labels.color =
+                "#1e647b";
+
+
+              legend.labels.font =
+                legend.labels.font ||
+                {};
+
+
+              legend.labels.font.size =
+                13;
+
+            }
+
+
+            ["x","y"]
+              .forEach(
+                function(axisName){
+
+
+                  const axis =
+                    chart.options.scales &&
+                    chart.options.scales[
+                      axisName
+                    ];
+
+
+                  if(!axis){
+
+                    return;
+
+                  }
+
+
+                  if(axis.ticks){
+
+                    axis.ticks.color =
+                      axisName==="y"
+                        ? "#235f79"
+                        : "#356f86";
+
+
+                    axis.ticks.font =
+                      axis.ticks.font ||
+                      {};
+
+
+                    axis.ticks.font.size =
+                      13;
+
+                  }
+
+
+                  if(axis.title){
+
+                    axis.title.color =
+                      "#14766f";
+
+
+                    axis.title.font =
+                      axis.title.font ||
+                      {};
+
+
+                    axis.title.font.size =
+                      14;
+
+
+                    axis.title.font.weight =
+                      "600";
+
+                  }
+
+
+                  if(axis.grid){
+
+                    axis.grid.color =
+                      "#dce9ea";
+
+                  }
+
+                }
+              );
+
+
+            chart.update(
+              "none"
+            );
+
+          }
+        );
+
+      },
+
+      250
+    );
+
+  }
+);
+
+</script>
+
+</body>
+</html>
